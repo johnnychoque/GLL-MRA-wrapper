@@ -1,0 +1,1940 @@
+GLL (gll_daemon.cc   ) 11:30.37: [INFO] MRRM is listening at port 2504
+GLL (gll_daemon.cc   ) 11:30.37: [INFO] WRAPPER is listening at port 5050
+GLL (gll_daemon.cc   ) 11:30.37: [INFO] m_threadID = 135083008 - ret_ = 0
+GLL (gll_im.cc       ) 11:30.37: [IN  ] gllIM::gllIM
+GLL (gll_im.cc       ) 11:30.37: [OUT ] gllIM::gllIM
+GLL (gll_al.cc       ) 11:30.37: [INFO] ARI_AL port 4001 is open
+GLL (gll_im.cc       ) 11:30.37: [IN  ] gllIM::start
+GLL (gll_im.cc       ) 11:30.37: [IN  ] gllIM::openMGI_socket
+GLL (gll_im.cc       ) 11:30.37: [INFO] MGI port 6060 is open
+GLL (gll_im.cc       ) 11:30.37: [OUT ] gllIM::openMGI_socket
+GLL (gll_im.cc       ) 11:30.37: [IN  ] gllIM::openARI_socket
+GLL (gll_im.cc       ) 11:30.37: [INFO] ARI_IM port 3002 is open
+GLL (gll_im.cc       ) 11:30.37: [OUT ] gllIM::openARI_socket
+GLL (gll_im.cc       ) 11:30.37: [IN  ] gllIM::sendRegisterACSFToWrapper
+GLL (gll_im.cc       ) 11:30.37: [INFO] SENT WSI_RegisterToACSF.Request
+GLL (gll_im.cc       ) 11:30.37: [IN  ] gllIM::sendToWRAPPER
+GLL (gll_im.cc       ) 11:30.37: [DUMP] SEND [33] 01 02 00 19 05 01 00 C0 
+GLL (gll_im.cc       ) 11:30.37: [DUMP]           01 10 00 01 03 0A 01 00 
+GLL (gll_im.cc       ) 11:30.37: [DUMP]           10 00 00 00 72 00 00 00 
+GLL (gll_im.cc       ) 11:30.37: [DUMP]           00 00 00 00 00 00 00 00 
+GLL (gll_im.cc       ) 11:30.37: [DUMP]           00 
+GLL (gll_im.cc       ) 11:30.37: [OUT ] gllIM::sendToWRAPPER
+GLL (gll_im.cc       ) 11:30.37: [OUT ] gllIM::sendRegisterACSFToWrapper
+GLL (gll_im.cc       ) 11:30.37: [OUT ] gllIM::start
+GLL (gll_daemon.cc   ) 11:30.37: [INFO] Going to main loop
+GLL (gll_im.cc       ) 11:30.37: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:30.37: [IN  ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:30.37: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 11:30.37: [DUMP] RX   [25] 01 02 00 11 05 01 01 80 
+GLL (gll_im.cc       ) 11:30.37: [DUMP]           01 01 00 01 01 0A 01 00 
+GLL (gll_im.cc       ) 11:30.37: [DUMP]           08 00 00 00 72 00 00 00 
+GLL (gll_im.cc       ) 11:30.37: [DUMP]           00 
+GLL (gll_im.cc       ) 11:30.37: [INFO] Receiving a packet from WRAPPER ...
+GLL (gll_im.cc       ) 11:30.37: [IN  ] gllIM::processWSIRegisterACSFAnswer
+GLL (gll_im.cc       ) 11:30.37: [INFO] RCVD WSI_RegisterACSF.Answer
+GLL (gll_im.cc       ) 11:30.37: [INFO] GLL has been registered successfully to ACSF
+GLL (gll_im.cc       ) 11:30.37: [OUT ] gllIM::processWSIRegisterACSFAnswer
+GLL (gll_im.cc       ) 11:30.37: [OUT ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:30.37: [OUT ] gllIM::onEvent
+GLL (gll_al.cc       ) 11:30.42: [INFO] New interface available
+GLL (gll_al.cc       ) 11:30.42: [INFO] Iface name: ath0
+GLL (gll_al.cc       ) 11:30.42: [DUMP] MAC Addr [ 6] 00 13 46 6C CA 36 
+GLL (gll_al.cc       ) 11:30.42: [INFO] Technology type = 400
+GLL (gll_al.cc       ) 11:30.42: [INFO] SENT ARI_NewDevice.Request
+GLL (gll_al.cc       ) 11:30.42: [DUMP] ARI  [30] 01 40 00 01 00 18 10 01 
+GLL (gll_al.cc       ) 11:30.42: [DUMP]           00 02 04 00 40 01 00 04 
+GLL (gll_al.cc       ) 11:30.42: [DUMP]           61 74 68 30 80 01 00 06 
+GLL (gll_al.cc       ) 11:30.42: [DUMP]           00 13 46 6C CA 36 
+GLL (gll_im.cc       ) 11:30.42: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:30.42: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:30.42: [INFO] RCVD ARI_NewDevice
+GLL (gll_im.cc       ) 11:30.42: [DUMP] ARI  [30] 01 40 00 01 00 18 10 01 
+GLL (gll_im.cc       ) 11:30.42: [DUMP]           00 02 04 00 40 01 00 04 
+GLL (gll_im.cc       ) 11:30.42: [DUMP]           61 74 68 30 80 01 00 06 
+GLL (gll_im.cc       ) 11:30.42: [DUMP]           00 13 46 6C CA 36 
+GLL (gll_im.cc       ) 11:30.42: [IN  ] gllIM::processARINewDevice
+GLL (gll_im.cc       ) 11:30.42: [INFO] Device Identifier = ath0
+GLL (gll_im.cc       ) 11:30.42: [INFO] Technology Type = 400
+GLL (gll_im.cc       ) 11:30.42: [IN  ] gllIM::sendRegisterNewDeviceToMRRM
+GLL (gll_im.cc       ) 11:30.42: [INFO] SENT MGI_DeviceRegistration.Request
+GLL (gll_im.cc       ) 11:30.42: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:30.42: [DUMP] SEND [46] 01 01 00 26 01 01 00 C0 
+GLL (gll_im.cc       ) 11:30.42: [DUMP]           01 02 00 04 95 4C 04 00 
+GLL (gll_im.cc       ) 11:30.42: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:30.42: [DUMP]           05 01 00 02 17 AC 06 01 
+GLL (gll_im.cc       ) 11:30.42: [DUMP]           00 04 00 00 00 03 06 03 
+GLL (gll_im.cc       ) 11:30.42: [DUMP]           00 04 00 10 00 01 
+GLL (gll_im.cc       ) 11:30.42: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:30.42: [OUT ] gllIM::sendRegisterNewDeviceToMRRM
+GLL (gll_im.cc       ) 11:30.42: [OUT ] gllIM::processARINewDevice
+GLL (gll_im.cc       ) 11:30.42: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:30.42: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:30.42: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:30.42: [IN  ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:30.42: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 11:30.42: [DUMP] RX   [21] 01 01 00 0D 01 01 01 00 
+GLL (gll_im.cc       ) 11:30.42: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:30.42: [DUMP]           01 01 00 01 01 
+GLL (gll_im.cc       ) 11:30.42: [INFO] Receiving a packet from MRRM ...
+GLL (gll_im.cc       ) 11:30.42: [IN  ] gllIM::processMGIDeviceRegistration
+GLL (gll_im.cc       ) 11:30.42: [INFO] RCVD MGI_DeviceRegistration.Answer
+GLL (gll_im.cc       ) 11:30.42: [INFO] 	dev = ath0 - resultcode = 1
+GLL (gll_im.cc       ) 11:30.42: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:30.42: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:30.42: [OUT ] gllIM::processMGIDeviceRegistration
+GLL (gll_im.cc       ) 11:30.42: [OUT ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:30.42: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:30.42: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:30.42: [IN  ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:30.42: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 11:30.42: [DUMP] RX   [69] 01 01 00 3D 01 03 00 40 
+GLL (gll_im.cc       ) 11:30.42: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:30.42: [DUMP]           02 01 00 31 01 07 00 04 
+GLL (gll_im.cc       ) 11:30.42: [DUMP]           00 00 00 30 04 06 00 08 
+GLL (gll_im.cc       ) 11:30.42: [DUMP]           0A 00 00 19 0A 00 00 28 
+GLL (gll_im.cc       ) 11:30.42: [DUMP]           08 0B 00 04 00 00 27 10 
+GLL (gll_im.cc       ) 11:30.42: [DUMP]           08 0C 00 01 FF 01 09 00 
+GLL (gll_im.cc       ) 11:30.42: [DUMP]           04 00 00 00 01 08 0D 00 
+GLL (gll_im.cc       ) 11:30.42: [DUMP]           04 00 00 01 F4 
+GLL (gll_im.cc       ) 11:30.42: [INFO] Receiving a packet from MRRM ...
+GLL (gll_im.cc       ) 11:30.42: [IN  ] gllIM::processMGICandidateReport
+GLL (gll_im.cc       ) 11:30.42: [INFO] RCVD MGI_CandidateReport.Request
+GLL (gll_im.cc       ) 11:30.42: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:30.42: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:30.42: [IN  ] gllIM::configureReporting
+GLL (gll_im.cc       ) 11:30.42: [INFO] Configuring to measure 30, every 10000 milliseconds
+GLL (gll_im.cc       ) 11:30.42: [INFO] Report every 10000 msec from ath0
+GLL (gll_im.cc       ) 11:30.42: [OUT ] gllIM::configureReporting
+GLL (gll_im.cc       ) 11:30.42: [IN  ] gllIM::sendCandidateReportAnswerToMRRM
+GLL (gll_im.cc       ) 11:30.42: [INFO] SENT MGI_CandidateReport.Answer
+GLL (gll_im.cc       ) 11:30.42: [INFO] 	- ResultCode = 1
+GLL (gll_im.cc       ) 11:30.42: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:30.42: [DUMP] SEND [21] 01 01 00 0D 01 03 01 80 
+GLL (gll_im.cc       ) 11:30.42: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 11:30.42: [DUMP]           04 61 74 68 30 
+GLL (gll_im.cc       ) 11:30.42: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:30.42: [OUT ] gllIM::sendCandidateReportAnswerToMRRM
+GLL (gll_im.cc       ) 11:30.42: [OUT ] gllIM::processMGICandidateReport
+GLL (gll_im.cc       ) 11:30.42: [OUT ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:30.42: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:30.52: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:30.52: [INFO] Timer expired, get SNR of device ath0
+GLL (gll_im.cc       ) 11:30.52: [IN  ] gllIM::sendCandidateReportToGLLal
+GLL (gll_im.cc       ) 11:30.52: [INFO] SENT ARI_CandidateReport.Request
+GLL (gll_im.cc       ) 11:30.52: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:30.52: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:30.52: [DUMP] ARI  [14] 01 40 00 02 00 08 40 01 
+GLL (gll_im.cc       ) 11:30.52: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:30.52: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:30.52: [OUT ] gllIM::sendCandidateReportToGLLal
+GLL (gll_im.cc       ) 11:30.52: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:30.52: [INFO] RCVD ARI_CandidateReport
+GLL (gll_al.cc       ) 11:30.52: [DUMP] RX   [14] 01 40 00 02 00 08 40 01 
+GLL (gll_al.cc       ) 11:30.52: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:30.58: [INFO] SENT ARI_CandidateReport.Indication
+GLL (gll_al.cc       ) 11:30.58: [INFO] 	- Device ID : ath0
+GLL (gll_al.cc       ) 11:30.58: [DUMP] ARI  [40] 01 C0 00 02 00 22 40 01 
+GLL (gll_al.cc       ) 11:30.58: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 11:30.58: [DUMP]           00 06 54 65 73 74 41 50 
+GLL (gll_al.cc       ) 11:30.58: [DUMP]           50 01 00 02 00 3B 80 02 
+GLL (gll_al.cc       ) 11:30.58: [DUMP]           00 06 00 11 95 F3 85 2E 
+GLL (gll_al.cc       ) 11:30.58: [INFO] SENT ARI_CandidateReport.Indication
+GLL (gll_al.cc       ) 11:30.58: [INFO] 	- Device ID : ath0
+GLL (gll_al.cc       ) 11:30.58: [DUMP] ARI  [41] 01 C0 00 02 00 23 40 01 
+GLL (gll_al.cc       ) 11:30.58: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 11:30.58: [DUMP]           00 07 41 69 72 47 54 41 
+GLL (gll_al.cc       ) 11:30.58: [DUMP]           53 50 01 00 02 00 13 80 
+GLL (gll_al.cc       ) 11:30.58: [DUMP]           02 00 06 00 12 17 C2 50 
+GLL (gll_al.cc       ) 11:30.58: [DUMP]           93 
+GLL (gll_al.cc       ) 11:30.58: [INFO] SENT ARI_CandidateReport.Indication
+GLL (gll_al.cc       ) 11:30.58: [INFO] 	- Device ID : ath0
+GLL (gll_al.cc       ) 11:30.58: [DUMP] ARI  [37] 01 C0 00 02 00 1F 40 01 
+GLL (gll_al.cc       ) 11:30.58: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 11:30.58: [DUMP]           00 03 47 49 54 50 01 00 
+GLL (gll_al.cc       ) 11:30.58: [DUMP]           02 00 25 80 02 00 06 00 
+GLL (gll_al.cc       ) 11:30.58: [DUMP]           16 B6 2B 84 CE 
+GLL (gll_al.cc       ) 11:30.58: [INFO] SENT ARI_CandidateReport.Indication
+GLL (gll_al.cc       ) 11:30.58: [INFO] 	- Device ID : ath0
+GLL (gll_al.cc       ) 11:30.58: [DUMP] ARI  [41] 01 C0 00 02 00 23 40 01 
+GLL (gll_al.cc       ) 11:30.58: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 11:30.58: [DUMP]           00 07 47 54 41 53 47 45 
+GLL (gll_al.cc       ) 11:30.58: [DUMP]           4E 50 01 00 02 00 16 80 
+GLL (gll_al.cc       ) 11:30.58: [DUMP]           02 00 06 00 16 B6 C1 1E 
+GLL (gll_al.cc       ) 11:30.58: [DUMP]           8F 
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:30.58: [INFO] RCVD ARI_CandidateReport
+GLL (gll_im.cc       ) 11:30.58: [DUMP] ARI  [40] 01 C0 00 02 00 22 40 01 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           00 06 54 65 73 74 41 50 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           50 01 00 02 00 3B 80 02 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           00 06 00 11 95 F3 85 2E 
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::processARICandidateReport
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:30.58: [INFO] Network ID = TestAP
+GLL (gll_im.cc       ) 11:30.58: [DUMP] CellID [ 8] 00 11 95 F3 85 2E 00 00 
+GLL (gll_im.cc       ) 11:30.58: [INFO] Rssi = 59
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::sendCandidateReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:30.58: [INFO] SENT MGI_CandidateReport.Indication
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:30.58: [DUMP] SEND [55] 01 01 00 2F 01 03 03 80 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           01 02 00 04 95 4C 04 00 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           3B 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           30 08 04 00 08 00 11 95 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           F3 85 2E 00 00 09 02 00 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           06 54 65 73 74 41 50 
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::sendCandidateReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::processARICandidateReport
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:30.58: [INFO] RCVD ARI_CandidateReport
+GLL (gll_im.cc       ) 11:30.58: [DUMP] ARI  [41] 01 C0 00 02 00 23 40 01 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           00 07 41 69 72 47 54 41 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           53 50 01 00 02 00 13 80 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           02 00 06 00 12 17 C2 50 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           93 
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::processARICandidateReport
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:30.58: [INFO] Network ID = AirGTAS
+GLL (gll_im.cc       ) 11:30.58: [DUMP] CellID [ 8] 00 12 17 C2 50 93 00 00 
+GLL (gll_im.cc       ) 11:30.58: [INFO] Rssi = 19
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::sendCandidateReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:30.58: [INFO] SENT MGI_CandidateReport.Indication
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:30.58: [DUMP] SEND [56] 01 01 00 30 01 03 03 80 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           01 02 00 04 95 4C 04 00 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           13 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           30 08 04 00 08 00 12 17 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           C2 50 93 00 00 09 02 00 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           07 41 69 72 47 54 41 53 
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::sendCandidateReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::processARICandidateReport
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:30.58: [INFO] RCVD ARI_CandidateReport
+GLL (gll_im.cc       ) 11:30.58: [DUMP] ARI  [37] 01 C0 00 02 00 1F 40 01 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           00 03 47 49 54 50 01 00 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           02 00 25 80 02 00 06 00 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           16 B6 2B 84 CE 
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::processARICandidateReport
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:30.58: [INFO] Network ID = GIT
+GLL (gll_im.cc       ) 11:30.58: [DUMP] CellID [ 8] 00 16 B6 2B 84 CE 00 00 
+GLL (gll_im.cc       ) 11:30.58: [INFO] Rssi = 37
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::sendCandidateReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:30.58: [INFO] SENT MGI_CandidateReport.Indication
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:30.58: [DUMP] SEND [52] 01 01 00 2C 01 03 03 80 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           01 02 00 04 95 4C 04 00 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           25 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           30 08 04 00 08 00 16 B6 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           2B 84 CE 00 00 09 02 00 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           03 47 49 54 
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::sendCandidateReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::processARICandidateReport
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:30.58: [INFO] RCVD ARI_CandidateReport
+GLL (gll_im.cc       ) 11:30.58: [DUMP] ARI  [41] 01 C0 00 02 00 23 40 01 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           00 07 47 54 41 53 47 45 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           4E 50 01 00 02 00 16 80 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           02 00 06 00 16 B6 C1 1E 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           8F 
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::processARICandidateReport
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:30.58: [INFO] Network ID = GTASGEN
+GLL (gll_im.cc       ) 11:30.58: [DUMP] CellID [ 8] 00 16 B6 C1 1E 8F 00 00 
+GLL (gll_im.cc       ) 11:30.58: [INFO] Rssi = 22
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::sendCandidateReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:30.58: [INFO] SENT MGI_CandidateReport.Indication
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:30.58: [DUMP] SEND [56] 01 01 00 30 01 03 03 80 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           01 02 00 04 95 4C 04 00 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           16 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           30 08 04 00 08 00 16 B6 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           C1 1E 8F 00 00 09 02 00 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           07 47 54 41 53 47 45 4E 
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::sendCandidateReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::processARICandidateReport
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:30.58: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 11:30.58: [DUMP] RX   [51] 01 01 00 2B 01 05 00 40 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           09 02 00 06 54 65 73 74 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           41 50 08 04 00 08 00 11 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           95 F3 85 2E 00 00 08 02 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           00 04 00 00 00 40 01 06 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           00 01 01 
+GLL (gll_im.cc       ) 11:30.58: [INFO] Receiving a packet from MRRM ...
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::processMGILinkAttach
+GLL (gll_im.cc       ) 11:30.58: [INFO] RCVD MGI_LinkAttach.Request
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::sendConnectNetworkToGLLal
+GLL (gll_im.cc       ) 11:30.58: [INFO] SENT ARI_LinkAttach.Request
+GLL (gll_im.cc       ) 11:30.58: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:30.58: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:30.58: [DUMP] ARI  [24] 01 40 00 03 00 12 40 01 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 11:30.58: [DUMP]           00 06 54 65 73 74 41 50 
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::sendConnectNetworkToGLLal
+GLL (gll_im.cc       ) 11:30.58: [INFO] Device ath0 - is waiting link attach
+GLL (gll_im.cc       ) 11:30.58: [INFO] 	- Network ID = TestAP
+GLL (gll_im.cc       ) 11:30.58: [INFO] 	- Local Link ID = 64
+GLL (gll_im.cc       ) 11:30.58: [DUMP] BSSID [ 8] 00 11 95 F3 85 2E 00 00 
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::processMGILinkAttach
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:30.58: [OUT ] gllIM::onEvent
+GLL (gll_al.cc       ) 11:30.58: [INFO] RCVD ARI_LinkAttach
+GLL (gll_al.cc       ) 11:30.58: [DUMP] RX   [24] 01 40 00 03 00 12 40 01 
+GLL (gll_al.cc       ) 11:30.58: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 11:30.58: [DUMP]           00 06 54 65 73 74 41 50 
+GLL (netInterface.cc ) 11:30.58: [INFO] Connecting to TestAP
+GLL (netInterface.cc ) 11:31.07: [INFO] Interface ath0 is associated
+GLL (gll_al.cc       ) 11:31.07: [DUMP] SSID [ 6] 00 00 00 00 00 00 
+GLL (netInterface.cc ) 11:31.07: [DUMP] BSSID [ 6] 00 11 95 F3 85 2E 
+GLL (gll_al.cc       ) 11:31.07: [INFO] SENT ARI_LinkAttach.Indication
+GLL (gll_al.cc       ) 11:31.07: [DUMP] ARI  [34] 01 C0 00 03 00 1C 40 01 
+GLL (gll_al.cc       ) 11:31.07: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 11:31.07: [DUMP]           00 06 54 65 73 74 41 50 
+GLL (gll_al.cc       ) 11:31.07: [DUMP]           80 02 00 06 00 11 95 F3 
+GLL (gll_al.cc       ) 11:31.07: [DUMP]           85 2E 
+GLL (gll_im.cc       ) 11:31.07: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:31.07: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:31.07: [INFO] RCVD ARI_LinkAttach
+GLL (gll_im.cc       ) 11:31.07: [DUMP] ARI  [34] 01 C0 00 03 00 1C 40 01 
+GLL (gll_im.cc       ) 11:31.07: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 11:31.07: [DUMP]           00 06 54 65 73 74 41 50 
+GLL (gll_im.cc       ) 11:31.07: [DUMP]           80 02 00 06 00 11 95 F3 
+GLL (gll_im.cc       ) 11:31.07: [DUMP]           85 2E 
+GLL (gll_im.cc       ) 11:31.07: [IN  ] gllIM::processARILinkAttachReport
+GLL (gll_im.cc       ) 11:31.07: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:31.07: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:31.07: [INFO] Connected with network TestAP
+GLL (gll_im.cc       ) 11:31.07: [IN  ] gllIM::sendLinkAttachAnswerToMRRM
+GLL (gll_im.cc       ) 11:31.07: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 11:31.07: [INFO] SENT MGI_LinkAttach.Answer
+GLL (gll_im.cc       ) 11:31.07: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:31.07: [DUMP] SEND [26] 01 01 00 12 01 05 01 80 
+GLL (gll_im.cc       ) 11:31.07: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 11:31.07: [DUMP]           04 61 74 68 30 08 02 00 
+GLL (gll_im.cc       ) 11:31.07: [DUMP]           01 40 
+GLL (gll_im.cc       ) 11:31.07: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:31.07: [OUT ] gllIM::sendLinkAttachAnswerToMRRM
+GLL (gll_im.cc       ) 11:31.07: [IN  ] gllIM::sendLinkAttachAnswerToWrapper
+GLL (gll_im.cc       ) 11:31.07: [INFO] SENT WSI_LinkAttach.Answer
+GLL (gll_im.cc       ) 11:31.07: [IN  ] gllIM::sendToWRAPPER
+GLL (gll_im.cc       ) 11:31.07: [DUMP] SEND [26] 01 02 00 12 03 01 01 80 
+GLL (gll_im.cc       ) 11:31.07: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:31.07: [DUMP]           09 02 00 06 54 65 73 74 
+GLL (gll_im.cc       ) 11:31.07: [DUMP]           41 50 
+GLL (gll_im.cc       ) 11:31.07: [OUT ] gllIM::sendToWRAPPER
+GLL (gll_im.cc       ) 11:31.07: [OUT ] gllIM::sendLinkAttachAnswerToWrapper
+GLL (gll_im.cc       ) 11:31.07: [OUT ] gllIM::processARILinkAttachReport
+GLL (gll_im.cc       ) 11:31.07: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:31.07: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:31.07: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:31.07: [IN  ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:31.07: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 11:31.07: [DUMP] RX   [77] 01 01 00 45 01 0B 00 40 
+GLL (gll_im.cc       ) 11:31.07: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:31.07: [DUMP]           08 02 00 04 00 00 00 40 
+GLL (gll_im.cc       ) 11:31.07: [DUMP]           02 01 00 31 01 07 00 04 
+GLL (gll_im.cc       ) 11:31.07: [DUMP]           00 00 00 30 04 06 00 08 
+GLL (gll_im.cc       ) 11:31.07: [DUMP]           0B 00 00 19 0B 00 00 28 
+GLL (gll_im.cc       ) 11:31.07: [DUMP]           08 0B 00 04 00 00 27 10 
+GLL (gll_im.cc       ) 11:31.07: [DUMP]           08 0C 00 01 FF 01 09 00 
+GLL (gll_im.cc       ) 11:31.07: [DUMP]           04 00 00 00 01 08 0D 00 
+GLL (gll_im.cc       ) 11:31.07: [DUMP]           04 00 00 01 F4 
+GLL (gll_im.cc       ) 11:31.07: [INFO] Receiving a packet from MRRM ...
+GLL (gll_im.cc       ) 11:31.07: [IN  ] gllIM::processMGILinkReport
+GLL (gll_im.cc       ) 11:31.07: [INFO] RCVD MGI_LinkReport.Request
+GLL (gll_im.cc       ) 11:31.07: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:31.07: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:31.07: [IN  ] gllIM::configureReporting
+GLL (gll_im.cc       ) 11:31.07: [INFO] Configuring to measure 30, every 10000 milliseconds
+GLL (gll_im.cc       ) 11:31.07: [INFO] Report every 10000 msec from ath0
+GLL (gll_im.cc       ) 11:31.07: [OUT ] gllIM::configureReporting
+GLL (gll_im.cc       ) 11:31.07: [IN  ] gllIM::sendLinkReportAnswerToMRRM
+GLL (gll_im.cc       ) 11:31.07: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 11:31.07: [INFO] SENT MGI_LinkReport.Answer
+GLL (gll_im.cc       ) 11:31.07: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:31.07: [DUMP] SEND [26] 01 01 00 12 01 0B 01 80 
+GLL (gll_im.cc       ) 11:31.07: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 11:31.07: [DUMP]           04 61 74 68 30 08 02 00 
+GLL (gll_im.cc       ) 11:31.07: [DUMP]           01 40 
+GLL (gll_im.cc       ) 11:31.07: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:31.07: [OUT ] gllIM::sendLinkReportAnswerToMRRM
+GLL (gll_im.cc       ) 11:31.07: [ERR ] Received LinkReport.Type, gllIM is not able to handle type (0)
+GLL (gll_im.cc       ) 11:31.07: [OUT ] gllIM::processMGILinkReport
+GLL (gll_im.cc       ) 11:31.07: [OUT ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:31.07: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:31.17: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:31.17: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:31.17: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:31.17: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:31.17: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:31.17: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:31.17: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:31.17: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:31.17: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:31.17: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:31.17: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:31.17: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:31.17: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:31.17: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:31.17: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:31.17: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:31.17: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 11:31.17: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:31.17: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:31.17: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:31.17: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:31.17: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:31.17: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 11:31.17: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:31.17: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:31.17: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:31.17: [INFO] LINK QUAL at GLL IM is 55
+GLL (gll_im.cc       ) 11:31.17: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:31.17: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 11:31.17: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:31.17: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:31.17: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:31.17: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:31.17: [DUMP]           37 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:31.17: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 11:31.17: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:31.17: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:31.17: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:31.17: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:31.17: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:31.27: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:31.27: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:31.27: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:31.27: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:31.27: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:31.27: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:31.27: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:31.27: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:31.27: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:31.27: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:31.27: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:31.27: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:31.27: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:31.27: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:31.27: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:31.27: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:31.27: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 11:31.27: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:31.27: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:31.27: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:31.27: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:31.27: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:31.27: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 11:31.27: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:31.27: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:31.27: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:31.27: [INFO] LINK QUAL at GLL IM is 55
+GLL (gll_im.cc       ) 11:31.27: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:31.27: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 11:31.27: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:31.27: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:31.27: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:31.27: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:31.27: [DUMP]           37 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:31.27: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 11:31.27: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:31.27: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:31.27: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:31.27: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:31.27: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:31.37: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:31.37: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:31.37: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:31.37: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:31.37: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:31.37: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:31.37: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:31.37: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:31.37: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:31.37: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:31.37: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:31.37: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:31.37: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:31.37: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:31.37: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:31.37: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:31.37: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 11:31.37: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:31.37: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:31.37: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:31.37: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:31.37: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:31.37: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 11:31.37: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:31.37: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:31.37: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:31.37: [INFO] LINK QUAL at GLL IM is 55
+GLL (gll_im.cc       ) 11:31.37: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:31.37: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 11:31.37: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:31.37: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:31.37: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:31.37: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:31.37: [DUMP]           37 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:31.37: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 11:31.37: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:31.37: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:31.37: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:31.37: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:31.37: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:31.44: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:31.44: [IN  ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:31.44: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 11:31.44: [DUMP] RX   [48] 01 01 00 28 01 05 00 40 
+GLL (gll_im.cc       ) 11:31.44: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:31.44: [DUMP]           09 02 00 03 47 49 54 08 
+GLL (gll_im.cc       ) 11:31.44: [DUMP]           04 00 08 00 16 B6 2B 84 
+GLL (gll_im.cc       ) 11:31.44: [DUMP]           CE 00 00 08 02 00 04 00 
+GLL (gll_im.cc       ) 11:31.44: [DUMP]           00 00 41 01 06 00 01 01 
+GLL (gll_im.cc       ) 11:31.44: [INFO] Receiving a packet from MRRM ...
+GLL (gll_im.cc       ) 11:31.44: [IN  ] gllIM::processMGILinkAttach
+GLL (gll_im.cc       ) 11:31.44: [INFO] RCVD MGI_LinkAttach.Request
+GLL (gll_im.cc       ) 11:31.44: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:31.44: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:31.44: [IN  ] gllIM::sendConnectNetworkToGLLal
+GLL (gll_im.cc       ) 11:31.44: [INFO] SENT ARI_LinkAttach.Request
+GLL (gll_im.cc       ) 11:31.44: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:31.44: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:31.44: [DUMP] ARI  [21] 01 40 00 03 00 0F 40 01 
+GLL (gll_im.cc       ) 11:31.44: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 11:31.44: [DUMP]           00 03 47 49 54 
+GLL (gll_im.cc       ) 11:31.44: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:31.44: [OUT ] gllIM::sendConnectNetworkToGLLal
+GLL (gll_im.cc       ) 11:31.44: [INFO] Device ath0 - is waiting link attach
+GLL (gll_im.cc       ) 11:31.44: [INFO] 	- Network ID = GIT
+GLL (gll_im.cc       ) 11:31.44: [INFO] 	- Local Link ID = 65
+GLL (gll_im.cc       ) 11:31.44: [DUMP] BSSID [ 8] 00 16 B6 2B 84 CE 00 00 
+GLL (gll_im.cc       ) 11:31.44: [OUT ] gllIM::processMGILinkAttach
+GLL (gll_im.cc       ) 11:31.44: [OUT ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:31.44: [OUT ] gllIM::onEvent
+GLL (gll_al.cc       ) 11:31.44: [INFO] RCVD ARI_LinkAttach
+GLL (gll_al.cc       ) 11:31.44: [DUMP] RX   [21] 01 40 00 03 00 0F 40 01 
+GLL (gll_al.cc       ) 11:31.44: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 11:31.44: [DUMP]           00 03 47 49 54 
+GLL (netInterface.cc ) 11:31.44: [INFO] Connecting to GIT
+GLL (gll_im.cc       ) 11:31.47: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:31.47: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:31.47: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:31.47: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:31.47: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:31.47: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:31.47: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:31.47: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:31.47: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:31.47: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:31.47: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:31.47: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:31.47: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:31.47: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:31.47: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:31.47: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:31.47: [DUMP]           00 02 00 11 
+GLL (gll_im.cc       ) 11:31.47: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:31.47: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:31.47: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:31.47: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:31.47: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:31.47: [DUMP]           00 02 00 11 
+GLL (gll_im.cc       ) 11:31.47: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:31.47: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:31.47: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:31.47: [INFO] LINK QUAL at GLL IM is 17
+GLL (gll_im.cc       ) 11:31.47: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:31.47: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 11:31.47: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:31.47: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:31.47: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:31.47: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:31.47: [DUMP]           11 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:31.47: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 11:31.47: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:31.47: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:31.47: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:31.47: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:31.47: [OUT ] gllIM::onEvent
+GLL (netInterface.cc ) 11:31.53: [INFO] Interface ath0 is associated
+GLL (gll_al.cc       ) 11:31.53: [DUMP] SSID [ 6] 00 00 00 00 00 00 
+GLL (netInterface.cc ) 11:31.53: [DUMP] BSSID [ 6] 00 16 B6 2B 84 CE 
+GLL (gll_al.cc       ) 11:31.53: [INFO] SENT ARI_LinkAttach.Indication
+GLL (gll_al.cc       ) 11:31.53: [DUMP] ARI  [31] 01 C0 00 03 00 19 40 01 
+GLL (gll_al.cc       ) 11:31.53: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 11:31.53: [DUMP]           00 03 47 49 54 80 02 00 
+GLL (gll_al.cc       ) 11:31.53: [DUMP]           06 00 16 B6 2B 84 CE 
+GLL (gll_im.cc       ) 11:31.53: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:31.53: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:31.53: [INFO] RCVD ARI_LinkAttach
+GLL (gll_im.cc       ) 11:31.53: [DUMP] ARI  [31] 01 C0 00 03 00 19 40 01 
+GLL (gll_im.cc       ) 11:31.53: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 11:31.53: [DUMP]           00 03 47 49 54 80 02 00 
+GLL (gll_im.cc       ) 11:31.53: [DUMP]           06 00 16 B6 2B 84 CE 
+GLL (gll_im.cc       ) 11:31.53: [IN  ] gllIM::processARILinkAttachReport
+GLL (gll_im.cc       ) 11:31.53: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:31.53: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:31.53: [INFO] Connected with network GIT
+GLL (gll_im.cc       ) 11:31.53: [IN  ] gllIM::sendLinkAttachAnswerToMRRM
+GLL (gll_im.cc       ) 11:31.53: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 11:31.53: [INFO] SENT MGI_LinkAttach.Answer
+GLL (gll_im.cc       ) 11:31.53: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:31.53: [DUMP] SEND [26] 01 01 00 12 01 05 01 80 
+GLL (gll_im.cc       ) 11:31.53: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 11:31.53: [DUMP]           04 61 74 68 30 08 02 00 
+GLL (gll_im.cc       ) 11:31.53: [DUMP]           01 41 
+GLL (gll_im.cc       ) 11:31.53: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:31.53: [OUT ] gllIM::sendLinkAttachAnswerToMRRM
+GLL (gll_im.cc       ) 11:31.53: [IN  ] gllIM::sendLinkAttachAnswerToWrapper
+GLL (gll_im.cc       ) 11:31.53: [INFO] SENT WSI_LinkAttach.Answer
+GLL (gll_im.cc       ) 11:31.53: [IN  ] gllIM::sendToWRAPPER
+GLL (gll_im.cc       ) 11:31.53: [DUMP] SEND [23] 01 02 00 0F 03 01 01 80 
+GLL (gll_im.cc       ) 11:31.53: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:31.53: [DUMP]           09 02 00 03 47 49 54 
+GLL (gll_im.cc       ) 11:31.53: [OUT ] gllIM::sendToWRAPPER
+GLL (gll_im.cc       ) 11:31.53: [OUT ] gllIM::sendLinkAttachAnswerToWrapper
+GLL (gll_im.cc       ) 11:31.53: [OUT ] gllIM::processARILinkAttachReport
+GLL (gll_im.cc       ) 11:31.53: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:31.53: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:31.53: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:31.53: [IN  ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:31.53: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 11:31.53: [DUMP] RX   [77] 01 01 00 45 01 0B 00 40 
+GLL (gll_im.cc       ) 11:31.53: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:31.53: [DUMP]           08 02 00 04 00 00 00 41 
+GLL (gll_im.cc       ) 11:31.53: [DUMP]           02 01 00 31 01 07 00 04 
+GLL (gll_im.cc       ) 11:31.53: [DUMP]           00 00 00 30 04 06 00 08 
+GLL (gll_im.cc       ) 11:31.53: [DUMP]           0B 00 00 19 0B 00 00 28 
+GLL (gll_im.cc       ) 11:31.53: [DUMP]           08 0B 00 04 00 00 27 10 
+GLL (gll_im.cc       ) 11:31.53: [DUMP]           08 0C 00 01 FF 01 09 00 
+GLL (gll_im.cc       ) 11:31.53: [DUMP]           04 00 00 00 01 08 0D 00 
+GLL (gll_im.cc       ) 11:31.53: [DUMP]           04 00 00 01 F4 
+GLL (gll_im.cc       ) 11:31.53: [INFO] Receiving a packet from MRRM ...
+GLL (gll_im.cc       ) 11:31.53: [IN  ] gllIM::processMGILinkReport
+GLL (gll_im.cc       ) 11:31.53: [INFO] RCVD MGI_LinkReport.Request
+GLL (gll_im.cc       ) 11:31.53: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:31.53: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:31.53: [IN  ] gllIM::configureReporting
+GLL (gll_im.cc       ) 11:31.53: [INFO] Configuring to measure 30, every 10000 milliseconds
+GLL (gll_im.cc       ) 11:31.53: [INFO] Report every 10000 msec from ath0
+GLL (gll_im.cc       ) 11:31.53: [OUT ] gllIM::configureReporting
+GLL (gll_im.cc       ) 11:31.53: [IN  ] gllIM::sendLinkReportAnswerToMRRM
+GLL (gll_im.cc       ) 11:31.53: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 11:31.53: [INFO] SENT MGI_LinkReport.Answer
+GLL (gll_im.cc       ) 11:31.53: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:31.53: [DUMP] SEND [26] 01 01 00 12 01 0B 01 80 
+GLL (gll_im.cc       ) 11:31.53: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 11:31.53: [DUMP]           04 61 74 68 30 08 02 00 
+GLL (gll_im.cc       ) 11:31.53: [DUMP]           01 41 
+GLL (gll_im.cc       ) 11:31.53: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:31.53: [OUT ] gllIM::sendLinkReportAnswerToMRRM
+GLL (gll_im.cc       ) 11:31.53: [ERR ] Received LinkReport.Type, gllIM is not able to handle type (0)
+GLL (gll_im.cc       ) 11:31.53: [OUT ] gllIM::processMGILinkReport
+GLL (gll_im.cc       ) 11:31.53: [OUT ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:31.53: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:31.54: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:31.54: [IN  ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:31.54: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 11:31.54: [DUMP] RX   [29] 01 01 00 15 01 07 00 40 
+GLL (gll_im.cc       ) 11:31.54: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:31.54: [DUMP]           08 02 00 04 00 00 00 40 
+GLL (gll_im.cc       ) 11:31.54: [DUMP]           01 06 00 01 02 
+GLL (gll_im.cc       ) 11:31.54: [INFO] Receiving a packet from MRRM ...
+GLL (gll_im.cc       ) 11:31.54: [IN  ] gllIM::processMGILinkDetach
+GLL (gll_im.cc       ) 11:31.54: [INFO] Received LinkDettach.Request
+GLL (gll_im.cc       ) 11:31.54: [INFO] Detach device Identifier = ath0
+GLL (gll_im.cc       ) 11:31.54: [INFO] 	- Local Link ID = 64
+GLL (gll_im.cc       ) 11:31.54: [IN  ] gllIM::sendLinkDetachAnswerToMRRM
+GLL (gll_im.cc       ) 11:31.54: [INFO] SENT MGI_LinkDetach.Answer
+GLL (gll_im.cc       ) 11:31.54: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:31.54: [DUMP] SEND [26] 01 01 00 12 01 07 01 80 
+GLL (gll_im.cc       ) 11:31.54: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 11:31.54: [DUMP]           04 61 74 68 30 08 02 00 
+GLL (gll_im.cc       ) 11:31.54: [DUMP]           01 40 
+GLL (gll_im.cc       ) 11:31.54: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:31.54: [OUT ] gllIM::sendLinkDetachAnswerToMRRM
+GLL (gll_im.cc       ) 11:31.54: [OUT ] gllIM::processMGILinkDetach
+GLL (gll_im.cc       ) 11:31.54: [OUT ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:31.54: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:31.54: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:31.54: [IN  ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:31.54: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 11:31.54: [DUMP] RX   [91] 01 01 00 53 01 03 00 40 
+GLL (gll_im.cc       ) 11:31.54: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:31.54: [DUMP]           09 02 00 06 54 65 73 74 
+GLL (gll_im.cc       ) 11:31.54: [DUMP]           41 50 08 04 00 08 00 11 
+GLL (gll_im.cc       ) 11:31.54: [DUMP]           95 F3 85 2E 00 00 02 01 
+GLL (gll_im.cc       ) 11:31.54: [DUMP]           00 31 01 07 00 04 00 00 
+GLL (gll_im.cc       ) 11:31.54: [DUMP]           00 30 04 06 00 08 0A 00 
+GLL (gll_im.cc       ) 11:31.54: [DUMP]           00 19 0A 00 00 28 08 0B 
+GLL (gll_im.cc       ) 11:31.54: [DUMP]           00 04 00 00 27 10 08 0C 
+GLL (gll_im.cc       ) 11:31.54: [DUMP]           00 01 FF 01 09 00 04 00 
+GLL (gll_im.cc       ) 11:31.54: [DUMP]           00 00 01 08 0D 00 04 00 
+GLL (gll_im.cc       ) 11:31.54: [DUMP]           00 01 F4 
+GLL (gll_im.cc       ) 11:31.54: [INFO] Receiving a packet from MRRM ...
+GLL (gll_im.cc       ) 11:31.54: [IN  ] gllIM::processMGICandidateReport
+GLL (gll_im.cc       ) 11:31.54: [INFO] RCVD MGI_CandidateReport.Request
+GLL (gll_im.cc       ) 11:31.54: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:31.54: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:31.54: [IN  ] gllIM::configureReporting
+GLL (gll_im.cc       ) 11:31.54: [INFO] Configuring to measure 30, every 10000 milliseconds
+GLL (gll_im.cc       ) 11:31.54: [INFO] Report every 10000 msec from ath0
+GLL (gll_im.cc       ) 11:31.54: [OUT ] gllIM::configureReporting
+GLL (gll_im.cc       ) 11:31.54: [IN  ] gllIM::sendCandidateReportAnswerToMRRM
+GLL (gll_im.cc       ) 11:31.54: [INFO] SENT MGI_CandidateReport.Answer
+GLL (gll_im.cc       ) 11:31.54: [INFO] 	- ResultCode = 1
+GLL (gll_im.cc       ) 11:31.54: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:31.54: [DUMP] SEND [21] 01 01 00 0D 01 03 01 80 
+GLL (gll_im.cc       ) 11:31.54: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 11:31.54: [DUMP]           04 61 74 68 30 
+GLL (gll_im.cc       ) 11:31.54: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:31.54: [OUT ] gllIM::sendCandidateReportAnswerToMRRM
+GLL (gll_im.cc       ) 11:31.54: [OUT ] gllIM::processMGICandidateReport
+GLL (gll_im.cc       ) 11:31.54: [OUT ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:31.54: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:31.57: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:31.57: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:31.57: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:31.57: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:31.57: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:31.57: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:31.57: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:31.57: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:31.57: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:31.57: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:31.57: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:31.57: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:31.57: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:31.57: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:31.57: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:31.57: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:31.57: [DUMP]           00 02 00 29 
+GLL (gll_im.cc       ) 11:31.57: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:31.57: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:31.57: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:31.57: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:31.57: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:31.57: [DUMP]           00 02 00 29 
+GLL (gll_im.cc       ) 11:31.57: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:31.57: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:31.57: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:31.57: [INFO] LINK QUAL at GLL IM is 41
+GLL (gll_im.cc       ) 11:31.57: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:31.57: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 11:31.57: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:31.57: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:31.57: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:31.57: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:31.57: [DUMP]           29 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:31.57: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 11:31.57: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:31.57: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:31.57: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:31.57: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:31.57: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.03: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:32.03: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.03: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:32.03: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.03: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:32.03: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:32.03: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:32.03: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.03: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.03: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:32.03: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:32.03: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:32.03: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:32.03: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:32.03: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:32.03: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:32.03: [DUMP]           00 02 00 29 
+GLL (gll_im.cc       ) 11:32.03: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.03: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.03: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:32.03: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:32.03: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:32.03: [DUMP]           00 02 00 29 
+GLL (gll_im.cc       ) 11:32.03: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.03: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.03: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.03: [INFO] LINK QUAL at GLL IM is 41
+GLL (gll_im.cc       ) 11:32.03: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.03: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 11:32.03: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:32.03: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.03: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:32.03: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:32.03: [DUMP]           29 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:32.03: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 11:32.03: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.03: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.03: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.03: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.03: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.04: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:32.04: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.04: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:32.04: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.04: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:32.04: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:32.04: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:32.04: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.04: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.04: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:32.04: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:32.04: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:32.04: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:32.04: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:32.04: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:32.04: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:32.04: [DUMP]           00 02 00 29 
+GLL (gll_im.cc       ) 11:32.04: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.04: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.04: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:32.04: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:32.04: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:32.04: [DUMP]           00 02 00 29 
+GLL (gll_im.cc       ) 11:32.04: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.04: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.04: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.04: [INFO] LINK QUAL at GLL IM is 41
+GLL (gll_im.cc       ) 11:32.04: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.04: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 11:32.04: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:32.04: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.04: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:32.04: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:32.04: [DUMP]           29 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:32.04: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 11:32.04: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.04: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.04: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.04: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.04: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.07: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:32.07: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.07: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:32.07: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.07: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:32.07: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:32.07: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:32.07: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.07: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.07: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:32.07: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:32.07: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:32.07: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:32.07: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:32.07: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:32.07: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:32.07: [DUMP]           00 02 00 2B 
+GLL (gll_im.cc       ) 11:32.07: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.07: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.07: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:32.07: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:32.07: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:32.07: [DUMP]           00 02 00 2B 
+GLL (gll_im.cc       ) 11:32.07: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.07: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.07: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.07: [INFO] LINK QUAL at GLL IM is 43
+GLL (gll_im.cc       ) 11:32.07: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.07: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 11:32.07: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:32.07: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.07: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:32.07: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:32.07: [DUMP]           2B 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:32.07: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 11:32.07: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.07: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.07: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.07: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.07: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.13: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:32.13: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.13: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:32.13: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.13: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:32.13: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:32.13: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:32.13: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.13: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.13: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:32.13: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:32.13: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:32.13: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:32.13: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:32.13: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:32.13: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:32.13: [DUMP]           00 02 00 2A 
+GLL (gll_im.cc       ) 11:32.13: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.13: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.13: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:32.13: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:32.13: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:32.13: [DUMP]           00 02 00 2A 
+GLL (gll_im.cc       ) 11:32.13: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.13: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.13: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.13: [INFO] LINK QUAL at GLL IM is 42
+GLL (gll_im.cc       ) 11:32.13: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.13: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 11:32.13: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:32.13: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.13: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:32.13: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:32.13: [DUMP]           2A 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:32.13: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 11:32.13: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.13: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.13: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.13: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.13: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.14: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:32.14: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.14: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:32.14: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.14: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:32.14: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:32.14: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:32.14: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.14: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.14: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:32.14: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:32.14: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:32.14: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:32.14: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:32.14: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:32.14: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:32.14: [DUMP]           00 02 00 29 
+GLL (gll_im.cc       ) 11:32.14: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.14: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.14: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:32.14: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:32.14: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:32.14: [DUMP]           00 02 00 29 
+GLL (gll_im.cc       ) 11:32.14: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.14: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.14: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.14: [INFO] LINK QUAL at GLL IM is 41
+GLL (gll_im.cc       ) 11:32.14: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.14: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 11:32.14: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:32.14: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.14: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:32.14: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:32.14: [DUMP]           29 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:32.14: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 11:32.14: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.14: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.14: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.14: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.14: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.17: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:32.17: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.17: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:32.17: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.17: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:32.17: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:32.17: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:32.17: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.17: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.17: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:32.17: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:32.17: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:32.17: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:32.17: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:32.17: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:32.17: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:32.17: [DUMP]           00 02 00 29 
+GLL (gll_im.cc       ) 11:32.17: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.17: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.17: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:32.17: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:32.17: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:32.17: [DUMP]           00 02 00 29 
+GLL (gll_im.cc       ) 11:32.17: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.17: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.17: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.17: [INFO] LINK QUAL at GLL IM is 41
+GLL (gll_im.cc       ) 11:32.17: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.17: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 11:32.17: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:32.17: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.17: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:32.17: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:32.17: [DUMP]           29 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:32.17: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 11:32.17: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.17: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.17: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.17: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.17: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.23: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:32.23: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.23: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:32.23: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.23: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:32.23: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:32.23: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:32.23: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.23: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.23: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:32.23: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:32.23: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:32.23: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:32.23: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:32.23: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:32.23: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:32.23: [DUMP]           00 02 00 29 
+GLL (gll_im.cc       ) 11:32.23: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.23: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.23: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:32.23: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:32.23: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:32.23: [DUMP]           00 02 00 29 
+GLL (gll_im.cc       ) 11:32.23: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.23: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.23: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.23: [INFO] LINK QUAL at GLL IM is 41
+GLL (gll_im.cc       ) 11:32.23: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.23: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 11:32.23: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:32.23: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.23: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:32.23: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:32.23: [DUMP]           29 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:32.23: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 11:32.23: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.23: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.23: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.23: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.23: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.24: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:32.24: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.24: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:32.24: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.24: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:32.24: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:32.24: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:32.24: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.24: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.24: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:32.24: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:32.24: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:32.24: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:32.24: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:32.24: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:32.24: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:32.24: [DUMP]           00 02 00 28 
+GLL (gll_im.cc       ) 11:32.24: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.24: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.24: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:32.24: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:32.24: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:32.24: [DUMP]           00 02 00 28 
+GLL (gll_im.cc       ) 11:32.24: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.24: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.24: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.24: [INFO] LINK QUAL at GLL IM is 40
+GLL (gll_im.cc       ) 11:32.24: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.24: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 11:32.24: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:32.24: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.24: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:32.24: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:32.24: [DUMP]           28 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:32.24: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 11:32.24: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.24: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.24: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.24: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.24: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.27: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:32.27: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.27: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:32.27: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.27: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:32.27: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:32.27: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:32.27: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.27: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.27: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:32.27: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:32.27: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:32.27: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:32.27: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:32.27: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:32.27: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:32.27: [DUMP]           00 02 00 28 
+GLL (gll_im.cc       ) 11:32.27: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.27: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.27: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:32.27: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:32.27: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:32.27: [DUMP]           00 02 00 28 
+GLL (gll_im.cc       ) 11:32.27: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.27: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.27: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.27: [INFO] LINK QUAL at GLL IM is 40
+GLL (gll_im.cc       ) 11:32.27: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.27: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 11:32.27: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:32.27: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.27: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:32.27: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:32.27: [DUMP]           28 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:32.27: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 11:32.27: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.27: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.27: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.27: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.27: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.33: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:32.33: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.33: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:32.33: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.33: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:32.33: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:32.33: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:32.33: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.33: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.33: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:32.33: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:32.33: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:32.33: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:32.33: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:32.33: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:32.33: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:32.33: [DUMP]           00 02 00 32 
+GLL (gll_im.cc       ) 11:32.33: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.33: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.33: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:32.33: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:32.33: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:32.33: [DUMP]           00 02 00 32 
+GLL (gll_im.cc       ) 11:32.33: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.33: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.33: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.33: [INFO] LINK QUAL at GLL IM is 50
+GLL (gll_im.cc       ) 11:32.33: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.33: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 11:32.33: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:32.33: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.33: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:32.33: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:32.33: [DUMP]           32 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:32.33: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 11:32.33: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.33: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.33: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.33: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.33: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.34: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:32.34: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.34: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:32.34: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.34: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:32.34: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:32.34: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:32.34: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.34: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.34: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:32.34: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:32.34: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:32.34: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:32.34: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:32.34: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:32.34: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:32.34: [DUMP]           00 02 00 36 
+GLL (gll_im.cc       ) 11:32.34: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.34: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.34: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:32.34: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:32.34: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:32.34: [DUMP]           00 02 00 36 
+GLL (gll_im.cc       ) 11:32.34: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.34: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.34: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.34: [INFO] LINK QUAL at GLL IM is 54
+GLL (gll_im.cc       ) 11:32.34: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.34: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 11:32.34: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:32.34: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.34: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:32.34: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:32.34: [DUMP]           36 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:32.34: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 11:32.34: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.34: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.34: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.34: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.34: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.37: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:32.37: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.37: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:32.37: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.37: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:32.37: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:32.37: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:32.37: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.37: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.37: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:32.37: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:32.37: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:32.37: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:32.37: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:32.37: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:32.37: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:32.37: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 11:32.37: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.37: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.37: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:32.37: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:32.37: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:32.37: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 11:32.37: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.37: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.37: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.37: [INFO] LINK QUAL at GLL IM is 55
+GLL (gll_im.cc       ) 11:32.37: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.37: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 11:32.37: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:32.37: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.37: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:32.37: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:32.37: [DUMP]           37 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:32.37: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 11:32.37: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.37: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.37: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.37: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.37: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.43: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:32.43: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.43: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:32.43: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.43: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:32.43: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:32.43: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:32.43: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.43: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.43: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:32.43: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:32.43: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:32.43: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:32.43: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:32.43: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:32.43: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:32.43: [DUMP]           00 02 00 31 
+GLL (gll_im.cc       ) 11:32.43: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.43: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.43: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:32.43: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:32.43: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:32.43: [DUMP]           00 02 00 31 
+GLL (gll_im.cc       ) 11:32.43: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.43: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.43: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.43: [INFO] LINK QUAL at GLL IM is 49
+GLL (gll_im.cc       ) 11:32.43: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.43: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 11:32.43: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:32.43: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.43: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:32.43: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:32.43: [DUMP]           31 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:32.43: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 11:32.43: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.43: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.43: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.43: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.43: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.44: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:32.44: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.44: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:32.44: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.44: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:32.44: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:32.44: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:32.44: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.44: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.44: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:32.44: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:32.44: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:32.44: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:32.44: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:32.44: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:32.44: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:32.44: [DUMP]           00 02 00 2A 
+GLL (gll_im.cc       ) 11:32.44: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.44: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.44: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:32.44: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:32.44: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:32.44: [DUMP]           00 02 00 2A 
+GLL (gll_im.cc       ) 11:32.44: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.44: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.44: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.44: [INFO] LINK QUAL at GLL IM is 42
+GLL (gll_im.cc       ) 11:32.44: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.44: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 11:32.44: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:32.44: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.44: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:32.44: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:32.44: [DUMP]           2A 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:32.44: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 11:32.44: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.44: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.44: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.44: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.44: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.47: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:32.47: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.47: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:32.47: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.47: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:32.47: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:32.47: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:32.47: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.47: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.47: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:32.47: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:32.47: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:32.47: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:32.47: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:32.47: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:32.47: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:32.47: [DUMP]           00 02 00 29 
+GLL (gll_im.cc       ) 11:32.47: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.47: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.47: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:32.47: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:32.47: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:32.47: [DUMP]           00 02 00 29 
+GLL (gll_im.cc       ) 11:32.47: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.47: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.47: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.47: [INFO] LINK QUAL at GLL IM is 41
+GLL (gll_im.cc       ) 11:32.47: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.47: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 11:32.47: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:32.47: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.47: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:32.47: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:32.47: [DUMP]           29 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:32.47: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 11:32.48: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.48: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.48: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.48: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.48: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.53: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:32.53: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.53: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:32.53: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.53: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:32.53: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:32.53: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:32.53: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.53: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.53: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:32.53: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:32.53: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:32.53: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:32.53: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:32.53: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:32.53: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:32.53: [DUMP]           00 02 00 23 
+GLL (gll_im.cc       ) 11:32.53: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.53: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.53: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:32.53: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:32.53: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:32.53: [DUMP]           00 02 00 23 
+GLL (gll_im.cc       ) 11:32.53: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.53: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.53: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.53: [INFO] LINK QUAL at GLL IM is 35
+GLL (gll_im.cc       ) 11:32.53: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.53: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 11:32.53: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:32.53: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.53: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:32.53: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:32.53: [DUMP]           23 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:32.53: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 11:32.53: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.53: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.53: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.53: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.53: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.53: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.53: [IN  ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:32.53: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 11:32.53: [DUMP] RX   [51] 01 01 00 2B 01 05 00 40 
+GLL (gll_im.cc       ) 11:32.53: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:32.53: [DUMP]           09 02 00 06 54 65 73 74 
+GLL (gll_im.cc       ) 11:32.53: [DUMP]           41 50 08 04 00 08 00 11 
+GLL (gll_im.cc       ) 11:32.53: [DUMP]           95 F3 85 2E 00 00 08 02 
+GLL (gll_im.cc       ) 11:32.53: [DUMP]           00 04 00 00 00 40 01 06 
+GLL (gll_im.cc       ) 11:32.53: [DUMP]           00 01 01 
+GLL (gll_im.cc       ) 11:32.53: [INFO] Receiving a packet from MRRM ...
+GLL (gll_im.cc       ) 11:32.53: [IN  ] gllIM::processMGILinkAttach
+GLL (gll_im.cc       ) 11:32.53: [INFO] RCVD MGI_LinkAttach.Request
+GLL (gll_im.cc       ) 11:32.53: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.53: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.53: [IN  ] gllIM::sendConnectNetworkToGLLal
+GLL (gll_im.cc       ) 11:32.53: [INFO] SENT ARI_LinkAttach.Request
+GLL (gll_im.cc       ) 11:32.53: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.53: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:32.53: [DUMP] ARI  [24] 01 40 00 03 00 12 40 01 
+GLL (gll_im.cc       ) 11:32.53: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 11:32.53: [DUMP]           00 06 54 65 73 74 41 50 
+GLL (gll_im.cc       ) 11:32.53: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.53: [OUT ] gllIM::sendConnectNetworkToGLLal
+GLL (gll_im.cc       ) 11:32.53: [INFO] Device ath0 - is waiting link attach
+GLL (gll_im.cc       ) 11:32.53: [INFO] 	- Network ID = TestAP
+GLL (gll_im.cc       ) 11:32.53: [INFO] 	- Local Link ID = 64
+GLL (gll_im.cc       ) 11:32.53: [DUMP] BSSID [ 8] 00 11 95 F3 85 2E 00 00 
+GLL (gll_im.cc       ) 11:32.53: [OUT ] gllIM::processMGILinkAttach
+GLL (gll_im.cc       ) 11:32.53: [OUT ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:32.53: [OUT ] gllIM::onEvent
+GLL (gll_al.cc       ) 11:32.53: [INFO] RCVD ARI_LinkAttach
+GLL (gll_al.cc       ) 11:32.53: [DUMP] RX   [24] 01 40 00 03 00 12 40 01 
+GLL (gll_al.cc       ) 11:32.53: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 11:32.53: [DUMP]           00 06 54 65 73 74 41 50 
+GLL (netInterface.cc ) 11:32.53: [INFO] Connecting to TestAP
+GLL (gll_im.cc       ) 11:32.54: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:32.54: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.54: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:32.54: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.54: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:32.54: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:32.54: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:32.54: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.54: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.54: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:32.54: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:32.54: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:32.54: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:32.54: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:32.54: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:32.54: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:32.54: [DUMP]           00 02 00 19 
+GLL (gll_im.cc       ) 11:32.54: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.54: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.54: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:32.54: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:32.54: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:32.54: [DUMP]           00 02 00 19 
+GLL (gll_im.cc       ) 11:32.54: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.54: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.54: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.54: [INFO] LINK QUAL at GLL IM is 25
+GLL (gll_im.cc       ) 11:32.54: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.54: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 11:32.54: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:32.54: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.54: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:32.54: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:32.54: [DUMP]           19 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:32.54: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 11:32.54: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.54: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.54: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.54: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.54: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.58: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:32.58: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.58: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:32.58: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.58: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:32.58: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:32.58: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:32.58: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:32.58: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:32.58: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:32.58: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:32.58: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:32.58: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:32.58: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:32.58: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:32.58: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:32.58: [DUMP]           00 02 00 19 
+GLL (gll_im.cc       ) 11:32.58: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:32.58: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.58: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:32.58: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:32.58: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:32.58: [DUMP]           00 02 00 19 
+GLL (gll_im.cc       ) 11:32.58: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.58: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.58: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:32.58: [INFO] LINK QUAL at GLL IM is 25
+GLL (gll_im.cc       ) 11:32.58: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.58: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 11:32.58: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:32.58: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.58: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:32.58: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:32.58: [DUMP]           19 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:32.58: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 11:32.58: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:32.58: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:32.58: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:32.58: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:32.58: [OUT ] gllIM::onEvent
+GLL (netInterface.cc ) 11:33.02: [INFO] Interface ath0 is associated
+GLL (gll_al.cc       ) 11:33.02: [DUMP] SSID [ 6] 00 00 00 00 00 00 
+GLL (netInterface.cc ) 11:33.02: [DUMP] BSSID [ 6] 00 11 95 F3 85 2E 
+GLL (gll_al.cc       ) 11:33.02: [INFO] SENT ARI_LinkAttach.Indication
+GLL (gll_al.cc       ) 11:33.02: [DUMP] ARI  [34] 01 C0 00 03 00 1C 40 01 
+GLL (gll_al.cc       ) 11:33.02: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 11:33.02: [DUMP]           00 06 54 65 73 74 41 50 
+GLL (gll_al.cc       ) 11:33.02: [DUMP]           80 02 00 06 00 11 95 F3 
+GLL (gll_al.cc       ) 11:33.02: [DUMP]           85 2E 
+GLL (gll_im.cc       ) 11:33.02: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:33.02: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:33.02: [INFO] RCVD ARI_LinkAttach
+GLL (gll_im.cc       ) 11:33.02: [DUMP] ARI  [34] 01 C0 00 03 00 1C 40 01 
+GLL (gll_im.cc       ) 11:33.02: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 11:33.02: [DUMP]           00 06 54 65 73 74 41 50 
+GLL (gll_im.cc       ) 11:33.02: [DUMP]           80 02 00 06 00 11 95 F3 
+GLL (gll_im.cc       ) 11:33.02: [DUMP]           85 2E 
+GLL (gll_im.cc       ) 11:33.02: [IN  ] gllIM::processARILinkAttachReport
+GLL (gll_im.cc       ) 11:33.02: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:33.02: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:33.02: [INFO] Connected with network TestAP
+GLL (gll_im.cc       ) 11:33.02: [IN  ] gllIM::sendLinkAttachAnswerToMRRM
+GLL (gll_im.cc       ) 11:33.02: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 11:33.02: [INFO] SENT MGI_LinkAttach.Answer
+GLL (gll_im.cc       ) 11:33.02: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:33.02: [DUMP] SEND [26] 01 01 00 12 01 05 01 80 
+GLL (gll_im.cc       ) 11:33.02: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 11:33.02: [DUMP]           04 61 74 68 30 08 02 00 
+GLL (gll_im.cc       ) 11:33.02: [DUMP]           01 40 
+GLL (gll_im.cc       ) 11:33.02: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:33.02: [OUT ] gllIM::sendLinkAttachAnswerToMRRM
+GLL (gll_im.cc       ) 11:33.02: [IN  ] gllIM::sendLinkAttachAnswerToWrapper
+GLL (gll_im.cc       ) 11:33.02: [INFO] SENT WSI_LinkAttach.Answer
+GLL (gll_im.cc       ) 11:33.02: [IN  ] gllIM::sendToWRAPPER
+GLL (gll_im.cc       ) 11:33.02: [DUMP] SEND [26] 01 02 00 12 03 01 01 80 
+GLL (gll_im.cc       ) 11:33.02: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:33.02: [DUMP]           09 02 00 06 54 65 73 74 
+GLL (gll_im.cc       ) 11:33.02: [DUMP]           41 50 
+GLL (gll_im.cc       ) 11:33.02: [OUT ] gllIM::sendToWRAPPER
+GLL (gll_im.cc       ) 11:33.02: [OUT ] gllIM::sendLinkAttachAnswerToWrapper
+GLL (gll_im.cc       ) 11:33.02: [OUT ] gllIM::processARILinkAttachReport
+GLL (gll_im.cc       ) 11:33.02: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:33.02: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:33.02: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:33.02: [IN  ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:33.02: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 11:33.02: [DUMP] RX   [77] 01 01 00 45 01 0B 00 40 
+GLL (gll_im.cc       ) 11:33.02: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:33.02: [DUMP]           08 02 00 04 00 00 00 40 
+GLL (gll_im.cc       ) 11:33.02: [DUMP]           02 01 00 31 01 07 00 04 
+GLL (gll_im.cc       ) 11:33.02: [DUMP]           00 00 00 30 04 06 00 08 
+GLL (gll_im.cc       ) 11:33.02: [DUMP]           0B 00 00 19 0B 00 00 28 
+GLL (gll_im.cc       ) 11:33.02: [DUMP]           08 0B 00 04 00 00 27 10 
+GLL (gll_im.cc       ) 11:33.02: [DUMP]           08 0C 00 01 FF 01 09 00 
+GLL (gll_im.cc       ) 11:33.02: [DUMP]           04 00 00 00 01 08 0D 00 
+GLL (gll_im.cc       ) 11:33.02: [DUMP]           04 00 00 01 F4 
+GLL (gll_im.cc       ) 11:33.02: [INFO] Receiving a packet from MRRM ...
+GLL (gll_im.cc       ) 11:33.02: [IN  ] gllIM::processMGILinkReport
+GLL (gll_im.cc       ) 11:33.02: [INFO] RCVD MGI_LinkReport.Request
+GLL (gll_im.cc       ) 11:33.02: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:33.02: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:33.02: [IN  ] gllIM::configureReporting
+GLL (gll_im.cc       ) 11:33.02: [INFO] Configuring to measure 30, every 10000 milliseconds
+GLL (gll_im.cc       ) 11:33.02: [INFO] Report every 10000 msec from ath0
+GLL (gll_im.cc       ) 11:33.02: [OUT ] gllIM::configureReporting
+GLL (gll_im.cc       ) 11:33.02: [IN  ] gllIM::sendLinkReportAnswerToMRRM
+GLL (gll_im.cc       ) 11:33.02: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 11:33.02: [INFO] SENT MGI_LinkReport.Answer
+GLL (gll_im.cc       ) 11:33.02: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:33.02: [DUMP] SEND [26] 01 01 00 12 01 0B 01 80 
+GLL (gll_im.cc       ) 11:33.02: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 11:33.02: [DUMP]           04 61 74 68 30 08 02 00 
+GLL (gll_im.cc       ) 11:33.02: [DUMP]           01 40 
+GLL (gll_im.cc       ) 11:33.02: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:33.02: [OUT ] gllIM::sendLinkReportAnswerToMRRM
+GLL (gll_im.cc       ) 11:33.02: [ERR ] Received LinkReport.Type, gllIM is not able to handle type (0)
+GLL (gll_im.cc       ) 11:33.02: [OUT ] gllIM::processMGILinkReport
+GLL (gll_im.cc       ) 11:33.02: [OUT ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:33.02: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:33.03: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:33.03: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:33.03: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:33.03: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:33.03: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:33.03: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:33.03: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:33.03: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:33.03: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:33.03: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:33.03: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:33.03: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:33.03: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:33.03: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:33.03: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:33.03: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:33.03: [DUMP]           00 02 00 36 
+GLL (gll_im.cc       ) 11:33.03: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:33.03: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:33.03: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:33.03: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:33.03: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:33.03: [DUMP]           00 02 00 36 
+GLL (gll_im.cc       ) 11:33.03: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:33.03: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:33.03: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:33.03: [INFO] LINK QUAL at GLL IM is 54
+GLL (gll_im.cc       ) 11:33.03: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:33.03: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 11:33.03: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:33.03: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:33.03: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:33.03: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:33.03: [DUMP]           36 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:33.03: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 11:33.03: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:33.03: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:33.03: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:33.03: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:33.03: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:33.03: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:33.03: [IN  ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:33.03: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 11:33.03: [DUMP] RX   [29] 01 01 00 15 01 07 00 40 
+GLL (gll_im.cc       ) 11:33.03: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:33.03: [DUMP]           08 02 00 04 00 00 00 41 
+GLL (gll_im.cc       ) 11:33.03: [DUMP]           01 06 00 01 02 
+GLL (gll_im.cc       ) 11:33.03: [INFO] Receiving a packet from MRRM ...
+GLL (gll_im.cc       ) 11:33.03: [IN  ] gllIM::processMGILinkDetach
+GLL (gll_im.cc       ) 11:33.03: [INFO] Received LinkDettach.Request
+GLL (gll_im.cc       ) 11:33.03: [INFO] Detach device Identifier = ath0
+GLL (gll_im.cc       ) 11:33.03: [INFO] 	- Local Link ID = 65
+GLL (gll_im.cc       ) 11:33.03: [IN  ] gllIM::sendLinkDetachAnswerToMRRM
+GLL (gll_im.cc       ) 11:33.03: [INFO] SENT MGI_LinkDetach.Answer
+GLL (gll_im.cc       ) 11:33.03: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:33.03: [DUMP] SEND [26] 01 01 00 12 01 07 01 80 
+GLL (gll_im.cc       ) 11:33.03: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 11:33.03: [DUMP]           04 61 74 68 30 08 02 00 
+GLL (gll_im.cc       ) 11:33.03: [DUMP]           01 41 
+GLL (gll_im.cc       ) 11:33.03: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:33.03: [OUT ] gllIM::sendLinkDetachAnswerToMRRM
+GLL (gll_im.cc       ) 11:33.03: [OUT ] gllIM::processMGILinkDetach
+GLL (gll_im.cc       ) 11:33.03: [OUT ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:33.03: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:33.03: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:33.03: [IN  ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:33.03: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 11:33.03: [DUMP] RX   [88] 01 01 00 50 01 03 00 40 
+GLL (gll_im.cc       ) 11:33.03: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:33.03: [DUMP]           09 02 00 03 47 49 54 08 
+GLL (gll_im.cc       ) 11:33.03: [DUMP]           04 00 08 00 16 B6 2B 84 
+GLL (gll_im.cc       ) 11:33.03: [DUMP]           CE 00 00 02 01 00 31 01 
+GLL (gll_im.cc       ) 11:33.03: [DUMP]           07 00 04 00 00 00 30 04 
+GLL (gll_im.cc       ) 11:33.03: [DUMP]           06 00 08 0A 00 00 19 0A 
+GLL (gll_im.cc       ) 11:33.03: [DUMP]           00 00 28 08 0B 00 04 00 
+GLL (gll_im.cc       ) 11:33.03: [DUMP]           00 27 10 08 0C 00 01 FF 
+GLL (gll_im.cc       ) 11:33.03: [DUMP]           01 09 00 04 00 00 00 01 
+GLL (gll_im.cc       ) 11:33.03: [DUMP]           08 0D 00 04 00 00 01 F4 
+GLL (gll_im.cc       ) 11:33.03: [INFO] Receiving a packet from MRRM ...
+GLL (gll_im.cc       ) 11:33.03: [IN  ] gllIM::processMGICandidateReport
+GLL (gll_im.cc       ) 11:33.03: [INFO] RCVD MGI_CandidateReport.Request
+GLL (gll_im.cc       ) 11:33.03: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:33.03: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:33.03: [IN  ] gllIM::configureReporting
+GLL (gll_im.cc       ) 11:33.03: [INFO] Configuring to measure 30, every 10000 milliseconds
+GLL (gll_im.cc       ) 11:33.03: [INFO] Report every 10000 msec from ath0
+GLL (gll_im.cc       ) 11:33.03: [OUT ] gllIM::configureReporting
+GLL (gll_im.cc       ) 11:33.03: [IN  ] gllIM::sendCandidateReportAnswerToMRRM
+GLL (gll_im.cc       ) 11:33.03: [INFO] SENT MGI_CandidateReport.Answer
+GLL (gll_im.cc       ) 11:33.03: [INFO] 	- ResultCode = 1
+GLL (gll_im.cc       ) 11:33.03: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:33.03: [DUMP] SEND [21] 01 01 00 0D 01 03 01 80 
+GLL (gll_im.cc       ) 11:33.03: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 11:33.03: [DUMP]           04 61 74 68 30 
+GLL (gll_im.cc       ) 11:33.03: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:33.03: [OUT ] gllIM::sendCandidateReportAnswerToMRRM
+GLL (gll_im.cc       ) 11:33.03: [OUT ] gllIM::processMGICandidateReport
+GLL (gll_im.cc       ) 11:33.03: [OUT ] gllIM::handleMGI_Rx
+GLL (gll_im.cc       ) 11:33.03: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:33.04: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:33.04: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:33.04: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:33.04: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:33.04: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:33.04: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:33.04: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:33.04: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:33.04: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:33.04: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:33.04: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:33.04: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:33.04: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:33.04: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:33.04: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:33.04: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:33.04: [DUMP]           00 02 00 36 
+GLL (gll_im.cc       ) 11:33.04: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:33.04: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:33.04: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:33.04: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:33.04: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:33.04: [DUMP]           00 02 00 36 
+GLL (gll_im.cc       ) 11:33.04: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:33.04: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:33.04: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:33.04: [INFO] LINK QUAL at GLL IM is 54
+GLL (gll_im.cc       ) 11:33.04: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:33.04: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 11:33.04: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:33.04: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:33.04: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:33.04: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:33.04: [DUMP]           36 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:33.04: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 11:33.04: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:33.04: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:33.04: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:33.04: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:33.04: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:33.08: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:33.08: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:33.08: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:33.08: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:33.08: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:33.08: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:33.08: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:33.08: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:33.08: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:33.08: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:33.08: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:33.08: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:33.08: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:33.08: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:33.08: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:33.08: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:33.08: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 11:33.08: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:33.08: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:33.08: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:33.08: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:33.08: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:33.08: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 11:33.08: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:33.08: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:33.08: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:33.08: [INFO] LINK QUAL at GLL IM is 55
+GLL (gll_im.cc       ) 11:33.08: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:33.08: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 11:33.08: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:33.08: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:33.08: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:33.08: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:33.08: [DUMP]           37 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:33.08: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 11:33.08: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:33.08: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:33.08: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:33.08: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:33.08: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:33.12: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:33.12: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:33.12: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:33.12: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:33.12: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:33.12: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:33.12: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:33.12: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:33.12: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:33.12: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:33.12: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:33.12: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:33.12: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:33.12: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:33.12: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:33.12: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:33.12: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 11:33.12: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:33.12: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:33.12: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:33.12: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:33.12: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:33.12: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 11:33.12: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:33.12: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:33.12: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:33.12: [INFO] LINK QUAL at GLL IM is 55
+GLL (gll_im.cc       ) 11:33.12: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:33.12: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 11:33.12: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:33.12: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:33.12: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:33.12: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:33.12: [DUMP]           37 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:33.12: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 11:33.12: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:33.12: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:33.12: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:33.12: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:33.12: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:33.13: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:33.13: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:33.13: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:33.13: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:33.13: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:33.13: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:33.13: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:33.13: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:33.13: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:33.13: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:33.13: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:33.13: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:33.13: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:33.13: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:33.13: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:33.13: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:33.13: [DUMP]           00 02 00 38 
+GLL (gll_im.cc       ) 11:33.13: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:33.13: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:33.13: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:33.13: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:33.13: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:33.13: [DUMP]           00 02 00 38 
+GLL (gll_im.cc       ) 11:33.13: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:33.13: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:33.13: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:33.13: [INFO] LINK QUAL at GLL IM is 56
+GLL (gll_im.cc       ) 11:33.13: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:33.13: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 11:33.13: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:33.13: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:33.13: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:33.13: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:33.13: [DUMP]           38 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:33.13: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 11:33.13: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:33.13: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:33.13: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:33.13: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:33.13: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:33.13: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:33.13: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:33.13: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:33.13: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:33.13: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:33.13: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:33.13: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:33.13: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:33.13: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:33.13: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:33.13: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:33.13: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:33.13: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:33.13: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:33.13: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:33.13: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:33.13: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 11:33.13: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:33.13: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:33.13: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:33.13: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:33.13: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:33.13: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 11:33.13: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:33.13: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:33.13: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:33.13: [INFO] LINK QUAL at GLL IM is 55
+GLL (gll_im.cc       ) 11:33.13: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:33.13: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 11:33.13: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:33.13: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:33.13: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:33.13: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:33.13: [DUMP]           37 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:33.13: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 11:33.13: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:33.13: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:33.13: [OUT ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:33.13: [OUT ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:33.13: [OUT ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:33.14: [IN  ] gllIM::onTimeout
+GLL (gll_im.cc       ) 11:33.14: [IN  ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:33.14: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 11:33.14: [IN  ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:33.14: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 11:33.14: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 11:33.14: [DUMP]           00 04 61 74 68 30 
+GLL (gll_im.cc       ) 11:33.14: [OUT ] gllIM::sendToGLL_al
+GLL (gll_im.cc       ) 11:33.14: [OUT ] gllIM::SendGetLinkQualityToGLLal
+GLL (gll_im.cc       ) 11:33.14: [OUT ] gllIM::onTimeout
+GLL (gll_al.cc       ) 11:33.14: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 11:33.14: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 11:33.14: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 11:33.14: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 11:33.14: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 11:33.14: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 11:33.14: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 11:33.14: [IN  ] gllIM::onEvent
+GLL (gll_im.cc       ) 11:33.14: [IN  ] gllIM::handleARI_Rx
+GLL (gll_im.cc       ) 11:33.14: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 11:33.14: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 11:33.14: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 11:33.14: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 11:33.14: [IN  ] gllIM::processARILinkReport
+GLL (gll_im.cc       ) 11:33.14: [IN  ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:33.14: [OUT ] gllIM::searchInterface
+GLL (gll_im.cc       ) 11:33.14: [INFO] LINK QUAL at GLL IM is 55
+GLL (gll_im.cc       ) 11:33.14: [IN  ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:33.14: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 11:33.14: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 11:33.14: [IN  ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:33.14: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 11:33.14: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 11:33.14: [DUMP]           37 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 11:33.14: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 11:33.14: [OUT ] gllIM::sendToMRRM
+GLL (gll_im.cc       ) 11:33.14: [OUT ] gllIM::sendLinkReportIndicationToMRRM
+GLL (gll_im.cc       ) 11:33.1

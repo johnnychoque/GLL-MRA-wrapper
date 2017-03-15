@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions name="trg_producer"
+ targetNamespace="urn:trg_producer"
+ xmlns:tns="urn:trg_producer"
+ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:trg-producer="urn:trg_producer"
+ xmlns:trg-consumer="urn:trg_consumer"
+ xmlns:trg-gui="urn:trg_gui"
+ xmlns:consumer="urn:consumer"
+ xmlns:trg="urn:trg"
+ xmlns:SOAP="http://schemas.xmlsoap.org/wsdl/soap/"
+ xmlns:MIME="http://schemas.xmlsoap.org/wsdl/mime/"
+ xmlns:DIME="http://schemas.xmlsoap.org/ws/2002/04/dime/wsdl/"
+ xmlns:WSDL="http://schemas.xmlsoap.org/wsdl/"
+ xmlns="http://schemas.xmlsoap.org/wsdl/">
+
+<types>
+
+ <schema targetNamespace="urn:trg_producer"
+  xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+  xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:trg-producer="urn:trg_producer"
+  xmlns:trg-consumer="urn:trg_consumer"
+  xmlns:trg-gui="urn:trg_gui"
+  xmlns:consumer="urn:consumer"
+  xmlns:trg="urn:trg"
+  xmlns="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="unqualified"
+  attributeFormDefault="unqualified">
+  <import namespace="http://schemas.xmlsoap.org/soap/encoding/"/>
+  <complexType name="WSANTrigger">
+   <sequence>
+     <element name="triggerID" type="xsd:int" minOccurs="1" maxOccurs="1"/>
+     <element name="value" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+     <element name="type" type="xsd:int" minOccurs="1" maxOccurs="1"/>
+     <element name="timeStamp" type="xsd:dateTime" minOccurs="0" maxOccurs="1" nillable="true"/>
+   </sequence>
+  </complexType>
+ </schema>
+
+ <schema targetNamespace="urn:trg_consumer"
+  xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+  xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:trg-producer="urn:trg_producer"
+  xmlns:trg-consumer="urn:trg_consumer"
+  xmlns:trg-gui="urn:trg_gui"
+  xmlns:consumer="urn:consumer"
+  xmlns:trg="urn:trg"
+  xmlns="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="unqualified"
+  attributeFormDefault="unqualified">
+  <import namespace="http://schemas.xmlsoap.org/soap/encoding/"/>
+ </schema>
+
+ <schema targetNamespace="urn:trg_gui"
+  xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+  xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:trg-producer="urn:trg_producer"
+  xmlns:trg-consumer="urn:trg_consumer"
+  xmlns:trg-gui="urn:trg_gui"
+  xmlns:consumer="urn:consumer"
+  xmlns:trg="urn:trg"
+  xmlns="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="unqualified"
+  attributeFormDefault="unqualified">
+  <import namespace="http://schemas.xmlsoap.org/soap/encoding/"/>
+ </schema>
+
+ <schema targetNamespace="urn:consumer"
+  xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+  xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:trg-producer="urn:trg_producer"
+  xmlns:trg-consumer="urn:trg_consumer"
+  xmlns:trg-gui="urn:trg_gui"
+  xmlns:consumer="urn:consumer"
+  xmlns:trg="urn:trg"
+  xmlns="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="unqualified"
+  attributeFormDefault="unqualified">
+  <import namespace="http://schemas.xmlsoap.org/soap/encoding/"/>
+ </schema>
+
+ <schema targetNamespace="urn:trg"
+  xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+  xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:trg-producer="urn:trg_producer"
+  xmlns:trg-consumer="urn:trg_consumer"
+  xmlns:trg-gui="urn:trg_gui"
+  xmlns:consumer="urn:consumer"
+  xmlns:trg="urn:trg"
+  xmlns="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="unqualified"
+  attributeFormDefault="unqualified">
+  <import namespace="http://schemas.xmlsoap.org/soap/encoding/"/>
+ </schema>
+
+</types>
+
+<message name="sendTriggerRequest">
+ <part name="trigger" type="trg-producer:WSANTrigger"/>
+</message>
+
+<message name="sendTriggerResponse">
+ <part name="result" type="xsd:string"/>
+</message>
+
+<message name="registerRequest">
+ <part name="id" type="xsd:int"/>
+</message>
+
+<message name="registerResponse">
+ <part name="result" type="xsd:string"/>
+</message>
+
+<message name="unRegisterRequest">
+ <part name="id" type="xsd:int"/>
+</message>
+
+<message name="unRegisterResponse">
+ <part name="result" type="xsd:string"/>
+</message>
+
+<portType name="TriggerHandler">
+ <operation name="sendTrigger">
+  <documentation>Service definition of function trg_producer__sendTrigger</documentation>
+  <input message="tns:sendTriggerRequest"/>
+  <output message="tns:sendTriggerResponse"/>
+ </operation>
+ <operation name="register">
+  <documentation>Service definition of function trg_producer__register</documentation>
+  <input message="tns:registerRequest"/>
+  <output message="tns:registerResponse"/>
+ </operation>
+ <operation name="unRegister">
+  <documentation>Service definition of function trg_producer__unRegister</documentation>
+  <input message="tns:unRegisterRequest"/>
+  <output message="tns:unRegisterResponse"/>
+ </operation>
+</portType>
+
+<binding name="trg_producer" type="tns:TriggerHandler">
+ <SOAP:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+ <operation name="sendTrigger">
+  <SOAP:operation style="rpc" soapAction=""/>
+  <input>
+     <SOAP:body use="encoded" namespace="urn:trg_producer" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </input>
+  <output>
+     <SOAP:body use="encoded" namespace="urn:trg_producer" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </output>
+ </operation>
+ <operation name="register">
+  <SOAP:operation style="rpc" soapAction=""/>
+  <input>
+     <SOAP:body use="encoded" namespace="urn:trg_producer" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </input>
+  <output>
+     <SOAP:body use="encoded" namespace="urn:trg_producer" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </output>
+ </operation>
+ <operation name="unRegister">
+  <SOAP:operation style="rpc" soapAction=""/>
+  <input>
+     <SOAP:body use="encoded" namespace="urn:trg_producer" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </input>
+  <output>
+     <SOAP:body use="encoded" namespace="urn:trg_producer" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
+  </output>
+ </operation>
+</binding>
+
+<service name="trg_producer">
+ <documentation>gSOAP 2.7.8c generated service definition</documentation>
+ <port name="trg_producer" binding="tns:trg_producer">
+  <SOAP:address location="http://localhost:8020"/>
+ </port>
+</service>
+
+</definitions>

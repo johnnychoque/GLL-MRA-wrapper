@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions name="MRAservices"
+ targetNamespace="urn:wrapper-server"
+ xmlns:tns="urn:wrapper-server"
+ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:ns="urn:wrapper-server"
+ xmlns:SOAP="http://schemas.xmlsoap.org/wsdl/soap/"
+ xmlns:MIME="http://schemas.xmlsoap.org/wsdl/mime/"
+ xmlns:DIME="http://schemas.xmlsoap.org/ws/2002/04/dime/wsdl/"
+ xmlns:WSDL="http://schemas.xmlsoap.org/wsdl/"
+ xmlns="http://schemas.xmlsoap.org/wsdl/">
+
+<types>
+
+ <schema targetNamespace="urn:wrapper-server"
+  xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+  xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:ns="urn:wrapper-server"
+  xmlns="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="qualified"
+  attributeFormDefault="qualified">
+  <import namespace="http://schemas.xmlsoap.org/soap/encoding/"/>
+  <!-- operation request element -->
+  <element name="getsnr">
+   <complexType>
+    <sequence>
+     <element name="ifname" type="xsd:double" minOccurs="1" maxOccurs="1"/>
+    </sequence>
+   </complexType>
+  </element>
+  <!-- operation response element -->
+  <element name="getsnrResponse">
+   <complexType>
+    <sequence>
+     <element name="result" type="xsd:double" minOccurs="1" maxOccurs="1"/>
+    </sequence>
+   </complexType>
+  </element>
+ </schema>
+
+</types>
+
+<message name="getsnrRequest">
+ <part name="parameters" element="ns:getsnr"/>
+</message>
+
+<message name="getsnrResponse">
+ <part name="parameters" element="ns:getsnrResponse"/>
+</message>
+
+<portType name="MRAservicesPortType">
+ <operation name="getsnr">
+  <documentation>Service definition of function ns__getsnr</documentation>
+  <input message="tns:getsnrRequest"/>
+  <output message="tns:getsnrResponse"/>
+ </operation>
+</portType>
+
+<binding name="MRAservices" type="tns:MRAservicesPortType">
+ <SOAP:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+ <operation name="getsnr">
+  <SOAP:operation soapAction=""/>
+  <input>
+     <SOAP:body parts="parameters" use="literal"/>
+  </input>
+  <output>
+     <SOAP:body parts="parameters" use="literal"/>
+  </output>
+ </operation>
+</binding>
+
+<service name="MRAservices">
+ <documentation>gSOAP 2.7.9e generated service definition</documentation>
+ <port name="MRAservices" binding="tns:MRAservices">
+  <SOAP:address location="http://localhost:8081"/>
+ </port>
+</service>
+
+</definitions>

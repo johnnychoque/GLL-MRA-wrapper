@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://registrationcomponent" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://registrationcomponent" xmlns:intf="http://registrationcomponent" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema targetNamespace="http://registrationcomponent" xmlns="http://www.w3.org/2001/XMLSchema">
+   <import namespace="http://schemas.xmlsoap.org/soap/encoding/"/>
+   <complexType name="ArrayOf_soapenc_string">
+    <complexContent>
+     <restriction base="soapenc:Array">
+      <attribute ref="soapenc:arrayType" wsdl:arrayType="soapenc:string[]"/>
+     </restriction>
+    </complexContent>
+   </complexType>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="registerFERequest">
+
+      <wsdl:part name="feName" type="soapenc:string"/>
+
+      <wsdl:part name="feDescription" type="soapenc:string"/>
+
+      <wsdl:part name="sapId" type="impl:ArrayOf_soapenc_string"/>
+
+      <wsdl:part name="strLocation" type="impl:ArrayOf_soapenc_string"/>
+
+      <wsdl:part name="sapDescription" type="impl:ArrayOf_soapenc_string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="unRegisterFERequest">
+
+      <wsdl:part name="feName" type="soapenc:string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="ACSException">
+
+      <wsdl:part name="fault" type="xsd:anyType"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="registerFEResponse">
+
+   </wsdl:message>
+
+   <wsdl:message name="unRegisterFEResponse">
+
+   </wsdl:message>
+
+   <wsdl:portType name="RegistrationComponent">
+
+      <wsdl:operation name="registerFE" parameterOrder="feName feDescription sapId strLocation sapDescription">
+
+         <wsdl:input message="impl:registerFERequest" name="registerFERequest"/>
+
+         <wsdl:output message="impl:registerFEResponse" name="registerFEResponse"/>
+
+         <wsdl:fault message="impl:ACSException" name="ACSException"/>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="unRegisterFE" parameterOrder="feName">
+
+         <wsdl:input message="impl:unRegisterFERequest" name="unRegisterFERequest"/>
+
+         <wsdl:output message="impl:unRegisterFEResponse" name="unRegisterFEResponse"/>
+
+         <wsdl:fault message="impl:ACSException" name="ACSException"/>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="RegistrationComponentSoapBinding" type="impl:RegistrationComponent">
+
+      <wsdlsoap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="registerFE">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="registerFERequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://registrationcomponent" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="registerFEResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://registrationcomponent" use="encoded"/>
+
+         </wsdl:output>
+
+         <wsdl:fault name="ACSException">
+
+            <wsdlsoap:fault encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" name="ACSException" namespace="http://registrationcomponent" use="encoded"/>
+
+         </wsdl:fault>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="unRegisterFE">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="unRegisterFERequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://registrationcomponent" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="unRegisterFEResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://registrationcomponent" use="encoded"/>
+
+         </wsdl:output>
+
+         <wsdl:fault name="ACSException">
+
+            <wsdlsoap:fault encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" name="ACSException" namespace="http://registrationcomponent" use="encoded"/>
+
+         </wsdl:fault>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="RegistrationComponentService">
+
+      <wsdl:port binding="impl:RegistrationComponentSoapBinding" name="RegistrationComponent">
+
+         <wsdlsoap:address location="http://localhost:8180/ACSFC/services/RegistrationComponent"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

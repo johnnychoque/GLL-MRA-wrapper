@@ -1,0 +1,24 @@
+This directory contains the source files of the Generic Link Layer (GLL) FE and
+the MRA wrapper for web services interface. 
+
+For compiling GLL just perform the following step:
+
+	gmake  # in the same directory of this README
+
+The previous step will create the executable file "GLL_main" under bin directory.
+
+For compiling MRA wrapper also perform the following steps:
+
+	cd mra-wrapper
+	gmake
+
+These steps will create the executable file "wrapper_main" under mra-wrapper/bin directory.
+
+GLL and MRA wrappper can be started and stopped by using the start.sh and kill.sh scripts, 
+respectively, that can be found under bin directory.
+
+You can customize the GLL and MRA wrapper behaviour by editing the parameter's values of the 
+following files:
+
+config/GLL_config.cfg
+mra-wrapper/config/MRAWrapper_config.cfg 

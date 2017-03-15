@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://lookupcomponent" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://lookupcomponent" xmlns:intf="http://lookupcomponent" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+
+   <wsdl:message name="ACSException">
+
+      <wsdl:part name="fault" type="xsd:anyType"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="lookupURIRequest">
+
+      <wsdl:part name="nameToResolve" type="soapenc:string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="lookupURIResponse">
+
+      <wsdl:part name="lookupURIReturn" type="soapenc:string"/>
+
+   </wsdl:message>
+
+   <wsdl:portType name="LookupComponent">
+
+      <wsdl:operation name="lookupURI" parameterOrder="nameToResolve">
+
+         <wsdl:input message="impl:lookupURIRequest" name="lookupURIRequest"/>
+
+         <wsdl:output message="impl:lookupURIResponse" name="lookupURIResponse"/>
+
+         <wsdl:fault message="impl:ACSException" name="ACSException"/>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="LookupComponentSoapBinding" type="impl:LookupComponent">
+
+      <wsdlsoap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="lookupURI">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="lookupURIRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://lookupcomponent" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="lookupURIResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://lookupcomponent" use="encoded"/>
+
+         </wsdl:output>
+
+         <wsdl:fault name="ACSException">
+
+            <wsdlsoap:fault encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" name="ACSException" namespace="http://lookupcomponent" use="encoded"/>
+
+         </wsdl:fault>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="LookupComponentService">
+
+      <wsdl:port binding="impl:LookupComponentSoapBinding" name="LookupComponent">
+
+         <wsdlsoap:address location="http://localhost:8180/ACSFC/services/LookupComponent"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

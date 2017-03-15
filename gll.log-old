@@ -1,0 +1,863 @@
+GLL (gll_daemon.cc   ) 20:06.48: [INFO] MRRM is listening at port 2504
+GLL (gll_daemon.cc   ) 20:06.48: [INFO] WRAPPER is listening at port 5050
+GLL (gll_daemon.cc   ) 20:06.48: [INFO] m_threadID = 135050240 - ret_ = 0
+GLL (gll_al.cc       ) 20:06.48: [INFO] ARI_AL port 4001 is open
+GLL (gll_im.cc       ) 20:06.48: [INFO] MGI port 6060 is open
+GLL (gll_im.cc       ) 20:06.48: [INFO] ARI_IM port 3002 is open
+GLL (wsi_packet.cc   ) 20:06.48: [INFO] Added tlv with type = 0a01 and lenght = 16
+GLL (wsi_packet.cc   ) 20:06.48: [INFO] len_ = 1
+GLL (wsi_packet.cc   ) 20:06.48: [INFO] Added tlv with type = 0110 and lenght = 1
+GLL (gll_im.cc       ) 20:06.48: [INFO] Sending RegisterToACSF.Request to WRAPPER
+GLL (gll_im.cc       ) 20:06.48: [DUMP] SEND [33] 01 02 00 19 05 01 00 C0 
+GLL (gll_im.cc       ) 20:06.48: [DUMP]           01 10 00 01 03 0A 01 00 
+GLL (gll_im.cc       ) 20:06.48: [DUMP]           10 00 00 00 98 00 00 00 
+GLL (gll_im.cc       ) 20:06.48: [DUMP]           00 00 00 00 00 00 00 00 
+GLL (gll_im.cc       ) 20:06.48: [DUMP]           00 
+GLL (gll_daemon.cc   ) 20:06.48: [INFO] Going to main loop
+GLL (gll_im.cc       ) 20:06.48: [DUMP] RX   [25] 01 02 00 11 05 01 01 80 
+GLL (gll_im.cc       ) 20:06.48: [DUMP]           01 01 00 01 01 0A 01 00 
+GLL (gll_im.cc       ) 20:06.48: [DUMP]           08 00 00 00 98 00 00 00 
+GLL (gll_im.cc       ) 20:06.48: [DUMP]           00 
+GLL (mgi_packet.cc   ) 20:06.48: [INFO] Received packet - Type = 501
+GLL (gll_im.cc       ) 20:06.48: [INFO] Receiving a packet from WRAPPER ...
+GLL (gll_im.cc       ) 20:06.48: [INFO] Received RegisterACSFAnswer
+GLL (mgi_packet.cc   ) 20:06.48: [INFO] Parsing an enumerated tlv - length = 1
+GLL (gll_im.cc       ) 20:06.48: [INFO] GLL has been registered successfully to ACSF
+GLL (ifaceTable.cc   ) 20:06.53: [INFO] Iface name: ath0
+GLL (ifaceTable.cc   ) 20:06.53: [INFO] m_techType = 400
+GLL (ifaceTable.cc   ) 20:06.53: [INFO] IP address: 0.0.0.0
+GLL (ifaceTable.cc   ) 20:06.53: [INFO] HW Address: 00:13:46:6C:CA:36
+GLL (ifaceTable.cc   ) 20:06.53: [INFO] Dispath event for new interface
+GLL (gll_al.cc       ) 20:06.53: [INFO] New interface available
+GLL (gll_al.cc       ) 20:06.53: [DUMP] MAC  [ 6] 00 13 46 6C CA 36 
+GLL (gll_al.cc       ) 20:06.53: [INFO] Technology type at the AL = 400
+GLL (gll_al.cc       ) 20:06.53: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:06.53: [DUMP] ARI  [30] 01 40 00 01 00 18 10 01 
+GLL (gll_al.cc       ) 20:06.53: [DUMP]           00 02 04 00 40 01 00 04 
+GLL (gll_al.cc       ) 20:06.53: [DUMP]           61 74 68 30 80 01 00 06 
+GLL (gll_al.cc       ) 20:06.53: [DUMP]           00 13 46 6C CA 36 
+GLL (gll_im.cc       ) 20:06.53: [DUMP] RX   [30] 01 40 00 01 00 18 10 01 
+GLL (gll_im.cc       ) 20:06.53: [DUMP]           00 02 04 00 40 01 00 04 
+GLL (gll_im.cc       ) 20:06.53: [DUMP]           61 74 68 30 80 01 00 06 
+GLL (gll_im.cc       ) 20:06.53: [DUMP]           00 13 46 6C CA 36 
+GLL (ari.cc          ) 20:06.53: [INFO] Received packet - Type = 1 - Length = 24
+GLL (gll_im.cc       ) 20:06.53: [INFO] Device Identifier = ath0
+GLL (gll_im.cc       ) 20:06.53: [INFO] Technology Type = 400
+GLL (gll_im.cc       ) 20:06.53: [INFO] Sending DeviceRegistration.Request to MRRM
+GLL (gll_im.cc       ) 20:06.53: [DUMP] SEND [46] 01 01 00 26 01 01 00 C0 
+GLL (gll_im.cc       ) 20:06.53: [DUMP]           01 02 00 04 17 CC 04 00 
+GLL (gll_im.cc       ) 20:06.53: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 20:06.53: [DUMP]           05 01 00 02 17 AC 06 01 
+GLL (gll_im.cc       ) 20:06.53: [DUMP]           00 04 00 00 00 03 06 03 
+GLL (gll_im.cc       ) 20:06.53: [DUMP]           00 04 00 10 00 01 
+GLL (gll_im.cc       ) 20:06.53: [DUMP] RX   [21] 01 01 00 0D 01 01 01 00 
+GLL (gll_im.cc       ) 20:06.53: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 20:06.53: [DUMP]           01 01 00 01 01 
+GLL (mgi_packet.cc   ) 20:06.53: [INFO] Received packet - Type = 101
+GLL (gll_im.cc       ) 20:06.53: [INFO] Receiving a packet from MRRM ...
+GLL (gll_im.cc       ) 20:06.53: [INFO] Received DeviceRegistration.Answer
+GLL (mgi_packet.cc   ) 20:06.53: [INFO] Parsing an enumerated tlv - length = 1
+GLL (gll_im.cc       ) 20:06.53: [INFO] Received a device registration answer from mrrm (dev = ath0 - resultcode = 1)
+GLL (gll_im.cc       ) 20:06.53: [DUMP] RX   [69] 01 01 00 3D 01 03 00 40 
+GLL (gll_im.cc       ) 20:06.53: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 20:06.53: [DUMP]           02 01 00 31 01 07 00 04 
+GLL (gll_im.cc       ) 20:06.53: [DUMP]           00 00 00 30 04 06 00 08 
+GLL (gll_im.cc       ) 20:06.53: [DUMP]           0A 00 00 19 0A 00 00 28 
+GLL (gll_im.cc       ) 20:06.53: [DUMP]           08 0B 00 04 00 00 27 10 
+GLL (gll_im.cc       ) 20:06.53: [DUMP]           08 0C 00 01 FF 01 09 00 
+GLL (gll_im.cc       ) 20:06.53: [DUMP]           04 00 00 00 01 08 0D 00 
+GLL (gll_im.cc       ) 20:06.53: [DUMP]           04 00 00 01 F4 
+GLL (mgi_packet.cc   ) 20:06.53: [INFO] Received packet - Type = 103
+GLL (mgi_packet.cc   ) 20:06.53: [INFO] 	01 07 00 04 00 00 00 30 
+GLL (mgi_packet.cc   ) 20:06.53: [INFO] 	04 06 00 08 0A 00 00 19 0A 00 00 28 
+GLL (mgi_packet.cc   ) 20:06.53: [INFO] 	08 0B 00 04 00 00 27 10 
+GLL (mgi_packet.cc   ) 20:06.53: [INFO] 	08 0C 00 01 FF 
+GLL (mgi_packet.cc   ) 20:06.53: [INFO] 	01 09 00 04 00 00 00 01 
+GLL (mgi_packet.cc   ) 20:06.53: [INFO] 	08 0D 00 04 00 00 01 F4 
+GLL (gll_im.cc       ) 20:06.53: [INFO] Receiving a packet from MRRM ...
+GLL (gll_im.cc       ) 20:06.53: [INFO] Received CandidateReport.Request
+GLL (gll_im.cc       ) 20:06.53: [INFO] Configuring to measure 30, every 10000 milliseconds
+GLL (gll_im.cc       ) 20:06.53: [INFO] MRRM wants to receive a candidate report every 10000 mileseconds from ath0
+GLL (gll_im.cc       ) 20:06.53: [INFO] Sending CandidateReport.Answer to MRRM - ResultCode = 1
+GLL (gll_im.cc       ) 20:06.53: [DUMP] SEND [21] 01 01 00 0D 01 03 01 80 
+GLL (gll_im.cc       ) 20:06.53: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 20:06.53: [DUMP]           04 61 74 68 30 
+GLL (gll_im.cc       ) 20:07.03: [INFO] Requesting the AL to get the SNR of device ath0
+GLL (gll_im.cc       ) 20:07.03: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 20:07.03: [DUMP] ARI  [14] 01 40 00 02 00 08 40 01 
+GLL (gll_im.cc       ) 20:07.03: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 20:07.03: [DUMP] RX   [14] 01 40 00 02 00 08 40 01 
+GLL (gll_al.cc       ) 20:07.03: [DUMP]           00 04 61 74 68 30 
+GLL (ari.cc          ) 20:07.03: [INFO] Received packet - Type = 2 - Length = 8
+GLL (gll_al.cc       ) 20:07.10: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:07.10: [DUMP] ARI  [41] 01 C0 00 02 00 23 40 01 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           00 07 6A 63 68 6F 71 75 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           65 50 01 00 02 00 32 80 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           02 00 06 00 11 95 F3 85 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           2E 
+GLL (gll_al.cc       ) 20:07.10: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:07.10: [DUMP] ARI  [41] 01 C0 00 02 00 23 40 01 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           00 07 41 69 72 47 54 41 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           53 50 01 00 02 00 1B 80 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           02 00 06 00 12 17 C2 50 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           93 
+GLL (gll_al.cc       ) 20:07.10: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:07.10: [DUMP] ARI  [39] 01 C0 00 02 00 21 40 01 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           00 05 67 74 61 73 33 50 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           01 00 02 00 07 80 02 00 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           06 00 13 10 7A E4 45 
+GLL (gll_al.cc       ) 20:07.10: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:07.10: [DUMP] ARI  [37] 01 C0 00 02 00 1F 40 01 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           00 03 47 49 54 50 01 00 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           02 00 29 80 02 00 06 00 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           16 B6 2B 84 CE 
+GLL (gll_al.cc       ) 20:07.10: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:07.10: [DUMP] ARI  [41] 01 C0 00 02 00 23 40 01 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           00 07 47 54 41 53 47 45 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           4E 50 01 00 02 00 0E 80 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           02 00 06 00 16 B6 C1 1E 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           8F 
+GLL (gll_im.cc       ) 20:07.10: [DUMP] RX   [41] 01 C0 00 02 00 23 40 01 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 07 6A 63 68 6F 71 75 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           65 50 01 00 02 00 32 80 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           02 00 06 00 11 95 F3 85 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           2E 
+GLL (ari.cc          ) 20:07.10: [INFO] Received packet - Type = 2 - Length = 35
+GLL (gll_im.cc       ) 20:07.10: [INFO] Network ID = jchoque
+GLL (gll_im.cc       ) 20:07.10: [DUMP] CellID [ 8] 00 11 95 F3 85 2E 00 00 
+GLL (gll_im.cc       ) 20:07.10: [INFO] Rssi = 50
+GLL (gll_im.cc       ) 20:07.10: [DUMP] AUX  [32] 6A 63 68 6F 71 75 65 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 00 00 00 00 00 00 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 00 00 00 00 00 00 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 00 00 00 00 00 00 00 
+GLL (gll_im.cc       ) 20:07.10: [INFO] Sending CandidateReport.Indication to MRRM
+GLL (gll_im.cc       ) 20:07.10: [DUMP] SEND [56] 01 01 00 30 01 03 03 80 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           01 02 00 04 17 CC 04 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           32 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           30 08 04 00 08 00 11 95 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           F3 85 2E 00 00 09 02 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           07 6A 63 68 6F 71 75 65 
+GLL (gll_im.cc       ) 20:07.10: [DUMP] RX   [41] 01 C0 00 02 00 23 40 01 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 07 41 69 72 47 54 41 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           53 50 01 00 02 00 1B 80 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           02 00 06 00 12 17 C2 50 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           93 
+GLL (ari.cc          ) 20:07.10: [INFO] Received packet - Type = 2 - Length = 35
+GLL (gll_im.cc       ) 20:07.10: [INFO] Network ID = AirGTAS
+GLL (gll_im.cc       ) 20:07.10: [DUMP] CellID [ 8] 00 12 17 C2 50 93 00 00 
+GLL (gll_im.cc       ) 20:07.10: [INFO] Rssi = 27
+GLL (gll_im.cc       ) 20:07.10: [DUMP] AUX  [32] 41 69 72 47 54 41 53 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 00 00 00 00 00 00 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 00 00 00 00 00 00 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 00 00 00 00 00 00 00 
+GLL (gll_im.cc       ) 20:07.10: [INFO] Sending CandidateReport.Indication to MRRM
+GLL (gll_im.cc       ) 20:07.10: [DUMP] SEND [56] 01 01 00 30 01 03 03 80 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           01 02 00 04 17 CC 04 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           1B 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           30 08 04 00 08 00 12 17 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           C2 50 93 00 00 09 02 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           07 41 69 72 47 54 41 53 
+GLL (gll_im.cc       ) 20:07.10: [DUMP] RX   [39] 01 C0 00 02 00 21 40 01 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 05 67 74 61 73 33 50 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           01 00 02 00 07 80 02 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           06 00 13 10 7A E4 45 
+GLL (ari.cc          ) 20:07.10: [INFO] Received packet - Type = 2 - Length = 33
+GLL (gll_im.cc       ) 20:07.10: [INFO] Network ID = gtas3
+GLL (gll_im.cc       ) 20:07.10: [DUMP] CellID [ 8] 00 13 10 7A E4 45 00 00 
+GLL (gll_im.cc       ) 20:07.10: [INFO] Rssi = 7
+GLL (gll_im.cc       ) 20:07.10: [DUMP] AUX  [32] 67 74 61 73 33 00 00 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 00 00 00 00 00 00 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 00 00 00 00 00 00 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 00 00 00 00 00 00 00 
+GLL (gll_im.cc       ) 20:07.10: [INFO] Sending CandidateReport.Indication to MRRM
+GLL (gll_im.cc       ) 20:07.10: [DUMP] SEND [54] 01 01 00 2E 01 03 03 80 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           01 02 00 04 17 CC 04 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           07 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           30 08 04 00 08 00 13 10 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           7A E4 45 00 00 09 02 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           05 67 74 61 73 33 
+GLL (gll_im.cc       ) 20:07.10: [DUMP] RX   [37] 01 C0 00 02 00 1F 40 01 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 03 47 49 54 50 01 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           02 00 29 80 02 00 06 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           16 B6 2B 84 CE 
+GLL (ari.cc          ) 20:07.10: [INFO] Received packet - Type = 2 - Length = 31
+GLL (gll_im.cc       ) 20:07.10: [INFO] Network ID = GIT
+GLL (gll_im.cc       ) 20:07.10: [DUMP] CellID [ 8] 00 16 B6 2B 84 CE 00 00 
+GLL (gll_im.cc       ) 20:07.10: [INFO] Rssi = 41
+GLL (gll_im.cc       ) 20:07.10: [DUMP] AUX  [32] 47 49 54 00 00 00 00 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 00 00 00 00 00 00 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 00 00 00 00 00 00 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 00 00 00 00 00 00 00 
+GLL (gll_im.cc       ) 20:07.10: [INFO] Sending CandidateReport.Indication to MRRM
+GLL (gll_im.cc       ) 20:07.10: [DUMP] SEND [52] 01 01 00 2C 01 03 03 80 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           01 02 00 04 17 CC 04 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           29 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           30 08 04 00 08 00 16 B6 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           2B 84 CE 00 00 09 02 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           03 47 49 54 
+GLL (gll_im.cc       ) 20:07.10: [DUMP] RX   [41] 01 C0 00 02 00 23 40 01 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 07 47 54 41 53 47 45 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           4E 50 01 00 02 00 0E 80 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           02 00 06 00 16 B6 C1 1E 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           8F 
+GLL (ari.cc          ) 20:07.10: [INFO] Received packet - Type = 2 - Length = 35
+GLL (gll_im.cc       ) 20:07.10: [INFO] Network ID = GTASGEN
+GLL (gll_im.cc       ) 20:07.10: [DUMP] CellID [ 8] 00 16 B6 C1 1E 8F 00 00 
+GLL (gll_im.cc       ) 20:07.10: [INFO] Rssi = 14
+GLL (gll_im.cc       ) 20:07.10: [DUMP] AUX  [32] 47 54 41 53 47 45 4E 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 00 00 00 00 00 00 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 00 00 00 00 00 00 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 00 00 00 00 00 00 00 
+GLL (gll_im.cc       ) 20:07.10: [INFO] Sending CandidateReport.Indication to MRRM
+GLL (gll_im.cc       ) 20:07.10: [DUMP] SEND [56] 01 01 00 30 01 03 03 80 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           01 02 00 04 17 CC 04 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           0E 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           30 08 04 00 08 00 16 B6 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           C1 1E 8F 00 00 09 02 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           07 47 54 41 53 47 45 4E 
+GLL (gll_im.cc       ) 20:07.10: [DUMP] RX   [52] 01 01 00 2C 01 05 00 40 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           09 02 00 07 6A 63 68 6F 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           71 75 65 08 04 00 08 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           11 95 F3 85 2E 00 00 08 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           02 00 04 00 00 00 40 01 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           06 00 01 01 
+GLL (mgi_packet.cc   ) 20:07.10: [INFO] Received packet - Type = 105
+GLL (gll_im.cc       ) 20:07.10: [INFO] Receiving a packet from MRRM ...
+GLL (gll_im.cc       ) 20:07.10: [INFO] Received LinkAttach.Request
+GLL (gll_im.cc       ) 20:07.10: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 20:07.10: [DUMP] ARI  [25] 01 40 00 03 00 13 40 01 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 07 6A 63 68 6F 71 75 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           65 
+GLL (gll_im.cc       ) 20:07.10: [INFO] Device ath0 - is waiting link attach
+GLL (gll_im.cc       ) 20:07.10: [INFO] 		- Network ID = jchoque
+GLL (gll_im.cc       ) 20:07.10: [INFO] 		- Local Link ID = 64
+GLL (gll_im.cc       ) 20:07.10: [DUMP] BSSID [ 8] 00 11 95 F3 85 2E 00 00 
+GLL (gll_al.cc       ) 20:07.10: [DUMP] RX   [25] 01 40 00 03 00 13 40 01 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           00 07 6A 63 68 6F 71 75 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           65 
+GLL (ari.cc          ) 20:07.10: [INFO] Received packet - Type = 3 - Length = 19
+GLL (netInterface.cc ) 20:07.10: [INFO] Connecting to jchoque
+GLL (gll_im.cc       ) 20:07.10: [DUMP] RX   [52] 01 01 00 2C 01 05 00 40 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           09 02 00 07 6A 63 68 6F 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           71 75 65 08 04 00 08 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           11 95 F3 85 2E 00 00 08 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           02 00 04 00 00 00 40 01 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           06 00 01 01 
+GLL (mgi_packet.cc   ) 20:07.10: [INFO] Received packet - Type = 105
+GLL (gll_im.cc       ) 20:07.10: [INFO] Receiving a packet from MRRM ...
+GLL (gll_im.cc       ) 20:07.10: [INFO] Received LinkAttach.Request
+GLL (gll_im.cc       ) 20:07.10: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 20:07.10: [DUMP] ARI  [25] 01 40 00 03 00 13 40 01 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 07 6A 63 68 6F 71 75 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           65 
+GLL (gll_im.cc       ) 20:07.10: [INFO] Device ath0 - is waiting link attach
+GLL (gll_im.cc       ) 20:07.10: [INFO] 		- Network ID = jchoque
+GLL (gll_im.cc       ) 20:07.10: [INFO] 		- Local Link ID = 64
+GLL (gll_im.cc       ) 20:07.10: [DUMP] BSSID [ 8] 00 11 95 F3 85 2E 00 00 
+GLL (gll_al.cc       ) 20:07.10: [DUMP] RX   [25] 01 40 00 03 00 13 40 01 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           00 07 6A 63 68 6F 71 75 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           65 
+GLL (ari.cc          ) 20:07.10: [INFO] Received packet - Type = 3 - Length = 19
+GLL (netInterface.cc ) 20:07.10: [INFO] Connecting to jchoque
+GLL (gll_im.cc       ) 20:07.10: [DUMP] RX   [52] 01 01 00 2C 01 05 00 40 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           09 02 00 07 6A 63 68 6F 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           71 75 65 08 04 00 08 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           11 95 F3 85 2E 00 00 08 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           02 00 04 00 00 00 40 01 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           06 00 01 01 
+GLL (mgi_packet.cc   ) 20:07.10: [INFO] Received packet - Type = 105
+GLL (gll_im.cc       ) 20:07.10: [INFO] Receiving a packet from MRRM ...
+GLL (gll_im.cc       ) 20:07.10: [INFO] Received LinkAttach.Request
+GLL (gll_im.cc       ) 20:07.10: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 20:07.10: [DUMP] ARI  [25] 01 40 00 03 00 13 40 01 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 07 6A 63 68 6F 71 75 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           65 
+GLL (gll_im.cc       ) 20:07.10: [INFO] Device ath0 - is waiting link attach
+GLL (gll_im.cc       ) 20:07.10: [INFO] 		- Network ID = jchoque
+GLL (gll_im.cc       ) 20:07.10: [INFO] 		- Local Link ID = 64
+GLL (gll_im.cc       ) 20:07.10: [DUMP] BSSID [ 8] 00 11 95 F3 85 2E 00 00 
+GLL (gll_al.cc       ) 20:07.10: [DUMP] RX   [25] 01 40 00 03 00 13 40 01 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           00 07 6A 63 68 6F 71 75 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           65 
+GLL (ari.cc          ) 20:07.10: [INFO] Received packet - Type = 3 - Length = 19
+GLL (netInterface.cc ) 20:07.10: [INFO] Connecting to jchoque
+GLL (gll_im.cc       ) 20:07.10: [DUMP] RX   [52] 01 01 00 2C 01 05 00 40 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           09 02 00 07 6A 63 68 6F 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           71 75 65 08 04 00 08 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           11 95 F3 85 2E 00 00 08 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           02 00 04 00 00 00 40 01 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           06 00 01 01 
+GLL (mgi_packet.cc   ) 20:07.10: [INFO] Received packet - Type = 105
+GLL (gll_im.cc       ) 20:07.10: [INFO] Receiving a packet from MRRM ...
+GLL (gll_im.cc       ) 20:07.10: [INFO] Received LinkAttach.Request
+GLL (gll_im.cc       ) 20:07.10: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 20:07.10: [DUMP] ARI  [25] 01 40 00 03 00 13 40 01 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 07 6A 63 68 6F 71 75 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           65 
+GLL (gll_im.cc       ) 20:07.10: [INFO] Device ath0 - is waiting link attach
+GLL (gll_im.cc       ) 20:07.10: [INFO] 		- Network ID = jchoque
+GLL (gll_im.cc       ) 20:07.10: [INFO] 		- Local Link ID = 64
+GLL (gll_im.cc       ) 20:07.10: [DUMP] BSSID [ 8] 00 11 95 F3 85 2E 00 00 
+GLL (gll_al.cc       ) 20:07.10: [DUMP] RX   [25] 01 40 00 03 00 13 40 01 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           00 07 6A 63 68 6F 71 75 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           65 
+GLL (ari.cc          ) 20:07.10: [INFO] Received packet - Type = 3 - Length = 19
+GLL (netInterface.cc ) 20:07.10: [INFO] Connecting to jchoque
+GLL (gll_im.cc       ) 20:07.10: [DUMP] RX   [52] 01 01 00 2C 01 05 00 40 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           09 02 00 07 6A 63 68 6F 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           71 75 65 08 04 00 08 00 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           11 95 F3 85 2E 00 00 08 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           02 00 04 00 00 00 40 01 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           06 00 01 01 
+GLL (mgi_packet.cc   ) 20:07.10: [INFO] Received packet - Type = 105
+GLL (gll_im.cc       ) 20:07.10: [INFO] Receiving a packet from MRRM ...
+GLL (gll_im.cc       ) 20:07.10: [INFO] Received LinkAttach.Request
+GLL (gll_im.cc       ) 20:07.10: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 20:07.10: [DUMP] ARI  [25] 01 40 00 03 00 13 40 01 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           00 07 6A 63 68 6F 71 75 
+GLL (gll_im.cc       ) 20:07.10: [DUMP]           65 
+GLL (gll_im.cc       ) 20:07.10: [INFO] Device ath0 - is waiting link attach
+GLL (gll_im.cc       ) 20:07.10: [INFO] 		- Network ID = jchoque
+GLL (gll_im.cc       ) 20:07.10: [INFO] 		- Local Link ID = 64
+GLL (gll_im.cc       ) 20:07.10: [DUMP] BSSID [ 8] 00 11 95 F3 85 2E 00 00 
+GLL (gll_al.cc       ) 20:07.10: [DUMP] RX   [25] 01 40 00 03 00 13 40 01 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           00 07 6A 63 68 6F 71 75 
+GLL (gll_al.cc       ) 20:07.10: [DUMP]           65 
+GLL (ari.cc          ) 20:07.10: [INFO] Received packet - Type = 3 - Length = 19
+GLL (netInterface.cc ) 20:07.10: [INFO] Connecting to jchoque
+GLL (netInterface.cc ) 20:07.19: [INFO] Interface ath0 is associated
+GLL (gll_al.cc       ) 20:07.19: [DUMP] SSID [ 6] 00 00 00 00 00 00 
+GLL (netInterface.cc ) 20:07.19: [DUMP] BSSID [ 6] 00 11 95 F3 85 2E 
+GLL (gll_al.cc       ) 20:07.19: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:07.19: [DUMP] ARI  [35] 01 C0 00 03 00 1D 40 01 
+GLL (gll_al.cc       ) 20:07.19: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 20:07.19: [DUMP]           00 07 6A 63 68 6F 71 75 
+GLL (gll_al.cc       ) 20:07.19: [DUMP]           65 80 02 00 06 00 11 95 
+GLL (gll_al.cc       ) 20:07.19: [DUMP]           F3 85 2E 
+GLL (gll_im.cc       ) 20:07.19: [DUMP] RX   [35] 01 C0 00 03 00 1D 40 01 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           00 07 6A 63 68 6F 71 75 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           65 80 02 00 06 00 11 95 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           F3 85 2E 
+GLL (ari.cc          ) 20:07.19: [INFO] Received packet - Type = 3 - Length = 29
+GLL (gll_im.cc       ) 20:07.19: [INFO] Connected with network jchoque
+GLL (gll_im.cc       ) 20:07.19: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 20:07.19: [INFO] Sending LinkAttach.Answer to MRRM
+GLL (gll_im.cc       ) 20:07.19: [DUMP] SEND [26] 01 01 00 12 01 05 01 80 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           04 61 74 68 30 08 02 00 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           01 40 
+GLL (wsi_packet.cc   ) 20:07.19: [INFO] Added tlv with type = 0401 and lenght = 4
+GLL (wsi_packet.cc   ) 20:07.19: [INFO] Added tlv with type = 0902 and lenght = 7
+GLL (gll_im.cc       ) 20:07.19: [INFO] Sending LinkAttach.Answer to WRAPPER
+GLL (gll_im.cc       ) 20:07.19: [DUMP] SEND [27] 01 02 00 13 03 01 01 80 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           09 02 00 07 6A 63 68 6F 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           71 75 65 
+GLL (gll_im.cc       ) 20:07.19: [DUMP] RX   [77] 01 01 00 45 01 0B 00 40 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           08 02 00 04 00 00 00 40 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           02 01 00 31 01 07 00 04 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           00 00 00 30 04 06 00 08 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           0B 00 00 19 0B 00 00 28 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           08 0B 00 04 00 00 27 10 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           08 0C 00 01 FF 01 09 00 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           04 00 00 00 01 08 0D 00 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           04 00 00 01 F4 
+GLL (mgi_packet.cc   ) 20:07.19: [INFO] Received packet - Type = 10b
+GLL (mgi_packet.cc   ) 20:07.19: [INFO] 	01 07 00 04 00 00 00 30 
+GLL (mgi_packet.cc   ) 20:07.19: [INFO] 	04 06 00 08 0B 00 00 19 0B 00 00 28 
+GLL (mgi_packet.cc   ) 20:07.19: [INFO] 	08 0B 00 04 00 00 27 10 
+GLL (mgi_packet.cc   ) 20:07.19: [INFO] 	08 0C 00 01 FF 
+GLL (mgi_packet.cc   ) 20:07.19: [INFO] 	01 09 00 04 00 00 00 01 
+GLL (mgi_packet.cc   ) 20:07.19: [INFO] 	08 0D 00 04 00 00 01 F4 
+GLL (gll_im.cc       ) 20:07.19: [INFO] Receiving a packet from MRRM ...
+GLL (gll_im.cc       ) 20:07.19: [INFO] Received LinkReport.Request
+GLL (gll_im.cc       ) 20:07.19: [INFO] Configuring to measure 30, every 10000 milliseconds
+GLL (gll_im.cc       ) 20:07.19: [INFO] MRRM wants to receive a link report every 10000 mileseconds from ath0
+GLL (gll_im.cc       ) 20:07.19: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 20:07.19: [INFO] Sending LinkAttach.Answer to MRRM
+GLL (gll_im.cc       ) 20:07.19: [DUMP] SEND [26] 01 01 00 12 01 0B 01 80 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           04 61 74 68 30 08 02 00 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           01 40 
+GLL (gll_im.cc       ) 20:07.19: [ERR ] Received CandidateReport.Type, GLL IM is not able to handle type
+GLL (netInterface.cc ) 20:07.19: [INFO] Interface ath0 is associated
+GLL (gll_al.cc       ) 20:07.19: [DUMP] SSID [ 6] 00 00 00 00 00 00 
+GLL (netInterface.cc ) 20:07.19: [DUMP] BSSID [ 6] 00 11 95 F3 85 2E 
+GLL (gll_al.cc       ) 20:07.19: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:07.19: [DUMP] ARI  [35] 01 C0 00 03 00 1D 40 01 
+GLL (gll_al.cc       ) 20:07.19: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 20:07.19: [DUMP]           00 07 6A 63 68 6F 71 75 
+GLL (gll_al.cc       ) 20:07.19: [DUMP]           65 80 02 00 06 00 11 95 
+GLL (gll_al.cc       ) 20:07.19: [DUMP]           F3 85 2E 
+GLL (gll_im.cc       ) 20:07.19: [DUMP] RX   [35] 01 C0 00 03 00 1D 40 01 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           00 07 6A 63 68 6F 71 75 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           65 80 02 00 06 00 11 95 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           F3 85 2E 
+GLL (ari.cc          ) 20:07.19: [INFO] Received packet - Type = 3 - Length = 29
+GLL (netInterface.cc ) 20:07.19: [INFO] Interface ath0 is associated
+GLL (gll_al.cc       ) 20:07.19: [DUMP] SSID [ 6] 00 00 00 00 00 00 
+GLL (netInterface.cc ) 20:07.19: [DUMP] BSSID [ 6] 00 11 95 F3 85 2E 
+GLL (gll_al.cc       ) 20:07.19: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:07.19: [DUMP] ARI  [35] 01 C0 00 03 00 1D 40 01 
+GLL (gll_al.cc       ) 20:07.19: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 20:07.19: [DUMP]           00 07 6A 63 68 6F 71 75 
+GLL (gll_al.cc       ) 20:07.19: [DUMP]           65 80 02 00 06 00 11 95 
+GLL (gll_al.cc       ) 20:07.19: [DUMP]           F3 85 2E 
+GLL (gll_im.cc       ) 20:07.19: [DUMP] RX   [35] 01 C0 00 03 00 1D 40 01 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           00 07 6A 63 68 6F 71 75 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           65 80 02 00 06 00 11 95 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           F3 85 2E 
+GLL (ari.cc          ) 20:07.19: [INFO] Received packet - Type = 3 - Length = 29
+GLL (netInterface.cc ) 20:07.19: [INFO] Interface ath0 is associated
+GLL (gll_al.cc       ) 20:07.19: [DUMP] SSID [ 6] 00 00 00 00 00 00 
+GLL (netInterface.cc ) 20:07.19: [DUMP] BSSID [ 6] 00 11 95 F3 85 2E 
+GLL (gll_al.cc       ) 20:07.19: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:07.19: [DUMP] ARI  [35] 01 C0 00 03 00 1D 40 01 
+GLL (gll_al.cc       ) 20:07.19: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 20:07.19: [DUMP]           00 07 6A 63 68 6F 71 75 
+GLL (gll_al.cc       ) 20:07.19: [DUMP]           65 80 02 00 06 00 11 95 
+GLL (gll_al.cc       ) 20:07.19: [DUMP]           F3 85 2E 
+GLL (gll_im.cc       ) 20:07.19: [DUMP] RX   [35] 01 C0 00 03 00 1D 40 01 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           00 07 6A 63 68 6F 71 75 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           65 80 02 00 06 00 11 95 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           F3 85 2E 
+GLL (ari.cc          ) 20:07.19: [INFO] Received packet - Type = 3 - Length = 29
+GLL (netInterface.cc ) 20:07.19: [INFO] Interface ath0 is associated
+GLL (gll_al.cc       ) 20:07.19: [DUMP] SSID [ 6] 00 00 00 00 00 00 
+GLL (netInterface.cc ) 20:07.19: [DUMP] BSSID [ 6] 00 11 95 F3 85 2E 
+GLL (gll_al.cc       ) 20:07.19: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:07.19: [DUMP] ARI  [35] 01 C0 00 03 00 1D 40 01 
+GLL (gll_al.cc       ) 20:07.19: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 20:07.19: [DUMP]           00 07 6A 63 68 6F 71 75 
+GLL (gll_al.cc       ) 20:07.19: [DUMP]           65 80 02 00 06 00 11 95 
+GLL (gll_al.cc       ) 20:07.19: [DUMP]           F3 85 2E 
+GLL (gll_im.cc       ) 20:07.19: [DUMP] RX   [35] 01 C0 00 03 00 1D 40 01 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           00 07 6A 63 68 6F 71 75 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           65 80 02 00 06 00 11 95 
+GLL (gll_im.cc       ) 20:07.19: [DUMP]           F3 85 2E 
+GLL (ari.cc          ) 20:07.19: [INFO] Received packet - Type = 3 - Length = 29
+GLL (gll_im.cc       ) 20:07.29: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 20:07.29: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 20:07.29: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 20:07.29: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 20:07.29: [DUMP]           00 04 61 74 68 30 
+GLL (ari.cc          ) 20:07.29: [INFO] Received packet - Type = 4 - Length = 8
+GLL (gll_al.cc       ) 20:07.29: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:07.29: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 20:07.29: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 20:07.29: [DUMP]           00 02 00 2B 
+GLL (gll_im.cc       ) 20:07.29: [DUMP] RX   [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 20:07.29: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 20:07.29: [DUMP]           00 02 00 2B 
+GLL (ari.cc          ) 20:07.29: [INFO] Received packet - Type = 4 - Length = 14
+GLL (gll_im.cc       ) 20:07.29: [INFO] LINK QUAL at GLL IM is 43
+GLL (gll_im.cc       ) 20:07.29: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 20:07.29: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 20:07.29: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 20:07.29: [DUMP]           2B 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 20:07.29: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 20:07.39: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 20:07.39: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 20:07.39: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 20:07.39: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 20:07.39: [DUMP]           00 04 61 74 68 30 
+GLL (ari.cc          ) 20:07.39: [INFO] Received packet - Type = 4 - Length = 8
+GLL (gll_al.cc       ) 20:07.39: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:07.39: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 20:07.39: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 20:07.39: [DUMP]           00 02 00 26 
+GLL (gll_im.cc       ) 20:07.39: [DUMP] RX   [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 20:07.39: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 20:07.39: [DUMP]           00 02 00 26 
+GLL (ari.cc          ) 20:07.39: [INFO] Received packet - Type = 4 - Length = 14
+GLL (gll_im.cc       ) 20:07.39: [INFO] LINK QUAL at GLL IM is 38
+GLL (gll_im.cc       ) 20:07.39: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 20:07.39: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 20:07.39: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 20:07.39: [DUMP]           26 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 20:07.39: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 20:07.39: [DUMP] RX   [48] 01 01 00 28 01 05 00 40 
+GLL (gll_im.cc       ) 20:07.39: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 20:07.39: [DUMP]           09 02 00 03 47 49 54 08 
+GLL (gll_im.cc       ) 20:07.39: [DUMP]           04 00 08 00 16 B6 2B 84 
+GLL (gll_im.cc       ) 20:07.39: [DUMP]           CE 00 00 08 02 00 04 00 
+GLL (gll_im.cc       ) 20:07.39: [DUMP]           00 00 41 01 06 00 01 01 
+GLL (mgi_packet.cc   ) 20:07.39: [INFO] Received packet - Type = 105
+GLL (gll_im.cc       ) 20:07.39: [INFO] Receiving a packet from MRRM ...
+GLL (gll_im.cc       ) 20:07.39: [INFO] Received LinkAttach.Request
+GLL (gll_im.cc       ) 20:07.39: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 20:07.39: [DUMP] ARI  [21] 01 40 00 03 00 0F 40 01 
+GLL (gll_im.cc       ) 20:07.39: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 20:07.39: [DUMP]           00 03 47 49 54 
+GLL (gll_im.cc       ) 20:07.39: [INFO] Device ath0 - is waiting link attach
+GLL (gll_im.cc       ) 20:07.39: [INFO] 		- Network ID = GIT
+GLL (gll_im.cc       ) 20:07.39: [INFO] 		- Local Link ID = 65
+GLL (gll_im.cc       ) 20:07.39: [DUMP] BSSID [ 8] 00 16 B6 2B 84 CE 00 00 
+GLL (gll_al.cc       ) 20:07.39: [DUMP] RX   [21] 01 40 00 03 00 0F 40 01 
+GLL (gll_al.cc       ) 20:07.39: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 20:07.39: [DUMP]           00 03 47 49 54 
+GLL (ari.cc          ) 20:07.39: [INFO] Received packet - Type = 3 - Length = 15
+GLL (netInterface.cc ) 20:07.39: [INFO] Connecting to GIT
+GLL (netInterface.cc ) 20:07.48: [INFO] Interface ath0 is associated
+GLL (gll_al.cc       ) 20:07.48: [DUMP] SSID [ 6] 00 00 00 00 00 00 
+GLL (netInterface.cc ) 20:07.48: [DUMP] BSSID [ 6] 00 16 B6 2B 84 CE 
+GLL (gll_al.cc       ) 20:07.48: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:07.48: [DUMP] ARI  [31] 01 C0 00 03 00 19 40 01 
+GLL (gll_al.cc       ) 20:07.48: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 20:07.48: [DUMP]           00 03 47 49 54 80 02 00 
+GLL (gll_al.cc       ) 20:07.48: [DUMP]           06 00 16 B6 2B 84 CE 
+GLL (gll_im.cc       ) 20:07.48: [DUMP] RX   [31] 01 C0 00 03 00 19 40 01 
+GLL (gll_im.cc       ) 20:07.48: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 20:07.48: [DUMP]           00 03 47 49 54 80 02 00 
+GLL (gll_im.cc       ) 20:07.48: [DUMP]           06 00 16 B6 2B 84 CE 
+GLL (ari.cc          ) 20:07.48: [INFO] Received packet - Type = 3 - Length = 25
+GLL (gll_im.cc       ) 20:07.48: [INFO] Connected with network GIT
+GLL (gll_im.cc       ) 20:07.48: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 20:07.48: [INFO] Sending LinkAttach.Answer to MRRM
+GLL (gll_im.cc       ) 20:07.48: [DUMP] SEND [26] 01 01 00 12 01 05 01 80 
+GLL (gll_im.cc       ) 20:07.48: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 20:07.48: [DUMP]           04 61 74 68 30 08 02 00 
+GLL (gll_im.cc       ) 20:07.48: [DUMP]           01 41 
+GLL (wsi_packet.cc   ) 20:07.48: [INFO] Added tlv with type = 0401 and lenght = 4
+GLL (wsi_packet.cc   ) 20:07.48: [INFO] Added tlv with type = 0902 and lenght = 3
+GLL (gll_im.cc       ) 20:07.48: [INFO] Sending LinkAttach.Answer to WRAPPER
+GLL (gll_im.cc       ) 20:07.48: [DUMP] SEND [23] 01 02 00 0F 03 01 01 80 
+GLL (gll_im.cc       ) 20:07.48: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 20:07.48: [DUMP]           09 02 00 03 47 49 54 
+GLL (gll_im.cc       ) 20:07.48: [DUMP] RX   [77] 01 01 00 45 01 0B 00 40 
+GLL (gll_im.cc       ) 20:07.48: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 20:07.48: [DUMP]           08 02 00 04 00 00 00 41 
+GLL (gll_im.cc       ) 20:07.48: [DUMP]           02 01 00 31 01 07 00 04 
+GLL (gll_im.cc       ) 20:07.48: [DUMP]           00 00 00 30 04 06 00 08 
+GLL (gll_im.cc       ) 20:07.48: [DUMP]           0B 00 00 19 0B 00 00 28 
+GLL (gll_im.cc       ) 20:07.48: [DUMP]           08 0B 00 04 00 00 27 10 
+GLL (gll_im.cc       ) 20:07.48: [DUMP]           08 0C 00 01 FF 01 09 00 
+GLL (gll_im.cc       ) 20:07.48: [DUMP]           04 00 00 00 01 08 0D 00 
+GLL (gll_im.cc       ) 20:07.48: [DUMP]           04 00 00 01 F4 
+GLL (mgi_packet.cc   ) 20:07.48: [INFO] Received packet - Type = 10b
+GLL (mgi_packet.cc   ) 20:07.48: [INFO] 	01 07 00 04 00 00 00 30 
+GLL (mgi_packet.cc   ) 20:07.48: [INFO] 	04 06 00 08 0B 00 00 19 0B 00 00 28 
+GLL (mgi_packet.cc   ) 20:07.48: [INFO] 	08 0B 00 04 00 00 27 10 
+GLL (mgi_packet.cc   ) 20:07.48: [INFO] 	08 0C 00 01 FF 
+GLL (mgi_packet.cc   ) 20:07.48: [INFO] 	01 09 00 04 00 00 00 01 
+GLL (mgi_packet.cc   ) 20:07.48: [INFO] 	08 0D 00 04 00 00 01 F4 
+GLL (gll_im.cc       ) 20:07.48: [INFO] Receiving a packet from MRRM ...
+GLL (gll_im.cc       ) 20:07.48: [INFO] Received LinkReport.Request
+GLL (gll_im.cc       ) 20:07.48: [INFO] Configuring to measure 30, every 10000 milliseconds
+GLL (gll_im.cc       ) 20:07.48: [INFO] MRRM wants to receive a link report every 10000 mileseconds from ath0
+GLL (gll_im.cc       ) 20:07.48: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 20:07.48: [INFO] Sending LinkAttach.Answer to MRRM
+GLL (gll_im.cc       ) 20:07.48: [DUMP] SEND [26] 01 01 00 12 01 0B 01 80 
+GLL (gll_im.cc       ) 20:07.48: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 20:07.48: [DUMP]           04 61 74 68 30 08 02 00 
+GLL (gll_im.cc       ) 20:07.48: [DUMP]           01 41 
+GLL (gll_im.cc       ) 20:07.48: [ERR ] Received CandidateReport.Type, GLL IM is not able to handle type
+GLL (gll_im.cc       ) 20:07.49: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 20:07.49: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 20:07.49: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 20:07.49: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 20:07.49: [DUMP]           00 04 61 74 68 30 
+GLL (ari.cc          ) 20:07.49: [INFO] Received packet - Type = 4 - Length = 8
+GLL (gll_al.cc       ) 20:07.49: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:07.49: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 20:07.49: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 20:07.49: [DUMP]           00 02 00 31 
+GLL (gll_im.cc       ) 20:07.49: [DUMP] RX   [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 20:07.49: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 20:07.49: [DUMP]           00 02 00 31 
+GLL (ari.cc          ) 20:07.49: [INFO] Received packet - Type = 4 - Length = 14
+GLL (gll_im.cc       ) 20:07.49: [INFO] LINK QUAL at GLL IM is 49
+GLL (gll_im.cc       ) 20:07.49: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 20:07.49: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 20:07.49: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 20:07.49: [DUMP]           31 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 20:07.49: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 20:07.49: [DUMP] RX   [29] 01 01 00 15 01 07 00 40 
+GLL (gll_im.cc       ) 20:07.49: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 20:07.49: [DUMP]           08 02 00 04 00 00 00 40 
+GLL (gll_im.cc       ) 20:07.49: [DUMP]           01 06 00 01 02 
+GLL (mgi_packet.cc   ) 20:07.49: [INFO] Received packet - Type = 107
+GLL (gll_im.cc       ) 20:07.49: [INFO] Receiving a packet from MRRM ...
+GLL (gll_im.cc       ) 20:07.58: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 20:07.58: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 20:07.58: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 20:07.58: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 20:07.58: [DUMP]           00 04 61 74 68 30 
+GLL (ari.cc          ) 20:07.58: [INFO] Received packet - Type = 4 - Length = 8
+GLL (gll_al.cc       ) 20:07.58: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:07.58: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 20:07.58: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 20:07.58: [DUMP]           00 02 00 30 
+GLL (gll_im.cc       ) 20:07.58: [DUMP] RX   [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 20:07.58: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 20:07.58: [DUMP]           00 02 00 30 
+GLL (ari.cc          ) 20:07.58: [INFO] Received packet - Type = 4 - Length = 14
+GLL (gll_im.cc       ) 20:07.58: [INFO] LINK QUAL at GLL IM is 48
+GLL (gll_im.cc       ) 20:07.58: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 20:07.58: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 20:07.58: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 20:07.58: [DUMP]           30 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 20:07.58: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 20:07.59: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 20:07.59: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 20:07.59: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 20:07.59: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 20:07.59: [DUMP]           00 04 61 74 68 30 
+GLL (ari.cc          ) 20:07.59: [INFO] Received packet - Type = 4 - Length = 8
+GLL (gll_al.cc       ) 20:07.59: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:07.59: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 20:07.59: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 20:07.59: [DUMP]           00 02 00 30 
+GLL (gll_im.cc       ) 20:07.59: [DUMP] RX   [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 20:07.59: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 20:07.59: [DUMP]           00 02 00 30 
+GLL (ari.cc          ) 20:07.59: [INFO] Received packet - Type = 4 - Length = 14
+GLL (gll_im.cc       ) 20:07.59: [INFO] LINK QUAL at GLL IM is 48
+GLL (gll_im.cc       ) 20:07.59: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 20:07.59: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 20:07.59: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 20:07.59: [DUMP]           30 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 20:07.59: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 20:08.08: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 20:08.08: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 20:08.08: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 20:08.08: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 20:08.08: [DUMP]           00 04 61 74 68 30 
+GLL (ari.cc          ) 20:08.08: [INFO] Received packet - Type = 4 - Length = 8
+GLL (gll_al.cc       ) 20:08.08: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:08.08: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 20:08.08: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 20:08.08: [DUMP]           00 02 00 31 
+GLL (gll_im.cc       ) 20:08.08: [DUMP] RX   [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 20:08.08: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 20:08.08: [DUMP]           00 02 00 31 
+GLL (ari.cc          ) 20:08.08: [INFO] Received packet - Type = 4 - Length = 14
+GLL (gll_im.cc       ) 20:08.08: [INFO] LINK QUAL at GLL IM is 49
+GLL (gll_im.cc       ) 20:08.08: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 20:08.08: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 20:08.08: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 20:08.08: [DUMP]           31 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 20:08.08: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 20:08.09: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 20:08.09: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 20:08.09: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 20:08.09: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 20:08.09: [DUMP]           00 04 61 74 68 30 
+GLL (ari.cc          ) 20:08.09: [INFO] Received packet - Type = 4 - Length = 8
+GLL (gll_al.cc       ) 20:08.09: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:08.09: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 20:08.09: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 20:08.09: [DUMP]           00 02 00 31 
+GLL (gll_im.cc       ) 20:08.09: [DUMP] RX   [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 20:08.09: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 20:08.09: [DUMP]           00 02 00 31 
+GLL (ari.cc          ) 20:08.09: [INFO] Received packet - Type = 4 - Length = 14
+GLL (gll_im.cc       ) 20:08.09: [INFO] LINK QUAL at GLL IM is 49
+GLL (gll_im.cc       ) 20:08.09: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 20:08.09: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 20:08.09: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 20:08.09: [DUMP]           31 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 20:08.09: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 20:08.18: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 20:08.18: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 20:08.18: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 20:08.18: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 20:08.18: [DUMP]           00 04 61 74 68 30 
+GLL (ari.cc          ) 20:08.18: [INFO] Received packet - Type = 4 - Length = 8
+GLL (gll_al.cc       ) 20:08.18: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:08.18: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 20:08.18: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 20:08.18: [DUMP]           00 02 00 2F 
+GLL (gll_im.cc       ) 20:08.18: [DUMP] RX   [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 20:08.18: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 20:08.18: [DUMP]           00 02 00 2F 
+GLL (ari.cc          ) 20:08.18: [INFO] Received packet - Type = 4 - Length = 14
+GLL (gll_im.cc       ) 20:08.18: [INFO] LINK QUAL at GLL IM is 47
+GLL (gll_im.cc       ) 20:08.18: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 20:08.18: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 20:08.18: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 20:08.18: [DUMP]           2F 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 20:08.18: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 20:08.19: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 20:08.19: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 20:08.19: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 20:08.19: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 20:08.19: [DUMP]           00 04 61 74 68 30 
+GLL (ari.cc          ) 20:08.19: [INFO] Received packet - Type = 4 - Length = 8
+GLL (gll_al.cc       ) 20:08.19: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:08.19: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 20:08.19: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 20:08.19: [DUMP]           00 02 00 34 
+GLL (gll_im.cc       ) 20:08.19: [DUMP] RX   [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 20:08.19: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 20:08.19: [DUMP]           00 02 00 34 
+GLL (ari.cc          ) 20:08.19: [INFO] Received packet - Type = 4 - Length = 14
+GLL (gll_im.cc       ) 20:08.19: [INFO] LINK QUAL at GLL IM is 52
+GLL (gll_im.cc       ) 20:08.19: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 20:08.19: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 20:08.19: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 20:08.19: [DUMP]           34 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 20:08.19: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 20:08.28: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 20:08.28: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 20:08.28: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 20:08.28: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 20:08.28: [DUMP]           00 04 61 74 68 30 
+GLL (ari.cc          ) 20:08.28: [INFO] Received packet - Type = 4 - Length = 8
+GLL (gll_al.cc       ) 20:08.28: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:08.28: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 20:08.28: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 20:08.28: [DUMP]           00 02 00 36 
+GLL (gll_im.cc       ) 20:08.28: [DUMP] RX   [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 20:08.28: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 20:08.28: [DUMP]           00 02 00 36 
+GLL (ari.cc          ) 20:08.28: [INFO] Received packet - Type = 4 - Length = 14
+GLL (gll_im.cc       ) 20:08.28: [INFO] LINK QUAL at GLL IM is 54
+GLL (gll_im.cc       ) 20:08.28: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 20:08.28: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 20:08.28: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 20:08.28: [DUMP]           36 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 20:08.28: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 20:08.29: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 20:08.29: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 20:08.29: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 20:08.29: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 20:08.29: [DUMP]           00 04 61 74 68 30 
+GLL (ari.cc          ) 20:08.29: [INFO] Received packet - Type = 4 - Length = 8
+GLL (gll_al.cc       ) 20:08.29: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:08.29: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 20:08.29: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 20:08.29: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 20:08.29: [DUMP] RX   [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 20:08.29: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 20:08.29: [DUMP]           00 02 00 37 
+GLL (ari.cc          ) 20:08.29: [INFO] Received packet - Type = 4 - Length = 14
+GLL (gll_im.cc       ) 20:08.29: [INFO] LINK QUAL at GLL IM is 55
+GLL (gll_im.cc       ) 20:08.29: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 20:08.29: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 20:08.29: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 20:08.29: [DUMP]           37 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 20:08.29: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 20:08.38: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 20:08.38: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 20:08.38: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 20:08.38: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 20:08.38: [DUMP]           00 04 61 74 68 30 
+GLL (ari.cc          ) 20:08.38: [INFO] Received packet - Type = 4 - Length = 8
+GLL (gll_al.cc       ) 20:08.38: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:08.38: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 20:08.38: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 20:08.38: [DUMP]           00 02 00 31 
+GLL (gll_im.cc       ) 20:08.38: [DUMP] RX   [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 20:08.38: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 20:08.38: [DUMP]           00 02 00 31 
+GLL (ari.cc          ) 20:08.38: [INFO] Received packet - Type = 4 - Length = 14
+GLL (gll_im.cc       ) 20:08.38: [INFO] LINK QUAL at GLL IM is 49
+GLL (gll_im.cc       ) 20:08.38: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 20:08.38: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 20:08.38: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 20:08.38: [DUMP]           31 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 20:08.38: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 20:08.39: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 20:08.39: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 20:08.39: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 20:08.39: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 20:08.39: [DUMP]           00 04 61 74 68 30 
+GLL (ari.cc          ) 20:08.39: [INFO] Received packet - Type = 4 - Length = 8
+GLL (gll_al.cc       ) 20:08.39: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:08.39: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 20:08.39: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 20:08.39: [DUMP]           00 02 00 31 
+GLL (gll_im.cc       ) 20:08.39: [DUMP] RX   [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 20:08.39: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 20:08.39: [DUMP]           00 02 00 31 
+GLL (ari.cc          ) 20:08.39: [INFO] Received packet - Type = 4 - Length = 14
+GLL (gll_im.cc       ) 20:08.39: [INFO] LINK QUAL at GLL IM is 49
+GLL (gll_im.cc       ) 20:08.39: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 20:08.39: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 20:08.39: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 20:08.39: [DUMP]           31 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 20:08.39: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 20:08.48: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 20:08.48: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 20:08.48: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 20:08.48: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 20:08.48: [DUMP]           00 04 61 74 68 30 
+GLL (ari.cc          ) 20:08.48: [INFO] Received packet - Type = 4 - Length = 8
+GLL (gll_al.cc       ) 20:08.48: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:08.48: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 20:08.48: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 20:08.48: [DUMP]           00 02 00 31 
+GLL (gll_im.cc       ) 20:08.48: [DUMP] RX   [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 20:08.48: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 20:08.48: [DUMP]           00 02 00 31 
+GLL (ari.cc          ) 20:08.48: [INFO] Received packet - Type = 4 - Length = 14
+GLL (gll_im.cc       ) 20:08.48: [INFO] LINK QUAL at GLL IM is 49
+GLL (gll_im.cc       ) 20:08.48: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 20:08.48: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 20:08.48: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 20:08.48: [DUMP]           31 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 20:08.48: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 20:08.49: [INFO] Sending info to GLL_al ...
+GLL (gll_im.cc       ) 20:08.49: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 20:08.49: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 20:08.49: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 20:08.49: [DUMP]           00 04 61 74 68 30 
+GLL (ari.cc          ) 20:08.49: [INFO] Received packet - Type = 4 - Length = 8
+GLL (gll_al.cc       ) 20:08.49: [INFO] Sending info to GLL_im ...
+GLL (gll_al.cc       ) 20:08.49: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 20:08.49: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 20:08.49: [DUMP]           00 02 00 30 
+GLL (gll_im.cc       ) 20:08.49: [DUMP] RX   [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 20:08.49: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 20:08.49: [DUMP]           00 02 00 30 
+GLL (ari.cc          ) 20:08.49: [INFO] Received packet - Type = 4 - Length = 14
+GLL (gll_im.cc       ) 20:08.49: [INFO] LINK QUAL at GLL IM is 48
+GLL (gll_im.cc       ) 20:08.49: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 20:08.49: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 20:08.49: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 20:08.49: [DUMP]           30 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 20:08.49: [DUMP]           30 08 02 00 01 41 
+GLL (GLL_main.cc     ) 20:08.56: [INFO] Recieved SIGINT/SIGTERM signal
+GLL (gll_daemon.cc   ) 20:08.56: [INFO] m_threadID = 135050240, pthread_self = 135049216
+GLL (wsi_packet.cc   ) 20:08.56: [INFO] len_ = 0
+GLL (wsi_packet.cc   ) 20:08.56: [INFO] Added tlv with type = 0110 and lenght = 1
+GLL (gll_im.cc       ) 20:08.56: [INFO] Sending UnregisterToACSF.Request to WRAPPER
+GLL (gll_im.cc       ) 20:08.56: [DUMP] SEND [13] 01 02 00 05 05 02 00 C0 
+GLL (gll_im.cc       ) 20:08.56: [DUMP]           01 10 00 01 03 

@@ -1,0 +1,929 @@
+GLL (gll_daemon.cc   ) 19:08.45: [INFO] MRRM is listening at port 2504
+GLL (gll_daemon.cc   ) 19:08.45: [INFO] WRAPPER is listening at port 5050
+GLL (gll_daemon.cc   ) 19:08.45: [INFO] m_threadID = 135054336 - ret_ = 0
+GLL (gll_al.cc       ) 19:08.45: [INFO] ARI_AL port 4001 is open
+GLL (gll_im.cc       ) 19:08.45: [INFO] MGI port 6060 is open
+GLL (gll_im.cc       ) 19:08.45: [INFO] ARI_IM port 3002 is open
+GLL (gll_im.cc       ) 19:08.45: [INFO] SENT WSI_RegisterToACSF.Request
+GLL (gll_im.cc       ) 19:08.45: [DUMP] SEND [33] 01 02 00 19 05 01 00 C0 
+GLL (gll_im.cc       ) 19:08.45: [DUMP]           01 10 00 01 03 0A 01 00 
+GLL (gll_im.cc       ) 19:08.45: [DUMP]           10 00 00 00 8D 00 00 00 
+GLL (gll_im.cc       ) 19:08.45: [DUMP]           00 00 00 00 00 00 00 00 
+GLL (gll_im.cc       ) 19:08.45: [DUMP]           00 
+GLL (gll_daemon.cc   ) 19:08.45: [INFO] Going to main loop
+GLL (gll_im.cc       ) 19:08.45: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 19:08.45: [DUMP] RX   [25] 01 02 00 11 05 01 01 80 
+GLL (gll_im.cc       ) 19:08.45: [DUMP]           01 01 00 01 01 0A 01 00 
+GLL (gll_im.cc       ) 19:08.45: [DUMP]           08 00 00 00 8D 00 00 00 
+GLL (gll_im.cc       ) 19:08.45: [DUMP]           00 
+GLL (gll_im.cc       ) 19:08.45: [INFO] RCVD WSI_RegisterACSF.Answer
+GLL (gll_im.cc       ) 19:08.45: [INFO] GLL has been registered successfully to ACSF
+GLL (gll_al.cc       ) 19:08.50: [INFO] New interface available
+GLL (gll_al.cc       ) 19:08.50: [INFO] Iface name: ath0
+GLL (gll_al.cc       ) 19:08.50: [DUMP] MAC Addr [ 6] 00 13 46 6C CA 36 
+GLL (gll_al.cc       ) 19:08.50: [INFO] Technology type = 400
+GLL (gll_al.cc       ) 19:08.50: [INFO] SENT ARI_NewDevice.Request
+GLL (gll_al.cc       ) 19:08.50: [DUMP] ARI  [30] 01 40 00 01 00 18 10 01 
+GLL (gll_al.cc       ) 19:08.50: [DUMP]           00 02 04 00 40 01 00 04 
+GLL (gll_al.cc       ) 19:08.50: [DUMP]           61 74 68 30 80 01 00 06 
+GLL (gll_al.cc       ) 19:08.50: [DUMP]           00 13 46 6C CA 36 
+GLL (gll_im.cc       ) 19:08.50: [INFO] RCVD ARI_NewDevice
+GLL (gll_im.cc       ) 19:08.50: [DUMP] ARI  [30] 01 40 00 01 00 18 10 01 
+GLL (gll_im.cc       ) 19:08.50: [DUMP]           00 02 04 00 40 01 00 04 
+GLL (gll_im.cc       ) 19:08.50: [DUMP]           61 74 68 30 80 01 00 06 
+GLL (gll_im.cc       ) 19:08.50: [DUMP]           00 13 46 6C CA 36 
+GLL (gll_im.cc       ) 19:08.50: [INFO] Device Identifier = ath0
+GLL (gll_im.cc       ) 19:08.50: [INFO] Technology Type = 400
+GLL (gll_im.cc       ) 19:08.50: [INFO] SENT MGI_DeviceRegistration.Request
+GLL (gll_im.cc       ) 19:08.50: [DUMP] SEND [46] 01 01 00 26 01 01 00 C0 
+GLL (gll_im.cc       ) 19:08.50: [DUMP]           01 02 00 04 28 8C 04 00 
+GLL (gll_im.cc       ) 19:08.50: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 19:08.50: [DUMP]           05 01 00 02 17 AC 06 01 
+GLL (gll_im.cc       ) 19:08.50: [DUMP]           00 04 00 00 00 03 06 03 
+GLL (gll_im.cc       ) 19:08.50: [DUMP]           00 04 00 10 00 01 
+GLL (gll_im.cc       ) 19:08.50: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 19:08.50: [DUMP] RX   [21] 01 01 00 0D 01 01 01 00 
+GLL (gll_im.cc       ) 19:08.50: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 19:08.50: [DUMP]           01 01 00 01 01 
+GLL (gll_im.cc       ) 19:08.50: [INFO] RCVD MGI_DeviceRegistration.Answer
+GLL (gll_im.cc       ) 19:08.50: [INFO] 	dev = ath0 - resultcode = 1
+GLL (gll_im.cc       ) 19:08.50: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 19:08.50: [DUMP] RX   [69] 01 01 00 3D 01 03 00 40 
+GLL (gll_im.cc       ) 19:08.50: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 19:08.50: [DUMP]           02 01 00 31 01 07 00 04 
+GLL (gll_im.cc       ) 19:08.50: [DUMP]           00 00 00 30 04 06 00 08 
+GLL (gll_im.cc       ) 19:08.50: [DUMP]           0A 00 00 19 0A 00 00 28 
+GLL (gll_im.cc       ) 19:08.50: [DUMP]           08 0B 00 04 00 00 27 10 
+GLL (gll_im.cc       ) 19:08.50: [DUMP]           08 0C 00 01 FF 01 09 00 
+GLL (gll_im.cc       ) 19:08.50: [DUMP]           04 00 00 00 01 08 0D 00 
+GLL (gll_im.cc       ) 19:08.50: [DUMP]           04 00 00 01 F4 
+GLL (gll_im.cc       ) 19:08.50: [INFO] RCVD MGI_CandidateReport.Request
+GLL (gll_im.cc       ) 19:08.50: [INFO] Report every 10000 msec from ath0
+GLL (gll_im.cc       ) 19:08.50: [INFO] SENT MGI_CandidateReport.Answer
+GLL (gll_im.cc       ) 19:08.50: [INFO] 	- ResultCode = 1
+GLL (gll_im.cc       ) 19:08.50: [DUMP] SEND [21] 01 01 00 0D 01 03 01 80 
+GLL (gll_im.cc       ) 19:08.50: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 19:08.50: [DUMP]           04 61 74 68 30 
+GLL (gll_im.cc       ) 19:09.00: [INFO] Timer expired, get SNR of device ath0
+GLL (gll_im.cc       ) 19:09.00: [INFO] SENT ARI_CandidateReport.Request
+GLL (gll_im.cc       ) 19:09.00: [DUMP] ARI  [14] 01 40 00 02 00 08 40 01 
+GLL (gll_im.cc       ) 19:09.00: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:09.00: [INFO] RCVD ARI_CandidateReport
+GLL (gll_al.cc       ) 19:09.00: [DUMP] RX   [14] 01 40 00 02 00 08 40 01 
+GLL (gll_al.cc       ) 19:09.00: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:09.07: [INFO] SENT ARI_CandidateReport.Indication
+GLL (gll_al.cc       ) 19:09.07: [INFO] 	- Device ID : ath0
+GLL (gll_al.cc       ) 19:09.07: [DUMP] ARI  [40] 01 C0 00 02 00 22 40 01 
+GLL (gll_al.cc       ) 19:09.07: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 19:09.07: [DUMP]           00 06 54 65 73 74 41 50 
+GLL (gll_al.cc       ) 19:09.07: [DUMP]           50 01 00 02 00 3D 80 02 
+GLL (gll_al.cc       ) 19:09.07: [DUMP]           00 06 00 11 95 F3 85 2E 
+GLL (gll_al.cc       ) 19:09.07: [INFO] SENT ARI_CandidateReport.Indication
+GLL (gll_al.cc       ) 19:09.07: [INFO] 	- Device ID : ath0
+GLL (gll_al.cc       ) 19:09.07: [DUMP] ARI  [41] 01 C0 00 02 00 23 40 01 
+GLL (gll_al.cc       ) 19:09.07: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 19:09.07: [DUMP]           00 07 41 69 72 47 54 41 
+GLL (gll_al.cc       ) 19:09.07: [DUMP]           53 50 01 00 02 00 10 80 
+GLL (gll_al.cc       ) 19:09.07: [DUMP]           02 00 06 00 12 17 C2 50 
+GLL (gll_al.cc       ) 19:09.07: [DUMP]           93 
+GLL (gll_al.cc       ) 19:09.07: [INFO] SENT ARI_CandidateReport.Indication
+GLL (gll_al.cc       ) 19:09.07: [INFO] 	- Device ID : ath0
+GLL (gll_al.cc       ) 19:09.07: [DUMP] ARI  [37] 01 C0 00 02 00 1F 40 01 
+GLL (gll_al.cc       ) 19:09.07: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 19:09.07: [DUMP]           00 03 47 49 54 50 01 00 
+GLL (gll_al.cc       ) 19:09.07: [DUMP]           02 00 2A 80 02 00 06 00 
+GLL (gll_al.cc       ) 19:09.07: [DUMP]           16 B6 2B 84 CE 
+GLL (gll_al.cc       ) 19:09.07: [INFO] SENT ARI_CandidateReport.Indication
+GLL (gll_al.cc       ) 19:09.07: [INFO] 	- Device ID : ath0
+GLL (gll_al.cc       ) 19:09.07: [DUMP] ARI  [41] 01 C0 00 02 00 23 40 01 
+GLL (gll_al.cc       ) 19:09.07: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 19:09.07: [DUMP]           00 07 47 54 41 53 47 45 
+GLL (gll_al.cc       ) 19:09.07: [DUMP]           4E 50 01 00 02 00 10 80 
+GLL (gll_al.cc       ) 19:09.07: [DUMP]           02 00 06 00 16 B6 C1 1E 
+GLL (gll_al.cc       ) 19:09.07: [DUMP]           8F 
+GLL (gll_im.cc       ) 19:09.07: [INFO] RCVD ARI_CandidateReport
+GLL (gll_im.cc       ) 19:09.07: [DUMP] ARI  [40] 01 C0 00 02 00 22 40 01 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           00 06 54 65 73 74 41 50 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           50 01 00 02 00 3D 80 02 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           00 06 00 11 95 F3 85 2E 
+GLL (gll_im.cc       ) 19:09.07: [INFO] Network ID = TestAP
+GLL (gll_im.cc       ) 19:09.07: [DUMP] CellID [ 8] 00 11 95 F3 85 2E 00 00 
+GLL (gll_im.cc       ) 19:09.07: [INFO] Rssi = 61
+GLL (gll_im.cc       ) 19:09.07: [INFO] SENT MGI_CandidateReport.Indication
+GLL (gll_im.cc       ) 19:09.07: [DUMP] SEND [55] 01 01 00 2F 01 03 03 80 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           01 02 00 04 28 8C 04 00 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           3D 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           30 08 04 00 08 00 11 95 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           F3 85 2E 00 00 09 02 00 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           06 54 65 73 74 41 50 
+GLL (gll_im.cc       ) 19:09.07: [INFO] RCVD ARI_CandidateReport
+GLL (gll_im.cc       ) 19:09.07: [DUMP] ARI  [41] 01 C0 00 02 00 23 40 01 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           00 07 41 69 72 47 54 41 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           53 50 01 00 02 00 10 80 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           02 00 06 00 12 17 C2 50 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           93 
+GLL (gll_im.cc       ) 19:09.07: [INFO] Network ID = AirGTAS
+GLL (gll_im.cc       ) 19:09.07: [DUMP] CellID [ 8] 00 12 17 C2 50 93 00 00 
+GLL (gll_im.cc       ) 19:09.07: [INFO] Rssi = 16
+GLL (gll_im.cc       ) 19:09.07: [INFO] SENT MGI_CandidateReport.Indication
+GLL (gll_im.cc       ) 19:09.07: [DUMP] SEND [56] 01 01 00 30 01 03 03 80 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           01 02 00 04 28 8C 04 00 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           10 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           30 08 04 00 08 00 12 17 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           C2 50 93 00 00 09 02 00 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           07 41 69 72 47 54 41 53 
+GLL (gll_im.cc       ) 19:09.07: [INFO] RCVD ARI_CandidateReport
+GLL (gll_im.cc       ) 19:09.07: [DUMP] ARI  [37] 01 C0 00 02 00 1F 40 01 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           00 03 47 49 54 50 01 00 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           02 00 2A 80 02 00 06 00 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           16 B6 2B 84 CE 
+GLL (gll_im.cc       ) 19:09.07: [INFO] Network ID = GIT
+GLL (gll_im.cc       ) 19:09.07: [DUMP] CellID [ 8] 00 16 B6 2B 84 CE 00 00 
+GLL (gll_im.cc       ) 19:09.07: [INFO] Rssi = 42
+GLL (gll_im.cc       ) 19:09.07: [INFO] SENT MGI_CandidateReport.Indication
+GLL (gll_im.cc       ) 19:09.07: [DUMP] SEND [52] 01 01 00 2C 01 03 03 80 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           01 02 00 04 28 8C 04 00 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           2A 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           30 08 04 00 08 00 16 B6 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           2B 84 CE 00 00 09 02 00 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           03 47 49 54 
+GLL (gll_im.cc       ) 19:09.07: [INFO] RCVD ARI_CandidateReport
+GLL (gll_im.cc       ) 19:09.07: [DUMP] ARI  [41] 01 C0 00 02 00 23 40 01 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           00 07 47 54 41 53 47 45 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           4E 50 01 00 02 00 10 80 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           02 00 06 00 16 B6 C1 1E 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           8F 
+GLL (gll_im.cc       ) 19:09.07: [INFO] Network ID = GTASGEN
+GLL (gll_im.cc       ) 19:09.07: [DUMP] CellID [ 8] 00 16 B6 C1 1E 8F 00 00 
+GLL (gll_im.cc       ) 19:09.07: [INFO] Rssi = 16
+GLL (gll_im.cc       ) 19:09.07: [INFO] SENT MGI_CandidateReport.Indication
+GLL (gll_im.cc       ) 19:09.07: [DUMP] SEND [56] 01 01 00 30 01 03 03 80 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           01 02 00 04 28 8C 04 00 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           10 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           30 08 04 00 08 00 16 B6 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           C1 1E 8F 00 00 09 02 00 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           07 47 54 41 53 47 45 4E 
+GLL (gll_im.cc       ) 19:09.07: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 19:09.07: [DUMP] RX   [51] 01 01 00 2B 01 05 00 40 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           09 02 00 06 54 65 73 74 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           41 50 08 04 00 08 00 11 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           95 F3 85 2E 00 00 08 02 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           00 04 00 00 00 40 01 06 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           00 01 01 
+GLL (gll_im.cc       ) 19:09.07: [INFO] RCVD MGI_LinkAttach.Request
+GLL (gll_im.cc       ) 19:09.07: [INFO] SENT ARI_LinkAttach.Request
+GLL (gll_im.cc       ) 19:09.07: [DUMP] ARI  [24] 01 40 00 03 00 12 40 01 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 19:09.07: [DUMP]           00 06 54 65 73 74 41 50 
+GLL (gll_im.cc       ) 19:09.07: [INFO] Device ath0 - is waiting link attach
+GLL (gll_im.cc       ) 19:09.07: [INFO] 	- Network ID = TestAP
+GLL (gll_im.cc       ) 19:09.07: [INFO] 	- Local Link ID = 64
+GLL (gll_im.cc       ) 19:09.07: [DUMP] BSSID [ 8] 00 11 95 F3 85 2E 00 00 
+GLL (gll_al.cc       ) 19:09.07: [INFO] RCVD ARI_LinkAttach
+GLL (gll_al.cc       ) 19:09.07: [DUMP] RX   [24] 01 40 00 03 00 12 40 01 
+GLL (gll_al.cc       ) 19:09.07: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 19:09.07: [DUMP]           00 06 54 65 73 74 41 50 
+GLL (netInterface.cc ) 19:09.07: [INFO] Connecting to TestAP
+GLL (netInterface.cc ) 19:09.16: [INFO] Interface ath0 is associated
+GLL (gll_al.cc       ) 19:09.16: [DUMP] SSID [ 6] 00 00 00 00 00 00 
+GLL (netInterface.cc ) 19:09.16: [DUMP] BSSID [ 6] 00 11 95 F3 85 2E 
+GLL (gll_al.cc       ) 19:09.16: [INFO] SENT ARI_LinkAttach.Indication
+GLL (gll_al.cc       ) 19:09.16: [DUMP] ARI  [34] 01 C0 00 03 00 1C 40 01 
+GLL (gll_al.cc       ) 19:09.16: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 19:09.16: [DUMP]           00 06 54 65 73 74 41 50 
+GLL (gll_al.cc       ) 19:09.16: [DUMP]           80 02 00 06 00 11 95 F3 
+GLL (gll_al.cc       ) 19:09.16: [DUMP]           85 2E 
+GLL (gll_im.cc       ) 19:09.16: [INFO] RCVD ARI_LinkAttach
+GLL (gll_im.cc       ) 19:09.16: [DUMP] ARI  [34] 01 C0 00 03 00 1C 40 01 
+GLL (gll_im.cc       ) 19:09.16: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 19:09.16: [DUMP]           00 06 54 65 73 74 41 50 
+GLL (gll_im.cc       ) 19:09.16: [DUMP]           80 02 00 06 00 11 95 F3 
+GLL (gll_im.cc       ) 19:09.16: [DUMP]           85 2E 
+GLL (gll_im.cc       ) 19:09.16: [INFO] Connected with network TestAP
+GLL (gll_im.cc       ) 19:09.16: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 19:09.16: [INFO] SENT MGI_LinkAttach.Answer
+GLL (gll_im.cc       ) 19:09.16: [DUMP] SEND [26] 01 01 00 12 01 05 01 80 
+GLL (gll_im.cc       ) 19:09.16: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 19:09.16: [DUMP]           04 61 74 68 30 08 02 00 
+GLL (gll_im.cc       ) 19:09.16: [DUMP]           01 40 
+GLL (gll_im.cc       ) 19:09.16: [INFO] SENT WSI_LinkAttach.Answer
+GLL (gll_im.cc       ) 19:09.16: [DUMP] SEND [26] 01 02 00 12 03 01 01 80 
+GLL (gll_im.cc       ) 19:09.16: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 19:09.16: [DUMP]           09 02 00 06 54 65 73 74 
+GLL (gll_im.cc       ) 19:09.16: [DUMP]           41 50 
+GLL (gll_im.cc       ) 19:09.16: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 19:09.16: [DUMP] RX   [77] 01 01 00 45 01 0B 00 40 
+GLL (gll_im.cc       ) 19:09.16: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 19:09.16: [DUMP]           08 02 00 04 00 00 00 40 
+GLL (gll_im.cc       ) 19:09.16: [DUMP]           02 01 00 31 01 07 00 04 
+GLL (gll_im.cc       ) 19:09.16: [DUMP]           00 00 00 30 04 06 00 08 
+GLL (gll_im.cc       ) 19:09.16: [DUMP]           0B 00 00 19 0B 00 00 28 
+GLL (gll_im.cc       ) 19:09.16: [DUMP]           08 0B 00 04 00 00 27 10 
+GLL (gll_im.cc       ) 19:09.16: [DUMP]           08 0C 00 01 FF 01 09 00 
+GLL (gll_im.cc       ) 19:09.16: [DUMP]           04 00 00 00 01 08 0D 00 
+GLL (gll_im.cc       ) 19:09.16: [DUMP]           04 00 00 01 F4 
+GLL (gll_im.cc       ) 19:09.16: [INFO] RCVD MGI_LinkReport.Request
+GLL (gll_im.cc       ) 19:09.16: [INFO] Report every 10000 msec from ath0
+GLL (gll_im.cc       ) 19:09.16: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 19:09.16: [INFO] SENT MGI_LinkAttach.Answer
+GLL (gll_im.cc       ) 19:09.16: [DUMP] SEND [26] 01 01 00 12 01 0B 01 80 
+GLL (gll_im.cc       ) 19:09.16: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 19:09.16: [DUMP]           04 61 74 68 30 08 02 00 
+GLL (gll_im.cc       ) 19:09.16: [DUMP]           01 40 
+GLL (gll_im.cc       ) 19:09.16: [ERR ] Received CandidateReport.Type, GLL IM is not able to handle type
+GLL (gll_im.cc       ) 19:09.26: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 19:09.26: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 19:09.26: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:09.26: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 19:09.26: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 19:09.26: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:09.26: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 19:09.26: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 19:09.26: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 19:09.26: [DUMP]           00 02 00 36 
+GLL (gll_im.cc       ) 19:09.26: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 19:09.26: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 19:09.26: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 19:09.26: [DUMP]           00 02 00 36 
+GLL (gll_im.cc       ) 19:09.26: [INFO] LINK QUAL at GLL IM is 54
+GLL (gll_im.cc       ) 19:09.26: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 19:09.26: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 19:09.26: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 19:09.26: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:09.26: [DUMP]           36 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:09.26: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 19:09.36: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 19:09.36: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 19:09.36: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:09.36: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 19:09.36: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 19:09.36: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:09.36: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 19:09.36: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 19:09.36: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 19:09.36: [DUMP]           00 02 00 36 
+GLL (gll_im.cc       ) 19:09.36: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 19:09.36: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 19:09.36: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 19:09.36: [DUMP]           00 02 00 36 
+GLL (gll_im.cc       ) 19:09.36: [INFO] LINK QUAL at GLL IM is 54
+GLL (gll_im.cc       ) 19:09.36: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 19:09.36: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 19:09.36: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 19:09.36: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:09.36: [DUMP]           36 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:09.36: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 19:09.46: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 19:09.46: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 19:09.46: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:09.46: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 19:09.46: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 19:09.46: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:09.46: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 19:09.46: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 19:09.46: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 19:09.46: [DUMP]           00 02 00 38 
+GLL (gll_im.cc       ) 19:09.46: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 19:09.46: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 19:09.46: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 19:09.46: [DUMP]           00 02 00 38 
+GLL (gll_im.cc       ) 19:09.46: [INFO] LINK QUAL at GLL IM is 56
+GLL (gll_im.cc       ) 19:09.46: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 19:09.46: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 19:09.46: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 19:09.46: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:09.46: [DUMP]           38 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:09.46: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 19:09.51: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 19:09.51: [DUMP] RX   [48] 01 01 00 28 01 05 00 40 
+GLL (gll_im.cc       ) 19:09.51: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 19:09.51: [DUMP]           09 02 00 03 47 49 54 08 
+GLL (gll_im.cc       ) 19:09.51: [DUMP]           04 00 08 00 16 B6 2B 84 
+GLL (gll_im.cc       ) 19:09.51: [DUMP]           CE 00 00 08 02 00 04 00 
+GLL (gll_im.cc       ) 19:09.51: [DUMP]           00 00 41 01 06 00 01 01 
+GLL (gll_im.cc       ) 19:09.51: [INFO] RCVD MGI_LinkAttach.Request
+GLL (gll_im.cc       ) 19:09.51: [INFO] SENT ARI_LinkAttach.Request
+GLL (gll_im.cc       ) 19:09.51: [DUMP] ARI  [21] 01 40 00 03 00 0F 40 01 
+GLL (gll_im.cc       ) 19:09.51: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 19:09.51: [DUMP]           00 03 47 49 54 
+GLL (gll_im.cc       ) 19:09.51: [INFO] Device ath0 - is waiting link attach
+GLL (gll_im.cc       ) 19:09.51: [INFO] 	- Network ID = GIT
+GLL (gll_im.cc       ) 19:09.51: [INFO] 	- Local Link ID = 65
+GLL (gll_im.cc       ) 19:09.51: [DUMP] BSSID [ 8] 00 16 B6 2B 84 CE 00 00 
+GLL (gll_al.cc       ) 19:09.51: [INFO] RCVD ARI_LinkAttach
+GLL (gll_al.cc       ) 19:09.51: [DUMP] RX   [21] 01 40 00 03 00 0F 40 01 
+GLL (gll_al.cc       ) 19:09.51: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 19:09.51: [DUMP]           00 03 47 49 54 
+GLL (netInterface.cc ) 19:09.51: [INFO] Connecting to GIT
+GLL (gll_im.cc       ) 19:09.56: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 19:09.56: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 19:09.56: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:09.56: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 19:09.56: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 19:09.56: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:09.56: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 19:09.56: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 19:09.56: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 19:09.56: [DUMP]           00 02 00 16 
+GLL (gll_im.cc       ) 19:09.56: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 19:09.56: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 19:09.56: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 19:09.56: [DUMP]           00 02 00 16 
+GLL (gll_im.cc       ) 19:09.56: [INFO] LINK QUAL at GLL IM is 22
+GLL (gll_im.cc       ) 19:09.56: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 19:09.56: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 19:09.56: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 19:09.56: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:09.56: [DUMP]           16 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:09.56: [DUMP]           30 08 02 00 01 41 
+GLL (netInterface.cc ) 19:10.00: [INFO] Interface ath0 is associated
+GLL (gll_al.cc       ) 19:10.00: [DUMP] SSID [ 6] 00 00 00 00 00 00 
+GLL (netInterface.cc ) 19:10.00: [DUMP] BSSID [ 6] 00 16 B6 2B 84 CE 
+GLL (gll_al.cc       ) 19:10.00: [INFO] SENT ARI_LinkAttach.Indication
+GLL (gll_al.cc       ) 19:10.00: [DUMP] ARI  [31] 01 C0 00 03 00 19 40 01 
+GLL (gll_al.cc       ) 19:10.00: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 19:10.00: [DUMP]           00 03 47 49 54 80 02 00 
+GLL (gll_al.cc       ) 19:10.00: [DUMP]           06 00 16 B6 2B 84 CE 
+GLL (gll_im.cc       ) 19:10.00: [INFO] RCVD ARI_LinkAttach
+GLL (gll_im.cc       ) 19:10.00: [DUMP] ARI  [31] 01 C0 00 03 00 19 40 01 
+GLL (gll_im.cc       ) 19:10.00: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 19:10.00: [DUMP]           00 03 47 49 54 80 02 00 
+GLL (gll_im.cc       ) 19:10.00: [DUMP]           06 00 16 B6 2B 84 CE 
+GLL (gll_im.cc       ) 19:10.00: [INFO] Connected with network GIT
+GLL (gll_im.cc       ) 19:10.00: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 19:10.00: [INFO] SENT MGI_LinkAttach.Answer
+GLL (gll_im.cc       ) 19:10.00: [DUMP] SEND [26] 01 01 00 12 01 05 01 80 
+GLL (gll_im.cc       ) 19:10.00: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 19:10.00: [DUMP]           04 61 74 68 30 08 02 00 
+GLL (gll_im.cc       ) 19:10.00: [DUMP]           01 41 
+GLL (gll_im.cc       ) 19:10.00: [INFO] SENT WSI_LinkAttach.Answer
+GLL (gll_im.cc       ) 19:10.00: [DUMP] SEND [23] 01 02 00 0F 03 01 01 80 
+GLL (gll_im.cc       ) 19:10.00: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 19:10.00: [DUMP]           09 02 00 03 47 49 54 
+GLL (gll_im.cc       ) 19:10.00: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 19:10.00: [DUMP] RX   [77] 01 01 00 45 01 0B 00 40 
+GLL (gll_im.cc       ) 19:10.00: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 19:10.00: [DUMP]           08 02 00 04 00 00 00 41 
+GLL (gll_im.cc       ) 19:10.00: [DUMP]           02 01 00 31 01 07 00 04 
+GLL (gll_im.cc       ) 19:10.00: [DUMP]           00 00 00 30 04 06 00 08 
+GLL (gll_im.cc       ) 19:10.00: [DUMP]           0B 00 00 19 0B 00 00 28 
+GLL (gll_im.cc       ) 19:10.00: [DUMP]           08 0B 00 04 00 00 27 10 
+GLL (gll_im.cc       ) 19:10.00: [DUMP]           08 0C 00 01 FF 01 09 00 
+GLL (gll_im.cc       ) 19:10.00: [DUMP]           04 00 00 00 01 08 0D 00 
+GLL (gll_im.cc       ) 19:10.00: [DUMP]           04 00 00 01 F4 
+GLL (gll_im.cc       ) 19:10.00: [INFO] RCVD MGI_LinkReport.Request
+GLL (gll_im.cc       ) 19:10.00: [INFO] Report every 10000 msec from ath0
+GLL (gll_im.cc       ) 19:10.00: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 19:10.00: [INFO] SENT MGI_LinkAttach.Answer
+GLL (gll_im.cc       ) 19:10.00: [DUMP] SEND [26] 01 01 00 12 01 0B 01 80 
+GLL (gll_im.cc       ) 19:10.00: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 19:10.00: [DUMP]           04 61 74 68 30 08 02 00 
+GLL (gll_im.cc       ) 19:10.00: [DUMP]           01 41 
+GLL (gll_im.cc       ) 19:10.00: [ERR ] Received CandidateReport.Type, GLL IM is not able to handle type
+GLL (gll_im.cc       ) 19:10.01: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 19:10.01: [DUMP] RX   [29] 01 01 00 15 01 07 00 40 
+GLL (gll_im.cc       ) 19:10.01: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 19:10.01: [DUMP]           08 02 00 04 00 00 00 40 
+GLL (gll_im.cc       ) 19:10.01: [DUMP]           01 06 00 01 02 
+GLL (gll_im.cc       ) 19:10.01: [INFO] Received LinkDettach.Request
+GLL (gll_im.cc       ) 19:10.01: [INFO] Detach device Identifier = ath0
+GLL (gll_im.cc       ) 19:10.01: [INFO] 	- Local Link ID = 64
+GLL (gll_im.cc       ) 19:10.01: [INFO] SENT MGI_LinkDetach.Answer
+GLL (gll_im.cc       ) 19:10.01: [DUMP] SEND [26] 01 01 00 12 01 07 01 80 
+GLL (gll_im.cc       ) 19:10.01: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 19:10.01: [DUMP]           04 61 74 68 30 08 02 00 
+GLL (gll_im.cc       ) 19:10.01: [DUMP]           01 40 
+GLL (gll_im.cc       ) 19:10.01: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 19:10.01: [DUMP] RX   [91] 01 01 00 53 01 03 00 40 
+GLL (gll_im.cc       ) 19:10.01: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 19:10.01: [DUMP]           09 02 00 06 54 65 73 74 
+GLL (gll_im.cc       ) 19:10.01: [DUMP]           41 50 08 04 00 08 00 11 
+GLL (gll_im.cc       ) 19:10.01: [DUMP]           95 F3 85 2E 00 00 02 01 
+GLL (gll_im.cc       ) 19:10.01: [DUMP]           00 31 01 07 00 04 00 00 
+GLL (gll_im.cc       ) 19:10.01: [DUMP]           00 30 04 06 00 08 0A 00 
+GLL (gll_im.cc       ) 19:10.01: [DUMP]           00 19 0A 00 00 28 08 0B 
+GLL (gll_im.cc       ) 19:10.01: [DUMP]           00 04 00 00 27 10 08 0C 
+GLL (gll_im.cc       ) 19:10.01: [DUMP]           00 01 FF 01 09 00 04 00 
+GLL (gll_im.cc       ) 19:10.01: [DUMP]           00 00 01 08 0D 00 04 00 
+GLL (gll_im.cc       ) 19:10.01: [DUMP]           00 01 F4 
+GLL (gll_im.cc       ) 19:10.01: [INFO] RCVD MGI_CandidateReport.Request
+GLL (gll_im.cc       ) 19:10.01: [INFO] Report every 10000 msec from ath0
+GLL (gll_im.cc       ) 19:10.01: [INFO] SENT MGI_CandidateReport.Answer
+GLL (gll_im.cc       ) 19:10.01: [INFO] 	- ResultCode = 1
+GLL (gll_im.cc       ) 19:10.01: [DUMP] SEND [21] 01 01 00 0D 01 03 01 80 
+GLL (gll_im.cc       ) 19:10.01: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 19:10.01: [DUMP]           04 61 74 68 30 
+GLL (gll_im.cc       ) 19:10.06: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 19:10.06: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 19:10.06: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.06: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 19:10.06: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 19:10.06: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.06: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 19:10.06: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 19:10.06: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 19:10.06: [DUMP]           00 02 00 28 
+GLL (gll_im.cc       ) 19:10.06: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 19:10.06: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 19:10.06: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 19:10.06: [DUMP]           00 02 00 28 
+GLL (gll_im.cc       ) 19:10.06: [INFO] LINK QUAL at GLL IM is 40
+GLL (gll_im.cc       ) 19:10.06: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 19:10.06: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 19:10.06: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 19:10.06: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:10.06: [DUMP]           28 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:10.06: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 19:10.10: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 19:10.10: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 19:10.10: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.10: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 19:10.10: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 19:10.10: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.10: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 19:10.10: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 19:10.10: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 19:10.10: [DUMP]           00 02 00 28 
+GLL (gll_im.cc       ) 19:10.10: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 19:10.10: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 19:10.10: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 19:10.10: [DUMP]           00 02 00 28 
+GLL (gll_im.cc       ) 19:10.10: [INFO] LINK QUAL at GLL IM is 40
+GLL (gll_im.cc       ) 19:10.10: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 19:10.10: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 19:10.10: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 19:10.10: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:10.10: [DUMP]           28 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:10.10: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 19:10.11: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 19:10.11: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 19:10.11: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.11: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 19:10.11: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 19:10.11: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.11: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 19:10.11: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 19:10.11: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 19:10.11: [DUMP]           00 02 00 29 
+GLL (gll_im.cc       ) 19:10.11: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 19:10.11: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 19:10.11: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 19:10.11: [DUMP]           00 02 00 29 
+GLL (gll_im.cc       ) 19:10.11: [INFO] LINK QUAL at GLL IM is 41
+GLL (gll_im.cc       ) 19:10.11: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 19:10.11: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 19:10.11: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 19:10.11: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:10.11: [DUMP]           29 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:10.11: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 19:10.16: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 19:10.16: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 19:10.16: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.16: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 19:10.16: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 19:10.16: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.16: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 19:10.16: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 19:10.16: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 19:10.16: [DUMP]           00 02 00 2A 
+GLL (gll_im.cc       ) 19:10.16: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 19:10.16: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 19:10.16: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 19:10.16: [DUMP]           00 02 00 2A 
+GLL (gll_im.cc       ) 19:10.16: [INFO] LINK QUAL at GLL IM is 42
+GLL (gll_im.cc       ) 19:10.16: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 19:10.16: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 19:10.16: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 19:10.16: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:10.16: [DUMP]           2A 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:10.16: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 19:10.20: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 19:10.20: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 19:10.20: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.20: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 19:10.20: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 19:10.20: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.20: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 19:10.20: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 19:10.20: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 19:10.20: [DUMP]           00 02 00 26 
+GLL (gll_im.cc       ) 19:10.20: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 19:10.20: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 19:10.20: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 19:10.20: [DUMP]           00 02 00 26 
+GLL (gll_im.cc       ) 19:10.20: [INFO] LINK QUAL at GLL IM is 38
+GLL (gll_im.cc       ) 19:10.20: [INFO] Local Link ID = 65
+GLL (gll_im.cc       ) 19:10.20: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 19:10.20: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 19:10.20: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:10.20: [DUMP]           26 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:10.20: [DUMP]           30 08 02 00 01 41 
+GLL (gll_im.cc       ) 19:10.20: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 19:10.20: [DUMP] RX   [51] 01 01 00 2B 01 05 00 40 
+GLL (gll_im.cc       ) 19:10.20: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 19:10.20: [DUMP]           09 02 00 06 54 65 73 74 
+GLL (gll_im.cc       ) 19:10.20: [DUMP]           41 50 08 04 00 08 00 11 
+GLL (gll_im.cc       ) 19:10.20: [DUMP]           95 F3 85 2E 00 00 08 02 
+GLL (gll_im.cc       ) 19:10.20: [DUMP]           00 04 00 00 00 40 01 06 
+GLL (gll_im.cc       ) 19:10.20: [DUMP]           00 01 01 
+GLL (gll_im.cc       ) 19:10.20: [INFO] RCVD MGI_LinkAttach.Request
+GLL (gll_im.cc       ) 19:10.20: [INFO] SENT ARI_LinkAttach.Request
+GLL (gll_im.cc       ) 19:10.20: [DUMP] ARI  [24] 01 40 00 03 00 12 40 01 
+GLL (gll_im.cc       ) 19:10.20: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 19:10.20: [DUMP]           00 06 54 65 73 74 41 50 
+GLL (gll_im.cc       ) 19:10.20: [INFO] Device ath0 - is waiting link attach
+GLL (gll_im.cc       ) 19:10.20: [INFO] 	- Network ID = TestAP
+GLL (gll_im.cc       ) 19:10.20: [INFO] 	- Local Link ID = 64
+GLL (gll_im.cc       ) 19:10.20: [DUMP] BSSID [ 8] 00 11 95 F3 85 2E 00 00 
+GLL (gll_al.cc       ) 19:10.20: [INFO] RCVD ARI_LinkAttach
+GLL (gll_al.cc       ) 19:10.20: [DUMP] RX   [24] 01 40 00 03 00 12 40 01 
+GLL (gll_al.cc       ) 19:10.20: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 19:10.20: [DUMP]           00 06 54 65 73 74 41 50 
+GLL (netInterface.cc ) 19:10.20: [INFO] Connecting to TestAP
+GLL (gll_im.cc       ) 19:10.21: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 19:10.21: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 19:10.21: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.21: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 19:10.21: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 19:10.21: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.21: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 19:10.21: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 19:10.21: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 19:10.21: [DUMP]           00 02 00 1D 
+GLL (gll_im.cc       ) 19:10.21: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 19:10.21: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 19:10.21: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 19:10.21: [DUMP]           00 02 00 1D 
+GLL (gll_im.cc       ) 19:10.21: [INFO] LINK QUAL at GLL IM is 29
+GLL (gll_im.cc       ) 19:10.21: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 19:10.21: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 19:10.21: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 19:10.21: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:10.21: [DUMP]           1D 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:10.21: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 19:10.26: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 19:10.26: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 19:10.26: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.26: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 19:10.26: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 19:10.26: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.26: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 19:10.26: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 19:10.26: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 19:10.26: [DUMP]           00 02 00 20 
+GLL (gll_im.cc       ) 19:10.26: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 19:10.26: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 19:10.26: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 19:10.26: [DUMP]           00 02 00 20 
+GLL (gll_im.cc       ) 19:10.26: [INFO] LINK QUAL at GLL IM is 32
+GLL (gll_im.cc       ) 19:10.26: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 19:10.26: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 19:10.26: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 19:10.26: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:10.26: [DUMP]           20 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:10.26: [DUMP]           30 08 02 00 01 40 
+GLL (netInterface.cc ) 19:10.29: [INFO] Interface ath0 is associated
+GLL (gll_al.cc       ) 19:10.29: [DUMP] SSID [ 6] 00 00 00 00 00 00 
+GLL (netInterface.cc ) 19:10.29: [DUMP] BSSID [ 6] 00 11 95 F3 85 2E 
+GLL (gll_al.cc       ) 19:10.29: [INFO] SENT ARI_LinkAttach.Indication
+GLL (gll_al.cc       ) 19:10.29: [DUMP] ARI  [34] 01 C0 00 03 00 1C 40 01 
+GLL (gll_al.cc       ) 19:10.29: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_al.cc       ) 19:10.29: [DUMP]           00 06 54 65 73 74 41 50 
+GLL (gll_al.cc       ) 19:10.29: [DUMP]           80 02 00 06 00 11 95 F3 
+GLL (gll_al.cc       ) 19:10.29: [DUMP]           85 2E 
+GLL (gll_im.cc       ) 19:10.29: [INFO] RCVD ARI_LinkAttach
+GLL (gll_im.cc       ) 19:10.29: [DUMP] ARI  [34] 01 C0 00 03 00 1C 40 01 
+GLL (gll_im.cc       ) 19:10.29: [DUMP]           00 04 61 74 68 30 40 02 
+GLL (gll_im.cc       ) 19:10.29: [DUMP]           00 06 54 65 73 74 41 50 
+GLL (gll_im.cc       ) 19:10.29: [DUMP]           80 02 00 06 00 11 95 F3 
+GLL (gll_im.cc       ) 19:10.29: [DUMP]           85 2E 
+GLL (gll_im.cc       ) 19:10.29: [INFO] Connected with network TestAP
+GLL (gll_im.cc       ) 19:10.29: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 19:10.29: [INFO] SENT MGI_LinkAttach.Answer
+GLL (gll_im.cc       ) 19:10.29: [DUMP] SEND [26] 01 01 00 12 01 05 01 80 
+GLL (gll_im.cc       ) 19:10.29: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 19:10.29: [DUMP]           04 61 74 68 30 08 02 00 
+GLL (gll_im.cc       ) 19:10.29: [DUMP]           01 40 
+GLL (gll_im.cc       ) 19:10.29: [INFO] SENT WSI_LinkAttach.Answer
+GLL (gll_im.cc       ) 19:10.29: [DUMP] SEND [26] 01 02 00 12 03 01 01 80 
+GLL (gll_im.cc       ) 19:10.29: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 19:10.29: [DUMP]           09 02 00 06 54 65 73 74 
+GLL (gll_im.cc       ) 19:10.29: [DUMP]           41 50 
+GLL (gll_im.cc       ) 19:10.29: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 19:10.29: [DUMP] RX   [77] 01 01 00 45 01 0B 00 40 
+GLL (gll_im.cc       ) 19:10.29: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 19:10.29: [DUMP]           08 02 00 04 00 00 00 40 
+GLL (gll_im.cc       ) 19:10.29: [DUMP]           02 01 00 31 01 07 00 04 
+GLL (gll_im.cc       ) 19:10.29: [DUMP]           00 00 00 30 04 06 00 08 
+GLL (gll_im.cc       ) 19:10.29: [DUMP]           0B 00 00 19 0B 00 00 28 
+GLL (gll_im.cc       ) 19:10.29: [DUMP]           08 0B 00 04 00 00 27 10 
+GLL (gll_im.cc       ) 19:10.29: [DUMP]           08 0C 00 01 FF 01 09 00 
+GLL (gll_im.cc       ) 19:10.29: [DUMP]           04 00 00 00 01 08 0D 00 
+GLL (gll_im.cc       ) 19:10.29: [DUMP]           04 00 00 01 F4 
+GLL (gll_im.cc       ) 19:10.29: [INFO] RCVD MGI_LinkReport.Request
+GLL (gll_im.cc       ) 19:10.29: [INFO] Report every 10000 msec from ath0
+GLL (gll_im.cc       ) 19:10.29: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 19:10.29: [INFO] SENT MGI_LinkAttach.Answer
+GLL (gll_im.cc       ) 19:10.29: [DUMP] SEND [26] 01 01 00 12 01 0B 01 80 
+GLL (gll_im.cc       ) 19:10.29: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 19:10.29: [DUMP]           04 61 74 68 30 08 02 00 
+GLL (gll_im.cc       ) 19:10.29: [DUMP]           01 40 
+GLL (gll_im.cc       ) 19:10.29: [ERR ] Received CandidateReport.Type, GLL IM is not able to handle type
+GLL (gll_im.cc       ) 19:10.30: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 19:10.30: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 19:10.30: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.30: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 19:10.30: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 19:10.30: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.30: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 19:10.30: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 19:10.30: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 19:10.30: [DUMP]           00 02 00 39 
+GLL (gll_im.cc       ) 19:10.30: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 19:10.30: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 19:10.30: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 19:10.30: [DUMP]           00 02 00 39 
+GLL (gll_im.cc       ) 19:10.30: [INFO] LINK QUAL at GLL IM is 57
+GLL (gll_im.cc       ) 19:10.30: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 19:10.30: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 19:10.30: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 19:10.30: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:10.30: [DUMP]           39 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:10.30: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 19:10.30: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 19:10.30: [DUMP] RX   [29] 01 01 00 15 01 07 00 40 
+GLL (gll_im.cc       ) 19:10.30: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 19:10.30: [DUMP]           08 02 00 04 00 00 00 41 
+GLL (gll_im.cc       ) 19:10.30: [DUMP]           01 06 00 01 02 
+GLL (gll_im.cc       ) 19:10.30: [INFO] Received LinkDettach.Request
+GLL (gll_im.cc       ) 19:10.30: [INFO] Detach device Identifier = ath0
+GLL (gll_im.cc       ) 19:10.30: [INFO] 	- Local Link ID = 65
+GLL (gll_im.cc       ) 19:10.30: [INFO] SENT MGI_LinkDetach.Answer
+GLL (gll_im.cc       ) 19:10.30: [DUMP] SEND [26] 01 01 00 12 01 07 01 80 
+GLL (gll_im.cc       ) 19:10.30: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 19:10.30: [DUMP]           04 61 74 68 30 08 02 00 
+GLL (gll_im.cc       ) 19:10.30: [DUMP]           01 41 
+GLL (gll_im.cc       ) 19:10.30: [INFO] gllIM is receiving a packet
+GLL (gll_im.cc       ) 19:10.30: [DUMP] RX   [88] 01 01 00 50 01 03 00 40 
+GLL (gll_im.cc       ) 19:10.30: [DUMP]           04 01 00 04 61 74 68 30 
+GLL (gll_im.cc       ) 19:10.30: [DUMP]           09 02 00 03 47 49 54 08 
+GLL (gll_im.cc       ) 19:10.30: [DUMP]           04 00 08 00 16 B6 2B 84 
+GLL (gll_im.cc       ) 19:10.30: [DUMP]           CE 00 00 02 01 00 31 01 
+GLL (gll_im.cc       ) 19:10.30: [DUMP]           07 00 04 00 00 00 30 04 
+GLL (gll_im.cc       ) 19:10.30: [DUMP]           06 00 08 0A 00 00 19 0A 
+GLL (gll_im.cc       ) 19:10.30: [DUMP]           00 00 28 08 0B 00 04 00 
+GLL (gll_im.cc       ) 19:10.30: [DUMP]           00 27 10 08 0C 00 01 FF 
+GLL (gll_im.cc       ) 19:10.30: [DUMP]           01 09 00 04 00 00 00 01 
+GLL (gll_im.cc       ) 19:10.30: [DUMP]           08 0D 00 04 00 00 01 F4 
+GLL (gll_im.cc       ) 19:10.30: [INFO] RCVD MGI_CandidateReport.Request
+GLL (gll_im.cc       ) 19:10.30: [INFO] Report every 10000 msec from ath0
+GLL (gll_im.cc       ) 19:10.30: [INFO] SENT MGI_CandidateReport.Answer
+GLL (gll_im.cc       ) 19:10.30: [INFO] 	- ResultCode = 1
+GLL (gll_im.cc       ) 19:10.30: [DUMP] SEND [21] 01 01 00 0D 01 03 01 80 
+GLL (gll_im.cc       ) 19:10.30: [DUMP]           01 01 00 01 01 04 01 00 
+GLL (gll_im.cc       ) 19:10.30: [DUMP]           04 61 74 68 30 
+GLL (gll_im.cc       ) 19:10.31: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 19:10.31: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 19:10.31: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.31: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 19:10.31: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 19:10.31: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.31: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 19:10.31: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 19:10.31: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 19:10.31: [DUMP]           00 02 00 38 
+GLL (gll_im.cc       ) 19:10.31: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 19:10.31: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 19:10.31: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 19:10.31: [DUMP]           00 02 00 38 
+GLL (gll_im.cc       ) 19:10.31: [INFO] LINK QUAL at GLL IM is 56
+GLL (gll_im.cc       ) 19:10.31: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 19:10.31: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 19:10.31: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 19:10.31: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:10.31: [DUMP]           38 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:10.31: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 19:10.36: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 19:10.36: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 19:10.36: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.36: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 19:10.36: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 19:10.36: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.36: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 19:10.36: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 19:10.36: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 19:10.36: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 19:10.36: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 19:10.36: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 19:10.36: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 19:10.36: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 19:10.36: [INFO] LINK QUAL at GLL IM is 55
+GLL (gll_im.cc       ) 19:10.36: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 19:10.36: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 19:10.36: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 19:10.36: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:10.36: [DUMP]           37 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:10.36: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 19:10.39: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 19:10.39: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 19:10.39: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.39: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 19:10.39: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 19:10.39: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.39: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 19:10.39: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 19:10.39: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 19:10.39: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 19:10.39: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 19:10.39: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 19:10.39: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 19:10.39: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 19:10.39: [INFO] LINK QUAL at GLL IM is 55
+GLL (gll_im.cc       ) 19:10.39: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 19:10.39: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 19:10.39: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 19:10.39: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:10.39: [DUMP]           37 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:10.39: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 19:10.40: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 19:10.40: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 19:10.40: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.40: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 19:10.40: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 19:10.40: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.40: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 19:10.40: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 19:10.40: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 19:10.40: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 19:10.40: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 19:10.40: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 19:10.40: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 19:10.40: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 19:10.40: [INFO] LINK QUAL at GLL IM is 55
+GLL (gll_im.cc       ) 19:10.40: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 19:10.40: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 19:10.40: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 19:10.40: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:10.40: [DUMP]           37 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:10.40: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 19:10.40: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 19:10.40: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 19:10.40: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.40: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 19:10.40: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 19:10.40: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.40: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 19:10.40: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 19:10.40: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 19:10.40: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 19:10.40: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 19:10.40: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 19:10.40: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 19:10.40: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 19:10.40: [INFO] LINK QUAL at GLL IM is 55
+GLL (gll_im.cc       ) 19:10.40: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 19:10.40: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 19:10.40: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 19:10.40: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:10.40: [DUMP]           37 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:10.40: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 19:10.41: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 19:10.41: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 19:10.41: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.41: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 19:10.41: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 19:10.41: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.41: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 19:10.41: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 19:10.41: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 19:10.41: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 19:10.41: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 19:10.41: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 19:10.41: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 19:10.41: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 19:10.41: [INFO] LINK QUAL at GLL IM is 55
+GLL (gll_im.cc       ) 19:10.41: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 19:10.41: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 19:10.41: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 19:10.41: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:10.41: [DUMP]           37 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:10.41: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 19:10.46: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 19:10.46: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 19:10.46: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.46: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 19:10.46: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 19:10.46: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.46: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 19:10.46: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 19:10.46: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 19:10.46: [DUMP]           00 02 00 35 
+GLL (gll_im.cc       ) 19:10.46: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 19:10.46: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 19:10.46: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 19:10.46: [DUMP]           00 02 00 35 
+GLL (gll_im.cc       ) 19:10.46: [INFO] LINK QUAL at GLL IM is 53
+GLL (gll_im.cc       ) 19:10.46: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 19:10.46: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 19:10.46: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 19:10.46: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:10.46: [DUMP]           35 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:10.46: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 19:10.49: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 19:10.49: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 19:10.49: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.49: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 19:10.49: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 19:10.49: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.49: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 19:10.49: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 19:10.49: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 19:10.49: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 19:10.49: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 19:10.49: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 19:10.49: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 19:10.49: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 19:10.49: [INFO] LINK QUAL at GLL IM is 55
+GLL (gll_im.cc       ) 19:10.49: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 19:10.49: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 19:10.49: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 19:10.49: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:10.49: [DUMP]           37 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:10.49: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 19:10.50: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 19:10.50: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 19:10.50: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.50: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 19:10.50: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 19:10.50: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.50: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 19:10.50: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 19:10.50: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 19:10.50: [DUMP]           00 02 00 38 
+GLL (gll_im.cc       ) 19:10.50: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 19:10.50: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 19:10.50: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 19:10.50: [DUMP]           00 02 00 38 
+GLL (gll_im.cc       ) 19:10.50: [INFO] LINK QUAL at GLL IM is 56
+GLL (gll_im.cc       ) 19:10.50: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 19:10.50: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 19:10.50: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 19:10.50: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:10.50: [DUMP]           38 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:10.50: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 19:10.50: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 19:10.50: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 19:10.50: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.50: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 19:10.50: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 19:10.50: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.50: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 19:10.50: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 19:10.50: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 19:10.50: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 19:10.50: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 19:10.50: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 19:10.50: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 19:10.50: [DUMP]           00 02 00 37 
+GLL (gll_im.cc       ) 19:10.50: [INFO] LINK QUAL at GLL IM is 55
+GLL (gll_im.cc       ) 19:10.50: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 19:10.50: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 19:10.50: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 19:10.50: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:10.50: [DUMP]           37 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:10.50: [DUMP]           30 08 02 00 01 40 
+GLL (gll_im.cc       ) 19:10.51: [INFO] SENT ARI_LinkReport.Request
+GLL (gll_im.cc       ) 19:10.51: [DUMP] ARI  [14] 01 40 00 04 00 08 40 01 
+GLL (gll_im.cc       ) 19:10.51: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.51: [INFO] RCVD ARI_LinkReport
+GLL (gll_al.cc       ) 19:10.51: [DUMP] RX   [14] 01 40 00 04 00 08 40 01 
+GLL (gll_al.cc       ) 19:10.51: [DUMP]           00 04 61 74 68 30 
+GLL (gll_al.cc       ) 19:10.51: [INFO] SENT ARI_LinkReport.Indication
+GLL (gll_al.cc       ) 19:10.51: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_al.cc       ) 19:10.51: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_al.cc       ) 19:10.51: [DUMP]           00 02 00 36 
+GLL (gll_im.cc       ) 19:10.51: [INFO] RCVD ARI_LinkReport
+GLL (gll_im.cc       ) 19:10.51: [DUMP] ARI  [20] 01 C0 00 04 00 0E 40 01 
+GLL (gll_im.cc       ) 19:10.51: [DUMP]           00 04 61 74 68 30 50 01 
+GLL (gll_im.cc       ) 19:10.51: [DUMP]           00 02 00 36 
+GLL (gll_im.cc       ) 19:10.51: [INFO] LINK QUAL at GLL IM is 54
+GLL (gll_im.cc       ) 19:10.51: [INFO] Local Link ID = 64
+GLL (gll_im.cc       ) 19:10.51: [INFO] SENT MGI_LinkReport.Indication
+GLL (gll_im.cc       ) 19:10.51: [DUMP] SEND [30] 01 01 00 16 01 0B 03 80 
+GLL (gll_im.cc       ) 19:10.51: [DUMP]           02 02 00 05 07 0F 00 01 
+GLL (gll_im.cc       ) 19:10.51: [DUMP]           36 04 01 00 04 61 74 68 
+GLL (gll_im.cc       ) 19:10.51: [DUMP]           30 08 02 00 01 40 
+GLL (GLL_main.cc     ) 19:10.51: [INFO] Recieved SIGINT/SIGTERM signal
+GLL (gll_daemon.cc   ) 19:10.51: [INFO] m_threadID = 135054336, pthread_self = 135053312
+GLL (gll_im.cc       ) 19:10.51: [INFO] SENT WSI_UnregisterToACSF.Request
+GLL (gll_im.cc       ) 19:10.51: [DUMP] SEND [13] 01 02 00 05 05 02 00 C0 
+GLL (gll_im.cc       ) 19:10.51: [DUMP]           01 10 00 01 03 

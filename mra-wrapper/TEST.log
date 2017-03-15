@@ -1,0 +1,3055 @@
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Lookup location=0xbf8fdd00 type=14: not found
+stdsoap2.cpp(6682): malloc(128) = 0x80aba00
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd00 type=50: not found
+Embedded_id 0xbf8fdd00 type=50 id=0
+Element begin tag='ns7:lookupURI' id='0' type=''
+Embedded_id 0xbf8fdd00 type=14 id=-1
+Lookup location=0xbf8fdd00 type=14: not found
+Element begin tag='nameToResolve' id='-1' type=''
+Element ending tag='nameToResolve'
+Element ending tag='ns7:lookupURI'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to host='localhost' path='/ACSFC/services/LookupComponent' port=8180
+Opening socket 7 to host='localhost' port=8180
+Calculating the message size with attachments, current count=576
+New count is 576 bytes
+Begin send phase (socket=7 mode=0x1 count=576)
+stdsoap2.cpp(5343): malloc(12) = 0x80ac620
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd00 type=50: not found
+Embedded_id 0xbf8fdd00 type=50 id=0
+Element begin tag='ns7:lookupURI' id='0' type=''
+Embedded_id 0xbf8fdd00 type=14 id=-1
+Lookup location=0xbf8fdd00 type=14: not found
+Element begin tag='nameToResolve' id='-1' type=''
+Element ending tag='nameToResolve'
+Element ending tag='ns7:lookupURI'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+stdsoap2.cpp(6092): free(0x80aba00)
+Free pointer hashtable
+Free ID hashtable
+stdsoap2.cpp(6682): malloc(128) = 0x80aba00
+Free ID hashtable
+Read 627 bytes from socket 7
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Server: Apache-Coyote/1.1
+HTTP header: Content-Type: text/xml;charset=utf-8
+stdsoap2.cpp(5343): malloc(36) = 0x80b64c0
+HTTP header: Date: Mon, 24 Sep 2007 16:11:21 GMT
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="utf-8"?>
+Switching to utf-8 encoding
+stdsoap2.cpp(7939): malloc(25) = 0x80aa640
+Enlarging look-aside buffer to append data, old size=0, new size=256
+stdsoap2.cpp(7761): malloc(256) = 0x80ad300
+stdsoap2.cpp(7986): malloc(256) = 0x80ad400
+stdsoap2.cpp(2621): malloc(27) = 0x80aa6c0
+Push namespace binding (level=0) 'soapenv' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('soapenv' matches 'SOAP-ENV' in namespace table)
+stdsoap2.cpp(2621): malloc(23) = 0x80aa700
+Push namespace binding (level=0) 'xsd' 'http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+stdsoap2.cpp(2621): malloc(23) = 0x80aa740
+Push namespace binding (level=0) 'xsi' 'http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+Tags and (default) namespaces match: 'soapenv:Envelope' 'SOAP-ENV:Envelope'
+Begin element found (level=1) 'soapenv:Envelope'='SOAP-ENV:Envelope'
+stdsoap2.cpp(13023): malloc(42) = 0x80b6500
+Tags and (default) namespaces match: 'soapenv:Body' 'SOAP-ENV:Body'
+Begin element found (level=2) 'soapenv:Body'='SOAP-ENV:Body'
+stdsoap2.cpp(7939): malloc(41) = 0x80b6540
+stdsoap2.cpp(7986): malloc(256) = 0x80ad500
+stdsoap2.cpp(2621): malloc(23) = 0x80aa7e0
+Push namespace binding (level=2) 'ns1' 'http://lookupcomponent'
+Push OK ('ns1' matches 'ns7' in namespace table)
+Tags and (default) namespaces match: 'ns1:lookupURIResponse' 'ns7:lookupURIResponse'
+Begin element found (level=3) 'ns1:lookupURIResponse'='ns7:lookupURIResponse'
+Enter id='' type=49 loc=0x0 size=4 level=0
+soap_instantiate_ns7__lookupURIResponse(-1, , )
+stdsoap2.cpp(5561): malloc(20) = 0x80aa820
+Instantiated location=0x80ac640
+stdsoap2.cpp(7939): malloc(28) = 0x80aa860
+stdsoap2.cpp(7986): malloc(256) = 0x80ad600
+Tags and (default) namespaces match: 'xsi:type' 'xsi:type'
+Begin element found (level=4) 'lookupURIReturn'=''
+Tags and (default) namespaces match: 'xsd:string' 'xsd:string'
+Enter id='' type=14 loc=0x80ac640 size=4 level=0
+Reading string content
+stdsoap2.cpp(5343): malloc(32) = 0x80aa8c0
+End element found (level=4) 'lookupURIReturn'=''
+End element found (level=3) 'ns1:lookupURIResponse'='ns7:lookupURIResponse'
+Tags and (default) namespaces match: 'ns1:lookupURIResponse' 'ns7:lookupURIResponse'
+Popped namespace binding (level=2) 'ns1'
+stdsoap2.cpp(2653): free(0x80aa7e0)
+End element found (level=2) 'soapenv:Body'='SOAP-ENV:Body'
+Tags and (default) namespaces match: 'soapenv:Body' 'SOAP-ENV:Body'
+End element found (level=1) 'soapenv:Envelope'='SOAP-ENV:Envelope'
+Tags and (default) namespaces match: 'soapenv:Envelope' 'SOAP-ENV:Envelope'
+Popped namespace binding (level=0) 'xsi'
+stdsoap2.cpp(2653): free(0x80aa740)
+Popped namespace binding (level=0) 'xsd'
+stdsoap2.cpp(2653): free(0x80aa700)
+Popped namespace binding (level=0) 'soapenv'
+stdsoap2.cpp(2653): free(0x80aa6c0)
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Shutdown socket 7 how=2
+Close socket 7
+stdsoap2.cpp(5548): free(0x80aa820)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+stdsoap2.cpp(6069): free(0x80ad600)
+stdsoap2.cpp(6070): free(0x80aa860)
+stdsoap2.cpp(6069): free(0x80ad500)
+stdsoap2.cpp(6070): free(0x80b6540)
+stdsoap2.cpp(6069): free(0x80ad400)
+stdsoap2.cpp(6070): free(0x80aa640)
+stdsoap2.cpp(6075): free(0x80ad300)
+stdsoap2.cpp(6086): free(0x80b6500)
+stdsoap2.cpp(6092): free(0x80aba00)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+stdsoap2.cpp(5494): free(0x80aa8c0)
+stdsoap2.cpp(5494): free(0x80b64c0)
+stdsoap2.cpp(5494): free(0x80ac620)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+stdsoap2.cpp(3309): free(0x80ac440)
+stdsoap2.cpp(3309): free(0x80ac450)
+stdsoap2.cpp(3309): free(0x80ac460)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd88 type=44: not found
+Embedded_id 0xbf8fdd88 type=44 id=0
+Element begin tag='ns2:register' id='0' type=''
+Embedded_id 0xbf8fdd88 type=1 id=-1
+Lookup location=0xbf8fdd88 type=1: not found
+Element begin tag='id' id='0' type=''
+Element ending tag='id'
+Element ending tag='ns2:register'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to host='localhost' path='/' port=8020
+Opening socket 6 to host='localhost' port=8020
+Calculating the message size with attachments, current count=151
+New count is 151 bytes
+Begin send phase (socket=6 mode=0x1 count=151)
+stdsoap2.cpp(5343): malloc(12) = 0x80ac440
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd88 type=44: not found
+Embedded_id 0xbf8fdd88 type=44 id=0
+Element begin tag='ns2:register' id='0' type=''
+Embedded_id 0xbf8fdd88 type=1 id=-1
+Lookup location=0xbf8fdd88 type=1: not found
+Element begin tag='id' id='0' type=''
+Element ending tag='id'
+Element ending tag='ns2:register'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free ID hashtable
+Read 835 bytes from socket 6
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 500 Internal Server Error
+HTTP header: Server: gSOAP/2.7
+HTTP header: Content-Type: text/xml; charset=utf-8
+stdsoap2.cpp(5343): malloc(36) = 0x80b64c0
+HTTP header: Content-Length: 699
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 500
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="UTF-8"?>
+Switching to utf-8 encoding
+stdsoap2.cpp(7939): malloc(25) = 0x80aa220
+Enlarging look-aside buffer to append data, old size=0, new size=256
+stdsoap2.cpp(7761): malloc(256) = 0x80ad300
+stdsoap2.cpp(7986): malloc(256) = 0x80ad400
+stdsoap2.cpp(2621): malloc(70) = 0x80aba00
+Push namespace binding (level=0) 'SOAP-ENV' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push NOT OK: no match found for 'http://schemas.xmlsoap.org/soap/envelope/' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(70) = 0x80abd80
+Push namespace binding (level=0) 'SOAP-ENC' 'http://schemas.xmlsoap.org/soap/encoding/'
+Push NOT OK: no match found for 'http://schemas.xmlsoap.org/soap/encoding/' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(65) = 0x80abe00
+Push namespace binding (level=0) 'xsi' 'http://www.w3.org/2001/XMLSchema-instance'
+Push NOT OK: no match found for 'http://www.w3.org/2001/XMLSchema-instance' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(56) = 0x80b6500
+Push namespace binding (level=0) 'xsd' 'http://www.w3.org/2001/XMLSchema'
+Push NOT OK: no match found for 'http://www.w3.org/2001/XMLSchema' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(49) = 0x80b6540
+Push namespace binding (level=0) 'trg-producer' 'urn:trg_producer'
+Push NOT OK: no match found for 'urn:trg_producer' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(49) = 0x80b65c0
+Push namespace binding (level=0) 'trg-consumer' 'urn:trg_consumer'
+Push NOT OK: no match found for 'urn:trg_consumer' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(39) = 0x80b6600
+Push namespace binding (level=0) 'trg-gui' 'urn:trg_gui'
+Push NOT OK: no match found for 'urn:trg_gui' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(41) = 0x80b6640
+Push namespace binding (level=0) 'consumer' 'urn:consumer'
+Push NOT OK: no match found for 'urn:consumer' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(31) = 0x80aa780
+Push namespace binding (level=0) 'trg' 'urn:trg'
+Push NOT OK: no match found for 'urn:trg' in namespace mapping table (added to stack anyway)
+Tags 'SOAP-ENV:Envelope' and 'SOAP-ENV:Envelope' match but namespaces differ
+Shutdown socket 6 how=2
+Close socket 6
+soap_instantiate_SOAP_ENV__Fault(-1, , )
+stdsoap2.cpp(5561): malloc(20) = 0x80aa7c0
+Instantiated location=0x80b6680
+soap_instantiate_SOAP_ENV__Detail(-1, , )
+stdsoap2.cpp(5561): malloc(20) = 0x80aa800
+Instantiated location=0x80ac450
+Reinitializing context
+Free namespace stack
+stdsoap2.cpp(6059): free(0x80aa780)
+stdsoap2.cpp(6059): free(0x80b6640)
+stdsoap2.cpp(6059): free(0x80b6600)
+stdsoap2.cpp(6059): free(0x80b65c0)
+stdsoap2.cpp(6059): free(0x80b6540)
+stdsoap2.cpp(6059): free(0x80b6500)
+stdsoap2.cpp(6059): free(0x80abe00)
+stdsoap2.cpp(6059): free(0x80abd80)
+stdsoap2.cpp(6059): free(0x80aba00)
+Free any remaining temp blocks
+Free attribute storage
+stdsoap2.cpp(6069): free(0x80ad400)
+stdsoap2.cpp(6070): free(0x80aa220)
+stdsoap2.cpp(6075): free(0x80ad300)
+Free pointer hashtable
+Free ID hashtable
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd88 type=44: not found
+Embedded_id 0xbf8fdd88 type=44 id=0
+Element begin tag='ns2:register' id='0' type=''
+Embedded_id 0xbf8fdd88 type=1 id=-1
+Lookup location=0xbf8fdd88 type=1: not found
+Element begin tag='id' id='0' type=''
+Element ending tag='id'
+Element ending tag='ns2:register'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to host='localhost' path='/' port=8020
+Opening socket 6 to host='localhost' port=8020
+Calculating the message size with attachments, current count=151
+New count is 151 bytes
+Begin send phase (socket=6 mode=0x1 count=151)
+stdsoap2.cpp(5343): malloc(12) = 0x80ac620
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd88 type=44: not found
+Embedded_id 0xbf8fdd88 type=44 id=0
+Element begin tag='ns2:register' id='0' type=''
+Embedded_id 0xbf8fdd88 type=1 id=-1
+Lookup location=0xbf8fdd88 type=1: not found
+Element begin tag='id' id='0' type=''
+Element ending tag='id'
+Element ending tag='ns2:register'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free ID hashtable
+Read 835 bytes from socket 6
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 500 Internal Server Error
+HTTP header: Server: gSOAP/2.7
+HTTP header: Content-Type: text/xml; charset=utf-8
+stdsoap2.cpp(5343): malloc(36) = 0x80b6500
+HTTP header: Content-Length: 699
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 500
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="UTF-8"?>
+Switching to utf-8 encoding
+stdsoap2.cpp(7939): malloc(25) = 0x80aa840
+Enlarging look-aside buffer to append data, old size=0, new size=256
+stdsoap2.cpp(7761): malloc(256) = 0x80ad300
+stdsoap2.cpp(7986): malloc(256) = 0x80ad400
+stdsoap2.cpp(2621): malloc(70) = 0x80aba00
+Push namespace binding (level=0) 'SOAP-ENV' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push NOT OK: no match found for 'http://schemas.xmlsoap.org/soap/envelope/' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(70) = 0x80abd80
+Push namespace binding (level=0) 'SOAP-ENC' 'http://schemas.xmlsoap.org/soap/encoding/'
+Push NOT OK: no match found for 'http://schemas.xmlsoap.org/soap/encoding/' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(65) = 0x80abe00
+Push namespace binding (level=0) 'xsi' 'http://www.w3.org/2001/XMLSchema-instance'
+Push NOT OK: no match found for 'http://www.w3.org/2001/XMLSchema-instance' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(56) = 0x80b6540
+Push namespace binding (level=0) 'xsd' 'http://www.w3.org/2001/XMLSchema'
+Push NOT OK: no match found for 'http://www.w3.org/2001/XMLSchema' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(49) = 0x80b65c0
+Push namespace binding (level=0) 'trg-producer' 'urn:trg_producer'
+Push NOT OK: no match found for 'urn:trg_producer' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(49) = 0x80b6600
+Push namespace binding (level=0) 'trg-consumer' 'urn:trg_consumer'
+Push NOT OK: no match found for 'urn:trg_consumer' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(39) = 0x80b6640
+Push namespace binding (level=0) 'trg-gui' 'urn:trg_gui'
+Push NOT OK: no match found for 'urn:trg_gui' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(41) = 0x80b66c0
+Push namespace binding (level=0) 'consumer' 'urn:consumer'
+Push NOT OK: no match found for 'urn:consumer' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(31) = 0x80aa9c0
+Push namespace binding (level=0) 'trg' 'urn:trg'
+Push NOT OK: no match found for 'urn:trg' in namespace mapping table (added to stack anyway)
+Tags 'SOAP-ENV:Envelope' and 'SOAP-ENV:Envelope' match but namespaces differ
+Shutdown socket 6 how=2
+Close socket 6
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+stdsoap2.cpp(5548): free(0x80aa800)
+stdsoap2.cpp(5548): free(0x80aa7c0)
+Free namespace stack
+stdsoap2.cpp(6059): free(0x80aa9c0)
+stdsoap2.cpp(6059): free(0x80b66c0)
+stdsoap2.cpp(6059): free(0x80b6640)
+stdsoap2.cpp(6059): free(0x80b6600)
+stdsoap2.cpp(6059): free(0x80b65c0)
+stdsoap2.cpp(6059): free(0x80b6540)
+stdsoap2.cpp(6059): free(0x80abe00)
+stdsoap2.cpp(6059): free(0x80abd80)
+stdsoap2.cpp(6059): free(0x80aba00)
+Free any remaining temp blocks
+Free attribute storage
+stdsoap2.cpp(6069): free(0x80ad400)
+stdsoap2.cpp(6070): free(0x80aa840)
+stdsoap2.cpp(6075): free(0x80ad300)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+stdsoap2.cpp(5494): free(0x80b6500)
+stdsoap2.cpp(5494): free(0x80ac620)
+stdsoap2.cpp(5494): free(0x80b64c0)
+stdsoap2.cpp(5494): free(0x80ac440)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+stdsoap2.cpp(3309): free(0x80ac3e0)
+stdsoap2.cpp(3309): free(0x80ac3f0)
+stdsoap2.cpp(3309): free(0x80ac400)
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Lookup location=0xbf8fdd00 type=14: not found
+stdsoap2.cpp(6682): malloc(128) = 0x80aba00
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd00 type=50: not found
+Embedded_id 0xbf8fdd00 type=50 id=0
+Element begin tag='ns7:lookupURI' id='0' type=''
+Embedded_id 0xbf8fdd00 type=14 id=-1
+Lookup location=0xbf8fdd00 type=14: not found
+Element begin tag='nameToResolve' id='-1' type=''
+Element ending tag='nameToResolve'
+Element ending tag='ns7:lookupURI'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to host='localhost' path='/ACSFC/services/LookupComponent' port=8180
+Opening socket 7 to host='localhost' port=8180
+Calculating the message size with attachments, current count=576
+New count is 576 bytes
+Begin send phase (socket=7 mode=0x1 count=576)
+stdsoap2.cpp(5343): malloc(12) = 0x80ac620
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd00 type=50: not found
+Embedded_id 0xbf8fdd00 type=50 id=0
+Element begin tag='ns7:lookupURI' id='0' type=''
+Embedded_id 0xbf8fdd00 type=14 id=-1
+Lookup location=0xbf8fdd00 type=14: not found
+Element begin tag='nameToResolve' id='-1' type=''
+Element ending tag='nameToResolve'
+Element ending tag='ns7:lookupURI'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+stdsoap2.cpp(6092): free(0x80aba00)
+Free pointer hashtable
+Free ID hashtable
+stdsoap2.cpp(6682): malloc(128) = 0x80aba00
+Free ID hashtable
+Read 604 bytes from socket 7
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Server: Apache-Coyote/1.1
+HTTP header: Content-Type: text/xml;charset=utf-8
+stdsoap2.cpp(5343): malloc(36) = 0x80b64c0
+HTTP header: Date: Mon, 24 Sep 2007 16:44:32 GMT
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="utf-8"?>
+Switching to utf-8 encoding
+stdsoap2.cpp(7939): malloc(25) = 0x80aa640
+Enlarging look-aside buffer to append data, old size=0, new size=256
+stdsoap2.cpp(7761): malloc(256) = 0x80ad300
+stdsoap2.cpp(7986): malloc(256) = 0x80ad400
+stdsoap2.cpp(2621): malloc(27) = 0x80aa6c0
+Push namespace binding (level=0) 'soapenv' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('soapenv' matches 'SOAP-ENV' in namespace table)
+stdsoap2.cpp(2621): malloc(23) = 0x80aa700
+Push namespace binding (level=0) 'xsd' 'http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+stdsoap2.cpp(2621): malloc(23) = 0x80aa740
+Push namespace binding (level=0) 'xsi' 'http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+Tags and (default) namespaces match: 'soapenv:Envelope' 'SOAP-ENV:Envelope'
+Begin element found (level=1) 'soapenv:Envelope'='SOAP-ENV:Envelope'
+stdsoap2.cpp(13023): malloc(42) = 0x80b6500
+Tags and (default) namespaces match: 'soapenv:Body' 'SOAP-ENV:Body'
+Begin element found (level=2) 'soapenv:Body'='SOAP-ENV:Body'
+stdsoap2.cpp(7939): malloc(41) = 0x80b6540
+stdsoap2.cpp(7986): malloc(256) = 0x80ad500
+stdsoap2.cpp(2621): malloc(23) = 0x80aa7e0
+Push namespace binding (level=2) 'ns1' 'http://lookupcomponent'
+Push OK ('ns1' matches 'ns7' in namespace table)
+Tags and (default) namespaces match: 'ns1:lookupURIResponse' 'ns7:lookupURIResponse'
+Begin element found (level=3) 'ns1:lookupURIResponse'='ns7:lookupURIResponse'
+Enter id='' type=49 loc=0x0 size=4 level=0
+soap_instantiate_ns7__lookupURIResponse(-1, , )
+stdsoap2.cpp(5561): malloc(20) = 0x80aa820
+Instantiated location=0x80ac640
+stdsoap2.cpp(7939): malloc(28) = 0x80aa860
+stdsoap2.cpp(7986): malloc(256) = 0x80ad600
+stdsoap2.cpp(7939): malloc(27) = 0x80aa8c0
+stdsoap2.cpp(7986): malloc(256) = 0x80ad700
+Tags and (default) namespaces match: 'xsi:nil' 'xsi:nil'
+Tags and (default) namespaces match: 'xsi:type' 'xsi:type'
+Begin element found (level=3) 'lookupURIReturn'=''
+Tags and (default) namespaces match: 'xsd:string' 'xsd:string'
+Enter id='' type=14 loc=0x80ac640 size=4 level=0
+End element found (level=3) 'ns1:lookupURIResponse'='ns7:lookupURIResponse'
+Tags and (default) namespaces match: 'ns1:lookupURIResponse' 'ns7:lookupURIResponse'
+Popped namespace binding (level=2) 'ns1'
+stdsoap2.cpp(2653): free(0x80aa7e0)
+End element found (level=2) 'soapenv:Body'='SOAP-ENV:Body'
+Tags and (default) namespaces match: 'soapenv:Body' 'SOAP-ENV:Body'
+End element found (level=1) 'soapenv:Envelope'='SOAP-ENV:Envelope'
+Tags and (default) namespaces match: 'soapenv:Envelope' 'SOAP-ENV:Envelope'
+Popped namespace binding (level=0) 'xsi'
+stdsoap2.cpp(2653): free(0x80aa740)
+Popped namespace binding (level=0) 'xsd'
+stdsoap2.cpp(2653): free(0x80aa700)
+Popped namespace binding (level=0) 'soapenv'
+stdsoap2.cpp(2653): free(0x80aa6c0)
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Shutdown socket 7 how=2
+Close socket 7
+stdsoap2.cpp(5548): free(0x80aa820)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+stdsoap2.cpp(6069): free(0x80ad700)
+stdsoap2.cpp(6070): free(0x80aa8c0)
+stdsoap2.cpp(6069): free(0x80ad600)
+stdsoap2.cpp(6070): free(0x80aa860)
+stdsoap2.cpp(6069): free(0x80ad500)
+stdsoap2.cpp(6070): free(0x80b6540)
+stdsoap2.cpp(6069): free(0x80ad400)
+stdsoap2.cpp(6070): free(0x80aa640)
+stdsoap2.cpp(6075): free(0x80ad300)
+stdsoap2.cpp(6086): free(0x80b6500)
+stdsoap2.cpp(6092): free(0x80aba00)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+stdsoap2.cpp(5494): free(0x80b64c0)
+stdsoap2.cpp(5494): free(0x80ac620)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+stdsoap2.cpp(3309): free(0x80ac440)
+stdsoap2.cpp(3309): free(0x80ac450)
+stdsoap2.cpp(3309): free(0x80ac460)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd88 type=44: not found
+Embedded_id 0xbf8fdd88 type=44 id=0
+Element begin tag='ns2:register' id='0' type=''
+Embedded_id 0xbf8fdd88 type=1 id=-1
+Lookup location=0xbf8fdd88 type=1: not found
+Element begin tag='id' id='0' type=''
+Element ending tag='id'
+Element ending tag='ns2:register'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Calculating the message size with attachments, current count=151
+New count is 151 bytes
+Begin send phase (socket=-1 mode=0x0 count=151)
+stdsoap2.cpp(5343): malloc(12) = 0x80ac440
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd88 type=44: not found
+Embedded_id 0xbf8fdd88 type=44 id=0
+Element begin tag='ns2:register' id='0' type=''
+Embedded_id 0xbf8fdd88 type=1 id=-1
+Lookup location=0xbf8fdd88 type=1: not found
+Element begin tag='id' id='0' type=''
+Element ending tag='id'
+Element ending tag='ns2:register'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+stdsoap2.cpp(5494): free(0x80ac440)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+stdsoap2.cpp(3309): free(0x80ac3e0)
+stdsoap2.cpp(3309): free(0x80ac3f0)
+stdsoap2.cpp(3309): free(0x80ac400)
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Lookup location=0xbf8fdd00 type=14: not found
+stdsoap2.cpp(6682): malloc(128) = 0x80aba00
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd00 type=50: not found
+Embedded_id 0xbf8fdd00 type=50 id=0
+Element begin tag='ns7:lookupURI' id='0' type=''
+Embedded_id 0xbf8fdd00 type=14 id=-1
+Lookup location=0xbf8fdd00 type=14: not found
+Element begin tag='nameToResolve' id='-1' type=''
+Element ending tag='nameToResolve'
+Element ending tag='ns7:lookupURI'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to host='localhost' path='/ACSFC/services/LookupComponent' port=8180
+Opening socket 7 to host='localhost' port=8180
+Calculating the message size with attachments, current count=576
+New count is 576 bytes
+Begin send phase (socket=7 mode=0x1 count=576)
+stdsoap2.cpp(5343): malloc(12) = 0x80ac620
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd00 type=50: not found
+Embedded_id 0xbf8fdd00 type=50 id=0
+Element begin tag='ns7:lookupURI' id='0' type=''
+Embedded_id 0xbf8fdd00 type=14 id=-1
+Lookup location=0xbf8fdd00 type=14: not found
+Element begin tag='nameToResolve' id='-1' type=''
+Element ending tag='nameToResolve'
+Element ending tag='ns7:lookupURI'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+stdsoap2.cpp(6092): free(0x80aba00)
+Free pointer hashtable
+Free ID hashtable
+stdsoap2.cpp(6682): malloc(128) = 0x80aba00
+Free ID hashtable
+Read 604 bytes from socket 7
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Server: Apache-Coyote/1.1
+HTTP header: Content-Type: text/xml;charset=utf-8
+stdsoap2.cpp(5343): malloc(36) = 0x80b64c0
+HTTP header: Date: Mon, 24 Sep 2007 17:28:17 GMT
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="utf-8"?>
+Switching to utf-8 encoding
+stdsoap2.cpp(7939): malloc(25) = 0x80aa640
+Enlarging look-aside buffer to append data, old size=0, new size=256
+stdsoap2.cpp(7761): malloc(256) = 0x80ad300
+stdsoap2.cpp(7986): malloc(256) = 0x80ad400
+stdsoap2.cpp(2621): malloc(27) = 0x80aa6c0
+Push namespace binding (level=0) 'soapenv' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('soapenv' matches 'SOAP-ENV' in namespace table)
+stdsoap2.cpp(2621): malloc(23) = 0x80aa700
+Push namespace binding (level=0) 'xsd' 'http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+stdsoap2.cpp(2621): malloc(23) = 0x80aa740
+Push namespace binding (level=0) 'xsi' 'http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+Tags and (default) namespaces match: 'soapenv:Envelope' 'SOAP-ENV:Envelope'
+Begin element found (level=1) 'soapenv:Envelope'='SOAP-ENV:Envelope'
+stdsoap2.cpp(13023): malloc(42) = 0x80b6500
+Tags and (default) namespaces match: 'soapenv:Body' 'SOAP-ENV:Body'
+Begin element found (level=2) 'soapenv:Body'='SOAP-ENV:Body'
+stdsoap2.cpp(7939): malloc(41) = 0x80b6540
+stdsoap2.cpp(7986): malloc(256) = 0x80ad500
+stdsoap2.cpp(2621): malloc(23) = 0x80aa7e0
+Push namespace binding (level=2) 'ns1' 'http://lookupcomponent'
+Push OK ('ns1' matches 'ns7' in namespace table)
+Tags and (default) namespaces match: 'ns1:lookupURIResponse' 'ns7:lookupURIResponse'
+Begin element found (level=3) 'ns1:lookupURIResponse'='ns7:lookupURIResponse'
+Enter id='' type=49 loc=0x0 size=4 level=0
+soap_instantiate_ns7__lookupURIResponse(-1, , )
+stdsoap2.cpp(5561): malloc(20) = 0x80aa820
+Instantiated location=0x80ac640
+stdsoap2.cpp(7939): malloc(28) = 0x80aa860
+stdsoap2.cpp(7986): malloc(256) = 0x80ad600
+stdsoap2.cpp(7939): malloc(27) = 0x80aa8c0
+stdsoap2.cpp(7986): malloc(256) = 0x80ad700
+Tags and (default) namespaces match: 'xsi:nil' 'xsi:nil'
+Tags and (default) namespaces match: 'xsi:type' 'xsi:type'
+Begin element found (level=3) 'lookupURIReturn'=''
+Tags and (default) namespaces match: 'xsd:string' 'xsd:string'
+Enter id='' type=14 loc=0x80ac640 size=4 level=0
+End element found (level=3) 'ns1:lookupURIResponse'='ns7:lookupURIResponse'
+Tags and (default) namespaces match: 'ns1:lookupURIResponse' 'ns7:lookupURIResponse'
+Popped namespace binding (level=2) 'ns1'
+stdsoap2.cpp(2653): free(0x80aa7e0)
+End element found (level=2) 'soapenv:Body'='SOAP-ENV:Body'
+Tags and (default) namespaces match: 'soapenv:Body' 'SOAP-ENV:Body'
+End element found (level=1) 'soapenv:Envelope'='SOAP-ENV:Envelope'
+Tags and (default) namespaces match: 'soapenv:Envelope' 'SOAP-ENV:Envelope'
+Popped namespace binding (level=0) 'xsi'
+stdsoap2.cpp(2653): free(0x80aa740)
+Popped namespace binding (level=0) 'xsd'
+stdsoap2.cpp(2653): free(0x80aa700)
+Popped namespace binding (level=0) 'soapenv'
+stdsoap2.cpp(2653): free(0x80aa6c0)
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Shutdown socket 7 how=2
+Close socket 7
+stdsoap2.cpp(5548): free(0x80aa820)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+stdsoap2.cpp(6069): free(0x80ad700)
+stdsoap2.cpp(6070): free(0x80aa8c0)
+stdsoap2.cpp(6069): free(0x80ad600)
+stdsoap2.cpp(6070): free(0x80aa860)
+stdsoap2.cpp(6069): free(0x80ad500)
+stdsoap2.cpp(6070): free(0x80b6540)
+stdsoap2.cpp(6069): free(0x80ad400)
+stdsoap2.cpp(6070): free(0x80aa640)
+stdsoap2.cpp(6075): free(0x80ad300)
+stdsoap2.cpp(6086): free(0x80b6500)
+stdsoap2.cpp(6092): free(0x80aba00)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+stdsoap2.cpp(5494): free(0x80b64c0)
+stdsoap2.cpp(5494): free(0x80ac620)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+stdsoap2.cpp(3309): free(0x80ac440)
+stdsoap2.cpp(3309): free(0x80ac450)
+stdsoap2.cpp(3309): free(0x80ac460)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd88 type=44: not found
+Embedded_id 0xbf8fdd88 type=44 id=0
+Element begin tag='ns2:register' id='0' type=''
+Embedded_id 0xbf8fdd88 type=1 id=-1
+Lookup location=0xbf8fdd88 type=1: not found
+Element begin tag='id' id='0' type=''
+Element ending tag='id'
+Element ending tag='ns2:register'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Calculating the message size with attachments, current count=151
+New count is 151 bytes
+Begin send phase (socket=-1 mode=0x0 count=151)
+stdsoap2.cpp(5343): malloc(12) = 0x80ac440
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd88 type=44: not found
+Embedded_id 0xbf8fdd88 type=44 id=0
+Element begin tag='ns2:register' id='0' type=''
+Embedded_id 0xbf8fdd88 type=1 id=-1
+Lookup location=0xbf8fdd88 type=1: not found
+Element begin tag='id' id='0' type=''
+Element ending tag='id'
+Element ending tag='ns2:register'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+stdsoap2.cpp(5494): free(0x80ac440)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+stdsoap2.cpp(3309): free(0x80ac3e0)
+stdsoap2.cpp(3309): free(0x80ac3f0)
+stdsoap2.cpp(3309): free(0x80ac400)
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Lookup location=0xbf8fdd00 type=14: not found
+stdsoap2.cpp(6682): malloc(128) = 0x80aba00
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd00 type=50: not found
+Embedded_id 0xbf8fdd00 type=50 id=0
+Element begin tag='ns7:lookupURI' id='0' type=''
+Embedded_id 0xbf8fdd00 type=14 id=-1
+Lookup location=0xbf8fdd00 type=14: not found
+Element begin tag='nameToResolve' id='-1' type=''
+Element ending tag='nameToResolve'
+Element ending tag='ns7:lookupURI'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to host='localhost' path='/ACSFC/services/LookupComponent' port=8180
+Opening socket 7 to host='localhost' port=8180
+Calculating the message size with attachments, current count=576
+New count is 576 bytes
+Begin send phase (socket=7 mode=0x1 count=576)
+stdsoap2.cpp(5343): malloc(12) = 0x80ac620
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd00 type=50: not found
+Embedded_id 0xbf8fdd00 type=50 id=0
+Element begin tag='ns7:lookupURI' id='0' type=''
+Embedded_id 0xbf8fdd00 type=14 id=-1
+Lookup location=0xbf8fdd00 type=14: not found
+Element begin tag='nameToResolve' id='-1' type=''
+Element ending tag='nameToResolve'
+Element ending tag='ns7:lookupURI'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+stdsoap2.cpp(6092): free(0x80aba00)
+Free pointer hashtable
+Free ID hashtable
+stdsoap2.cpp(6682): malloc(128) = 0x80aba00
+Free ID hashtable
+Read 627 bytes from socket 7
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Server: Apache-Coyote/1.1
+HTTP header: Content-Type: text/xml;charset=utf-8
+stdsoap2.cpp(5343): malloc(36) = 0x80b64c0
+HTTP header: Date: Mon, 24 Sep 2007 17:38:16 GMT
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="utf-8"?>
+Switching to utf-8 encoding
+stdsoap2.cpp(7939): malloc(25) = 0x80aa640
+Enlarging look-aside buffer to append data, old size=0, new size=256
+stdsoap2.cpp(7761): malloc(256) = 0x80ad300
+stdsoap2.cpp(7986): malloc(256) = 0x80ad400
+stdsoap2.cpp(2621): malloc(27) = 0x80aa6c0
+Push namespace binding (level=0) 'soapenv' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('soapenv' matches 'SOAP-ENV' in namespace table)
+stdsoap2.cpp(2621): malloc(23) = 0x80aa700
+Push namespace binding (level=0) 'xsd' 'http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+stdsoap2.cpp(2621): malloc(23) = 0x80aa740
+Push namespace binding (level=0) 'xsi' 'http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+Tags and (default) namespaces match: 'soapenv:Envelope' 'SOAP-ENV:Envelope'
+Begin element found (level=1) 'soapenv:Envelope'='SOAP-ENV:Envelope'
+stdsoap2.cpp(13023): malloc(42) = 0x80b6500
+Tags and (default) namespaces match: 'soapenv:Body' 'SOAP-ENV:Body'
+Begin element found (level=2) 'soapenv:Body'='SOAP-ENV:Body'
+stdsoap2.cpp(7939): malloc(41) = 0x80b6540
+stdsoap2.cpp(7986): malloc(256) = 0x80ad500
+stdsoap2.cpp(2621): malloc(23) = 0x80aa7e0
+Push namespace binding (level=2) 'ns1' 'http://lookupcomponent'
+Push OK ('ns1' matches 'ns7' in namespace table)
+Tags and (default) namespaces match: 'ns1:lookupURIResponse' 'ns7:lookupURIResponse'
+Begin element found (level=3) 'ns1:lookupURIResponse'='ns7:lookupURIResponse'
+Enter id='' type=49 loc=0x0 size=4 level=0
+soap_instantiate_ns7__lookupURIResponse(-1, , )
+stdsoap2.cpp(5561): malloc(20) = 0x80aa820
+Instantiated location=0x80ac640
+stdsoap2.cpp(7939): malloc(28) = 0x80aa860
+stdsoap2.cpp(7986): malloc(256) = 0x80ad600
+Tags and (default) namespaces match: 'xsi:type' 'xsi:type'
+Begin element found (level=4) 'lookupURIReturn'=''
+Tags and (default) namespaces match: 'xsd:string' 'xsd:string'
+Enter id='' type=14 loc=0x80ac640 size=4 level=0
+Reading string content
+stdsoap2.cpp(5343): malloc(32) = 0x80aa8c0
+End element found (level=4) 'lookupURIReturn'=''
+End element found (level=3) 'ns1:lookupURIResponse'='ns7:lookupURIResponse'
+Tags and (default) namespaces match: 'ns1:lookupURIResponse' 'ns7:lookupURIResponse'
+Popped namespace binding (level=2) 'ns1'
+stdsoap2.cpp(2653): free(0x80aa7e0)
+End element found (level=2) 'soapenv:Body'='SOAP-ENV:Body'
+Tags and (default) namespaces match: 'soapenv:Body' 'SOAP-ENV:Body'
+End element found (level=1) 'soapenv:Envelope'='SOAP-ENV:Envelope'
+Tags and (default) namespaces match: 'soapenv:Envelope' 'SOAP-ENV:Envelope'
+Popped namespace binding (level=0) 'xsi'
+stdsoap2.cpp(2653): free(0x80aa740)
+Popped namespace binding (level=0) 'xsd'
+stdsoap2.cpp(2653): free(0x80aa700)
+Popped namespace binding (level=0) 'soapenv'
+stdsoap2.cpp(2653): free(0x80aa6c0)
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Shutdown socket 7 how=2
+Close socket 7
+stdsoap2.cpp(5548): free(0x80aa820)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+stdsoap2.cpp(6069): free(0x80ad600)
+stdsoap2.cpp(6070): free(0x80aa860)
+stdsoap2.cpp(6069): free(0x80ad500)
+stdsoap2.cpp(6070): free(0x80b6540)
+stdsoap2.cpp(6069): free(0x80ad400)
+stdsoap2.cpp(6070): free(0x80aa640)
+stdsoap2.cpp(6075): free(0x80ad300)
+stdsoap2.cpp(6086): free(0x80b6500)
+stdsoap2.cpp(6092): free(0x80aba00)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+stdsoap2.cpp(5494): free(0x80aa8c0)
+stdsoap2.cpp(5494): free(0x80b64c0)
+stdsoap2.cpp(5494): free(0x80ac620)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+stdsoap2.cpp(3309): free(0x80ac440)
+stdsoap2.cpp(3309): free(0x80ac450)
+stdsoap2.cpp(3309): free(0x80ac460)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd88 type=44: not found
+Embedded_id 0xbf8fdd88 type=44 id=0
+Element begin tag='ns2:register' id='0' type=''
+Embedded_id 0xbf8fdd88 type=1 id=-1
+Lookup location=0xbf8fdd88 type=1: not found
+Element begin tag='id' id='0' type=''
+Element ending tag='id'
+Element ending tag='ns2:register'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to host='localhost' path='/' port=8020
+Opening socket 6 to host='localhost' port=8020
+Calculating the message size with attachments, current count=151
+New count is 151 bytes
+Begin send phase (socket=6 mode=0x1 count=151)
+stdsoap2.cpp(5343): malloc(12) = 0x80ac440
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd88 type=44: not found
+Embedded_id 0xbf8fdd88 type=44 id=0
+Element begin tag='ns2:register' id='0' type=''
+Embedded_id 0xbf8fdd88 type=1 id=-1
+Lookup location=0xbf8fdd88 type=1: not found
+Element begin tag='id' id='0' type=''
+Element ending tag='id'
+Element ending tag='ns2:register'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free ID hashtable
+Read 835 bytes from socket 6
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 500 Internal Server Error
+HTTP header: Server: gSOAP/2.7
+HTTP header: Content-Type: text/xml; charset=utf-8
+stdsoap2.cpp(5343): malloc(36) = 0x80b64c0
+HTTP header: Content-Length: 699
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 500
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="UTF-8"?>
+Switching to utf-8 encoding
+stdsoap2.cpp(7939): malloc(25) = 0x80aa220
+Enlarging look-aside buffer to append data, old size=0, new size=256
+stdsoap2.cpp(7761): malloc(256) = 0x80ad300
+stdsoap2.cpp(7986): malloc(256) = 0x80ad400
+stdsoap2.cpp(2621): malloc(70) = 0x80aba00
+Push namespace binding (level=0) 'SOAP-ENV' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push NOT OK: no match found for 'http://schemas.xmlsoap.org/soap/envelope/' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(70) = 0x80abd80
+Push namespace binding (level=0) 'SOAP-ENC' 'http://schemas.xmlsoap.org/soap/encoding/'
+Push NOT OK: no match found for 'http://schemas.xmlsoap.org/soap/encoding/' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(65) = 0x80abe00
+Push namespace binding (level=0) 'xsi' 'http://www.w3.org/2001/XMLSchema-instance'
+Push NOT OK: no match found for 'http://www.w3.org/2001/XMLSchema-instance' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(56) = 0x80b6500
+Push namespace binding (level=0) 'xsd' 'http://www.w3.org/2001/XMLSchema'
+Push NOT OK: no match found for 'http://www.w3.org/2001/XMLSchema' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(49) = 0x80b6540
+Push namespace binding (level=0) 'trg-producer' 'urn:trg_producer'
+Push NOT OK: no match found for 'urn:trg_producer' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(49) = 0x80b65c0
+Push namespace binding (level=0) 'trg-consumer' 'urn:trg_consumer'
+Push NOT OK: no match found for 'urn:trg_consumer' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(39) = 0x80b6600
+Push namespace binding (level=0) 'trg-gui' 'urn:trg_gui'
+Push NOT OK: no match found for 'urn:trg_gui' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(41) = 0x80b6640
+Push namespace binding (level=0) 'consumer' 'urn:consumer'
+Push NOT OK: no match found for 'urn:consumer' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(31) = 0x80aa780
+Push namespace binding (level=0) 'trg' 'urn:trg'
+Push NOT OK: no match found for 'urn:trg' in namespace mapping table (added to stack anyway)
+Tags 'SOAP-ENV:Envelope' and 'SOAP-ENV:Envelope' match but namespaces differ
+Shutdown socket 6 how=2
+Close socket 6
+soap_instantiate_SOAP_ENV__Fault(-1, , )
+stdsoap2.cpp(5561): malloc(20) = 0x80aa7c0
+Instantiated location=0x80b6680
+soap_instantiate_SOAP_ENV__Detail(-1, , )
+stdsoap2.cpp(5561): malloc(20) = 0x80aa800
+Instantiated location=0x80ac450
+Reinitializing context
+Free namespace stack
+stdsoap2.cpp(6059): free(0x80aa780)
+stdsoap2.cpp(6059): free(0x80b6640)
+stdsoap2.cpp(6059): free(0x80b6600)
+stdsoap2.cpp(6059): free(0x80b65c0)
+stdsoap2.cpp(6059): free(0x80b6540)
+stdsoap2.cpp(6059): free(0x80b6500)
+stdsoap2.cpp(6059): free(0x80abe00)
+stdsoap2.cpp(6059): free(0x80abd80)
+stdsoap2.cpp(6059): free(0x80aba00)
+Free any remaining temp blocks
+Free attribute storage
+stdsoap2.cpp(6069): free(0x80ad400)
+stdsoap2.cpp(6070): free(0x80aa220)
+stdsoap2.cpp(6075): free(0x80ad300)
+Free pointer hashtable
+Free ID hashtable
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd88 type=44: not found
+Embedded_id 0xbf8fdd88 type=44 id=0
+Element begin tag='ns2:register' id='0' type=''
+Embedded_id 0xbf8fdd88 type=1 id=-1
+Lookup location=0xbf8fdd88 type=1: not found
+Element begin tag='id' id='0' type=''
+Element ending tag='id'
+Element ending tag='ns2:register'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to host='localhost' path='/' port=8020
+Opening socket 6 to host='localhost' port=8020
+Calculating the message size with attachments, current count=151
+New count is 151 bytes
+Begin send phase (socket=6 mode=0x1 count=151)
+stdsoap2.cpp(5343): malloc(12) = 0x80ac620
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd88 type=44: not found
+Embedded_id 0xbf8fdd88 type=44 id=0
+Element begin tag='ns2:register' id='0' type=''
+Embedded_id 0xbf8fdd88 type=1 id=-1
+Lookup location=0xbf8fdd88 type=1: not found
+Element begin tag='id' id='0' type=''
+Element ending tag='id'
+Element ending tag='ns2:register'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free ID hashtable
+Read 835 bytes from socket 6
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 500 Internal Server Error
+HTTP header: Server: gSOAP/2.7
+HTTP header: Content-Type: text/xml; charset=utf-8
+stdsoap2.cpp(5343): malloc(36) = 0x80b6500
+HTTP header: Content-Length: 699
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 500
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="UTF-8"?>
+Switching to utf-8 encoding
+stdsoap2.cpp(7939): malloc(25) = 0x80aa840
+Enlarging look-aside buffer to append data, old size=0, new size=256
+stdsoap2.cpp(7761): malloc(256) = 0x80ad300
+stdsoap2.cpp(7986): malloc(256) = 0x80ad400
+stdsoap2.cpp(2621): malloc(70) = 0x80aba00
+Push namespace binding (level=0) 'SOAP-ENV' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push NOT OK: no match found for 'http://schemas.xmlsoap.org/soap/envelope/' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(70) = 0x80abd80
+Push namespace binding (level=0) 'SOAP-ENC' 'http://schemas.xmlsoap.org/soap/encoding/'
+Push NOT OK: no match found for 'http://schemas.xmlsoap.org/soap/encoding/' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(65) = 0x80abe00
+Push namespace binding (level=0) 'xsi' 'http://www.w3.org/2001/XMLSchema-instance'
+Push NOT OK: no match found for 'http://www.w3.org/2001/XMLSchema-instance' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(56) = 0x80b6540
+Push namespace binding (level=0) 'xsd' 'http://www.w3.org/2001/XMLSchema'
+Push NOT OK: no match found for 'http://www.w3.org/2001/XMLSchema' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(49) = 0x80b65c0
+Push namespace binding (level=0) 'trg-producer' 'urn:trg_producer'
+Push NOT OK: no match found for 'urn:trg_producer' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(49) = 0x80b6600
+Push namespace binding (level=0) 'trg-consumer' 'urn:trg_consumer'
+Push NOT OK: no match found for 'urn:trg_consumer' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(39) = 0x80b6640
+Push namespace binding (level=0) 'trg-gui' 'urn:trg_gui'
+Push NOT OK: no match found for 'urn:trg_gui' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(41) = 0x80b66c0
+Push namespace binding (level=0) 'consumer' 'urn:consumer'
+Push NOT OK: no match found for 'urn:consumer' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(31) = 0x80aa9c0
+Push namespace binding (level=0) 'trg' 'urn:trg'
+Push NOT OK: no match found for 'urn:trg' in namespace mapping table (added to stack anyway)
+Tags 'SOAP-ENV:Envelope' and 'SOAP-ENV:Envelope' match but namespaces differ
+Shutdown socket 6 how=2
+Close socket 6
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+stdsoap2.cpp(5548): free(0x80aa800)
+stdsoap2.cpp(5548): free(0x80aa7c0)
+Free namespace stack
+stdsoap2.cpp(6059): free(0x80aa9c0)
+stdsoap2.cpp(6059): free(0x80b66c0)
+stdsoap2.cpp(6059): free(0x80b6640)
+stdsoap2.cpp(6059): free(0x80b6600)
+stdsoap2.cpp(6059): free(0x80b65c0)
+stdsoap2.cpp(6059): free(0x80b6540)
+stdsoap2.cpp(6059): free(0x80abe00)
+stdsoap2.cpp(6059): free(0x80abd80)
+stdsoap2.cpp(6059): free(0x80aba00)
+Free any remaining temp blocks
+Free attribute storage
+stdsoap2.cpp(6069): free(0x80ad400)
+stdsoap2.cpp(6070): free(0x80aa840)
+stdsoap2.cpp(6075): free(0x80ad300)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+stdsoap2.cpp(5494): free(0x80b6500)
+stdsoap2.cpp(5494): free(0x80ac620)
+stdsoap2.cpp(5494): free(0x80b64c0)
+stdsoap2.cpp(5494): free(0x80ac440)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+stdsoap2.cpp(3309): free(0x80ac3e0)
+stdsoap2.cpp(3309): free(0x80ac3f0)
+stdsoap2.cpp(3309): free(0x80ac400)
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Lookup location=0xbf8fdd00 type=14: not found
+stdsoap2.cpp(6682): malloc(128) = 0x80aba00
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd00 type=50: not found
+Embedded_id 0xbf8fdd00 type=50 id=0
+Element begin tag='ns7:lookupURI' id='0' type=''
+Embedded_id 0xbf8fdd00 type=14 id=-1
+Lookup location=0xbf8fdd00 type=14: not found
+Element begin tag='nameToResolve' id='-1' type=''
+Element ending tag='nameToResolve'
+Element ending tag='ns7:lookupURI'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to host='localhost' path='/ACSFC/services/LookupComponent' port=8180
+Opening socket 7 to host='localhost' port=8180
+Calculating the message size with attachments, current count=576
+New count is 576 bytes
+Begin send phase (socket=7 mode=0x1 count=576)
+stdsoap2.cpp(5343): malloc(12) = 0x80ac620
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd00 type=50: not found
+Embedded_id 0xbf8fdd00 type=50 id=0
+Element begin tag='ns7:lookupURI' id='0' type=''
+Embedded_id 0xbf8fdd00 type=14 id=-1
+Lookup location=0xbf8fdd00 type=14: not found
+Element begin tag='nameToResolve' id='-1' type=''
+Element ending tag='nameToResolve'
+Element ending tag='ns7:lookupURI'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+stdsoap2.cpp(6092): free(0x80aba00)
+Free pointer hashtable
+Free ID hashtable
+stdsoap2.cpp(6682): malloc(128) = 0x80aba00
+Free ID hashtable
+Read 604 bytes from socket 7
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Server: Apache-Coyote/1.1
+HTTP header: Content-Type: text/xml;charset=utf-8
+stdsoap2.cpp(5343): malloc(36) = 0x80b64c0
+HTTP header: Date: Mon, 24 Sep 2007 17:51:10 GMT
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="utf-8"?>
+Switching to utf-8 encoding
+stdsoap2.cpp(7939): malloc(25) = 0x80aa640
+Enlarging look-aside buffer to append data, old size=0, new size=256
+stdsoap2.cpp(7761): malloc(256) = 0x80ad300
+stdsoap2.cpp(7986): malloc(256) = 0x80ad400
+stdsoap2.cpp(2621): malloc(27) = 0x80aa6c0
+Push namespace binding (level=0) 'soapenv' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('soapenv' matches 'SOAP-ENV' in namespace table)
+stdsoap2.cpp(2621): malloc(23) = 0x80aa700
+Push namespace binding (level=0) 'xsd' 'http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+stdsoap2.cpp(2621): malloc(23) = 0x80aa740
+Push namespace binding (level=0) 'xsi' 'http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+Tags and (default) namespaces match: 'soapenv:Envelope' 'SOAP-ENV:Envelope'
+Begin element found (level=1) 'soapenv:Envelope'='SOAP-ENV:Envelope'
+stdsoap2.cpp(13023): malloc(42) = 0x80b6500
+Tags and (default) namespaces match: 'soapenv:Body' 'SOAP-ENV:Body'
+Begin element found (level=2) 'soapenv:Body'='SOAP-ENV:Body'
+stdsoap2.cpp(7939): malloc(41) = 0x80b6540
+stdsoap2.cpp(7986): malloc(256) = 0x80ad500
+stdsoap2.cpp(2621): malloc(23) = 0x80aa7e0
+Push namespace binding (level=2) 'ns1' 'http://lookupcomponent'
+Push OK ('ns1' matches 'ns7' in namespace table)
+Tags and (default) namespaces match: 'ns1:lookupURIResponse' 'ns7:lookupURIResponse'
+Begin element found (level=3) 'ns1:lookupURIResponse'='ns7:lookupURIResponse'
+Enter id='' type=49 loc=0x0 size=4 level=0
+soap_instantiate_ns7__lookupURIResponse(-1, , )
+stdsoap2.cpp(5561): malloc(20) = 0x80aa820
+Instantiated location=0x80ac640
+stdsoap2.cpp(7939): malloc(28) = 0x80aa860
+stdsoap2.cpp(7986): malloc(256) = 0x80ad600
+stdsoap2.cpp(7939): malloc(27) = 0x80aa8c0
+stdsoap2.cpp(7986): malloc(256) = 0x80ad700
+Tags and (default) namespaces match: 'xsi:nil' 'xsi:nil'
+Tags and (default) namespaces match: 'xsi:type' 'xsi:type'
+Begin element found (level=3) 'lookupURIReturn'=''
+Tags and (default) namespaces match: 'xsd:string' 'xsd:string'
+Enter id='' type=14 loc=0x80ac640 size=4 level=0
+End element found (level=3) 'ns1:lookupURIResponse'='ns7:lookupURIResponse'
+Tags and (default) namespaces match: 'ns1:lookupURIResponse' 'ns7:lookupURIResponse'
+Popped namespace binding (level=2) 'ns1'
+stdsoap2.cpp(2653): free(0x80aa7e0)
+End element found (level=2) 'soapenv:Body'='SOAP-ENV:Body'
+Tags and (default) namespaces match: 'soapenv:Body' 'SOAP-ENV:Body'
+End element found (level=1) 'soapenv:Envelope'='SOAP-ENV:Envelope'
+Tags and (default) namespaces match: 'soapenv:Envelope' 'SOAP-ENV:Envelope'
+Popped namespace binding (level=0) 'xsi'
+stdsoap2.cpp(2653): free(0x80aa740)
+Popped namespace binding (level=0) 'xsd'
+stdsoap2.cpp(2653): free(0x80aa700)
+Popped namespace binding (level=0) 'soapenv'
+stdsoap2.cpp(2653): free(0x80aa6c0)
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Shutdown socket 7 how=2
+Close socket 7
+stdsoap2.cpp(5548): free(0x80aa820)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+stdsoap2.cpp(6069): free(0x80ad700)
+stdsoap2.cpp(6070): free(0x80aa8c0)
+stdsoap2.cpp(6069): free(0x80ad600)
+stdsoap2.cpp(6070): free(0x80aa860)
+stdsoap2.cpp(6069): free(0x80ad500)
+stdsoap2.cpp(6070): free(0x80b6540)
+stdsoap2.cpp(6069): free(0x80ad400)
+stdsoap2.cpp(6070): free(0x80aa640)
+stdsoap2.cpp(6075): free(0x80ad300)
+stdsoap2.cpp(6086): free(0x80b6500)
+stdsoap2.cpp(6092): free(0x80aba00)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+stdsoap2.cpp(5494): free(0x80b64c0)
+stdsoap2.cpp(5494): free(0x80ac620)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+stdsoap2.cpp(3309): free(0x80ac440)
+stdsoap2.cpp(3309): free(0x80ac450)
+stdsoap2.cpp(3309): free(0x80ac460)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd88 type=44: not found
+Embedded_id 0xbf8fdd88 type=44 id=0
+Element begin tag='ns2:register' id='0' type=''
+Embedded_id 0xbf8fdd88 type=1 id=-1
+Lookup location=0xbf8fdd88 type=1: not found
+Element begin tag='id' id='0' type=''
+Element ending tag='id'
+Element ending tag='ns2:register'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Calculating the message size with attachments, current count=151
+New count is 151 bytes
+Begin send phase (socket=-1 mode=0x0 count=151)
+stdsoap2.cpp(5343): malloc(12) = 0x80ac440
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd88 type=44: not found
+Embedded_id 0xbf8fdd88 type=44 id=0
+Element begin tag='ns2:register' id='0' type=''
+Embedded_id 0xbf8fdd88 type=1 id=-1
+Lookup location=0xbf8fdd88 type=1: not found
+Element begin tag='id' id='0' type=''
+Element ending tag='id'
+Element ending tag='ns2:register'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+stdsoap2.cpp(5494): free(0x80ac440)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+stdsoap2.cpp(3309): free(0x80ac3e0)
+stdsoap2.cpp(3309): free(0x80ac3f0)
+stdsoap2.cpp(3309): free(0x80ac400)
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Lookup location=0xbf8fdd00 type=14: not found
+stdsoap2.cpp(6682): malloc(128) = 0x80aba00
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd00 type=50: not found
+Embedded_id 0xbf8fdd00 type=50 id=0
+Element begin tag='ns7:lookupURI' id='0' type=''
+Embedded_id 0xbf8fdd00 type=14 id=-1
+Lookup location=0xbf8fdd00 type=14: not found
+Element begin tag='nameToResolve' id='-1' type=''
+Element ending tag='nameToResolve'
+Element ending tag='ns7:lookupURI'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to host='localhost' path='/ACSFC/services/LookupComponent' port=8180
+Opening socket 7 to host='localhost' port=8180
+Calculating the message size with attachments, current count=576
+New count is 576 bytes
+Begin send phase (socket=7 mode=0x1 count=576)
+stdsoap2.cpp(5343): malloc(12) = 0x80ac620
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd00 type=50: not found
+Embedded_id 0xbf8fdd00 type=50 id=0
+Element begin tag='ns7:lookupURI' id='0' type=''
+Embedded_id 0xbf8fdd00 type=14 id=-1
+Lookup location=0xbf8fdd00 type=14: not found
+Element begin tag='nameToResolve' id='-1' type=''
+Element ending tag='nameToResolve'
+Element ending tag='ns7:lookupURI'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+stdsoap2.cpp(6092): free(0x80aba00)
+Free pointer hashtable
+Free ID hashtable
+stdsoap2.cpp(6682): malloc(128) = 0x80aba00
+Free ID hashtable
+Read 604 bytes from socket 7
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Server: Apache-Coyote/1.1
+HTTP header: Content-Type: text/xml;charset=utf-8
+stdsoap2.cpp(5343): malloc(36) = 0x80b64c0
+HTTP header: Date: Mon, 24 Sep 2007 17:52:09 GMT
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="utf-8"?>
+Switching to utf-8 encoding
+stdsoap2.cpp(7939): malloc(25) = 0x80aa640
+Enlarging look-aside buffer to append data, old size=0, new size=256
+stdsoap2.cpp(7761): malloc(256) = 0x80ad300
+stdsoap2.cpp(7986): malloc(256) = 0x80ad400
+stdsoap2.cpp(2621): malloc(27) = 0x80aa6c0
+Push namespace binding (level=0) 'soapenv' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('soapenv' matches 'SOAP-ENV' in namespace table)
+stdsoap2.cpp(2621): malloc(23) = 0x80aa700
+Push namespace binding (level=0) 'xsd' 'http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+stdsoap2.cpp(2621): malloc(23) = 0x80aa740
+Push namespace binding (level=0) 'xsi' 'http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+Tags and (default) namespaces match: 'soapenv:Envelope' 'SOAP-ENV:Envelope'
+Begin element found (level=1) 'soapenv:Envelope'='SOAP-ENV:Envelope'
+stdsoap2.cpp(13023): malloc(42) = 0x80b6500
+Tags and (default) namespaces match: 'soapenv:Body' 'SOAP-ENV:Body'
+Begin element found (level=2) 'soapenv:Body'='SOAP-ENV:Body'
+stdsoap2.cpp(7939): malloc(41) = 0x80b6540
+stdsoap2.cpp(7986): malloc(256) = 0x80ad500
+stdsoap2.cpp(2621): malloc(23) = 0x80aa7e0
+Push namespace binding (level=2) 'ns1' 'http://lookupcomponent'
+Push OK ('ns1' matches 'ns7' in namespace table)
+Tags and (default) namespaces match: 'ns1:lookupURIResponse' 'ns7:lookupURIResponse'
+Begin element found (level=3) 'ns1:lookupURIResponse'='ns7:lookupURIResponse'
+Enter id='' type=49 loc=0x0 size=4 level=0
+soap_instantiate_ns7__lookupURIResponse(-1, , )
+stdsoap2.cpp(5561): malloc(20) = 0x80aa820
+Instantiated location=0x80ac640
+stdsoap2.cpp(7939): malloc(28) = 0x80aa860
+stdsoap2.cpp(7986): malloc(256) = 0x80ad600
+stdsoap2.cpp(7939): malloc(27) = 0x80aa8c0
+stdsoap2.cpp(7986): malloc(256) = 0x80ad700
+Tags and (default) namespaces match: 'xsi:nil' 'xsi:nil'
+Tags and (default) namespaces match: 'xsi:type' 'xsi:type'
+Begin element found (level=3) 'lookupURIReturn'=''
+Tags and (default) namespaces match: 'xsd:string' 'xsd:string'
+Enter id='' type=14 loc=0x80ac640 size=4 level=0
+End element found (level=3) 'ns1:lookupURIResponse'='ns7:lookupURIResponse'
+Tags and (default) namespaces match: 'ns1:lookupURIResponse' 'ns7:lookupURIResponse'
+Popped namespace binding (level=2) 'ns1'
+stdsoap2.cpp(2653): free(0x80aa7e0)
+End element found (level=2) 'soapenv:Body'='SOAP-ENV:Body'
+Tags and (default) namespaces match: 'soapenv:Body' 'SOAP-ENV:Body'
+End element found (level=1) 'soapenv:Envelope'='SOAP-ENV:Envelope'
+Tags and (default) namespaces match: 'soapenv:Envelope' 'SOAP-ENV:Envelope'
+Popped namespace binding (level=0) 'xsi'
+stdsoap2.cpp(2653): free(0x80aa740)
+Popped namespace binding (level=0) 'xsd'
+stdsoap2.cpp(2653): free(0x80aa700)
+Popped namespace binding (level=0) 'soapenv'
+stdsoap2.cpp(2653): free(0x80aa6c0)
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Shutdown socket 7 how=2
+Close socket 7
+stdsoap2.cpp(5548): free(0x80aa820)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+stdsoap2.cpp(6069): free(0x80ad700)
+stdsoap2.cpp(6070): free(0x80aa8c0)
+stdsoap2.cpp(6069): free(0x80ad600)
+stdsoap2.cpp(6070): free(0x80aa860)
+stdsoap2.cpp(6069): free(0x80ad500)
+stdsoap2.cpp(6070): free(0x80b6540)
+stdsoap2.cpp(6069): free(0x80ad400)
+stdsoap2.cpp(6070): free(0x80aa640)
+stdsoap2.cpp(6075): free(0x80ad300)
+stdsoap2.cpp(6086): free(0x80b6500)
+stdsoap2.cpp(6092): free(0x80aba00)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+stdsoap2.cpp(5494): free(0x80b64c0)
+stdsoap2.cpp(5494): free(0x80ac620)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+stdsoap2.cpp(3309): free(0x80ac440)
+stdsoap2.cpp(3309): free(0x80ac450)
+stdsoap2.cpp(3309): free(0x80ac460)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd88 type=44: not found
+Embedded_id 0xbf8fdd88 type=44 id=0
+Element begin tag='ns2:register' id='0' type=''
+Embedded_id 0xbf8fdd88 type=1 id=-1
+Lookup location=0xbf8fdd88 type=1: not found
+Element begin tag='id' id='0' type=''
+Element ending tag='id'
+Element ending tag='ns2:register'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Calculating the message size with attachments, current count=151
+New count is 151 bytes
+Begin send phase (socket=-1 mode=0x0 count=151)
+stdsoap2.cpp(5343): malloc(12) = 0x80ac440
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd88 type=44: not found
+Embedded_id 0xbf8fdd88 type=44 id=0
+Element begin tag='ns2:register' id='0' type=''
+Embedded_id 0xbf8fdd88 type=1 id=-1
+Lookup location=0xbf8fdd88 type=1: not found
+Element begin tag='id' id='0' type=''
+Element ending tag='id'
+Element ending tag='ns2:register'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+stdsoap2.cpp(5494): free(0x80ac440)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+stdsoap2.cpp(3309): free(0x80ac3e0)
+stdsoap2.cpp(3309): free(0x80ac3f0)
+stdsoap2.cpp(3309): free(0x80ac400)
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Lookup location=0xbf8fdd00 type=14: not found
+stdsoap2.cpp(6682): malloc(128) = 0x80aba00
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd00 type=50: not found
+Embedded_id 0xbf8fdd00 type=50 id=0
+Element begin tag='ns7:lookupURI' id='0' type=''
+Embedded_id 0xbf8fdd00 type=14 id=-1
+Lookup location=0xbf8fdd00 type=14: not found
+Element begin tag='nameToResolve' id='-1' type=''
+Element ending tag='nameToResolve'
+Element ending tag='ns7:lookupURI'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to host='localhost' path='/ACSFC/services/LookupComponent' port=8180
+Opening socket 7 to host='localhost' port=8180
+Calculating the message size with attachments, current count=576
+New count is 576 bytes
+Begin send phase (socket=7 mode=0x1 count=576)
+stdsoap2.cpp(5343): malloc(12) = 0x80ac620
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd00 type=50: not found
+Embedded_id 0xbf8fdd00 type=50 id=0
+Element begin tag='ns7:lookupURI' id='0' type=''
+Embedded_id 0xbf8fdd00 type=14 id=-1
+Lookup location=0xbf8fdd00 type=14: not found
+Element begin tag='nameToResolve' id='-1' type=''
+Element ending tag='nameToResolve'
+Element ending tag='ns7:lookupURI'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+stdsoap2.cpp(6092): free(0x80aba00)
+Free pointer hashtable
+Free ID hashtable
+stdsoap2.cpp(6682): malloc(128) = 0x80aba00
+Free ID hashtable
+Read 627 bytes from socket 7
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Server: Apache-Coyote/1.1
+HTTP header: Content-Type: text/xml;charset=utf-8
+stdsoap2.cpp(5343): malloc(36) = 0x80b64c0
+HTTP header: Date: Mon, 24 Sep 2007 17:59:37 GMT
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="utf-8"?>
+Switching to utf-8 encoding
+stdsoap2.cpp(7939): malloc(25) = 0x80aa640
+Enlarging look-aside buffer to append data, old size=0, new size=256
+stdsoap2.cpp(7761): malloc(256) = 0x80ad300
+stdsoap2.cpp(7986): malloc(256) = 0x80ad400
+stdsoap2.cpp(2621): malloc(27) = 0x80aa6c0
+Push namespace binding (level=0) 'soapenv' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('soapenv' matches 'SOAP-ENV' in namespace table)
+stdsoap2.cpp(2621): malloc(23) = 0x80aa700
+Push namespace binding (level=0) 'xsd' 'http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+stdsoap2.cpp(2621): malloc(23) = 0x80aa740
+Push namespace binding (level=0) 'xsi' 'http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+Tags and (default) namespaces match: 'soapenv:Envelope' 'SOAP-ENV:Envelope'
+Begin element found (level=1) 'soapenv:Envelope'='SOAP-ENV:Envelope'
+stdsoap2.cpp(13023): malloc(42) = 0x80b6500
+Tags and (default) namespaces match: 'soapenv:Body' 'SOAP-ENV:Body'
+Begin element found (level=2) 'soapenv:Body'='SOAP-ENV:Body'
+stdsoap2.cpp(7939): malloc(41) = 0x80b6540
+stdsoap2.cpp(7986): malloc(256) = 0x80ad500
+stdsoap2.cpp(2621): malloc(23) = 0x80aa7e0
+Push namespace binding (level=2) 'ns1' 'http://lookupcomponent'
+Push OK ('ns1' matches 'ns7' in namespace table)
+Tags and (default) namespaces match: 'ns1:lookupURIResponse' 'ns7:lookupURIResponse'
+Begin element found (level=3) 'ns1:lookupURIResponse'='ns7:lookupURIResponse'
+Enter id='' type=49 loc=0x0 size=4 level=0
+soap_instantiate_ns7__lookupURIResponse(-1, , )
+stdsoap2.cpp(5561): malloc(20) = 0x80aa820
+Instantiated location=0x80ac640
+stdsoap2.cpp(7939): malloc(28) = 0x80aa860
+stdsoap2.cpp(7986): malloc(256) = 0x80ad600
+Tags and (default) namespaces match: 'xsi:type' 'xsi:type'
+Begin element found (level=4) 'lookupURIReturn'=''
+Tags and (default) namespaces match: 'xsd:string' 'xsd:string'
+Enter id='' type=14 loc=0x80ac640 size=4 level=0
+Reading string content
+stdsoap2.cpp(5343): malloc(32) = 0x80aa8c0
+End element found (level=4) 'lookupURIReturn'=''
+End element found (level=3) 'ns1:lookupURIResponse'='ns7:lookupURIResponse'
+Tags and (default) namespaces match: 'ns1:lookupURIResponse' 'ns7:lookupURIResponse'
+Popped namespace binding (level=2) 'ns1'
+stdsoap2.cpp(2653): free(0x80aa7e0)
+End element found (level=2) 'soapenv:Body'='SOAP-ENV:Body'
+Tags and (default) namespaces match: 'soapenv:Body' 'SOAP-ENV:Body'
+End element found (level=1) 'soapenv:Envelope'='SOAP-ENV:Envelope'
+Tags and (default) namespaces match: 'soapenv:Envelope' 'SOAP-ENV:Envelope'
+Popped namespace binding (level=0) 'xsi'
+stdsoap2.cpp(2653): free(0x80aa740)
+Popped namespace binding (level=0) 'xsd'
+stdsoap2.cpp(2653): free(0x80aa700)
+Popped namespace binding (level=0) 'soapenv'
+stdsoap2.cpp(2653): free(0x80aa6c0)
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Shutdown socket 7 how=2
+Close socket 7
+stdsoap2.cpp(5548): free(0x80aa820)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+stdsoap2.cpp(6069): free(0x80ad600)
+stdsoap2.cpp(6070): free(0x80aa860)
+stdsoap2.cpp(6069): free(0x80ad500)
+stdsoap2.cpp(6070): free(0x80b6540)
+stdsoap2.cpp(6069): free(0x80ad400)
+stdsoap2.cpp(6070): free(0x80aa640)
+stdsoap2.cpp(6075): free(0x80ad300)
+stdsoap2.cpp(6086): free(0x80b6500)
+stdsoap2.cpp(6092): free(0x80aba00)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+stdsoap2.cpp(5494): free(0x80aa8c0)
+stdsoap2.cpp(5494): free(0x80b64c0)
+stdsoap2.cpp(5494): free(0x80ac620)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+stdsoap2.cpp(3309): free(0x80ac440)
+stdsoap2.cpp(3309): free(0x80ac450)
+stdsoap2.cpp(3309): free(0x80ac460)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd88 type=44: not found
+Embedded_id 0xbf8fdd88 type=44 id=0
+Element begin tag='ns2:register' id='0' type=''
+Embedded_id 0xbf8fdd88 type=1 id=-1
+Lookup location=0xbf8fdd88 type=1: not found
+Element begin tag='id' id='0' type=''
+Element ending tag='id'
+Element ending tag='ns2:register'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to host='localhost' path='/' port=8020
+Opening socket 6 to host='localhost' port=8020
+Calculating the message size with attachments, current count=151
+New count is 151 bytes
+Begin send phase (socket=6 mode=0x1 count=151)
+stdsoap2.cpp(5343): malloc(12) = 0x80ac440
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd88 type=44: not found
+Embedded_id 0xbf8fdd88 type=44 id=0
+Element begin tag='ns2:register' id='0' type=''
+Embedded_id 0xbf8fdd88 type=1 id=-1
+Lookup location=0xbf8fdd88 type=1: not found
+Element begin tag='id' id='0' type=''
+Element ending tag='id'
+Element ending tag='ns2:register'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free ID hashtable
+Read 835 bytes from socket 6
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 500 Internal Server Error
+HTTP header: Server: gSOAP/2.7
+HTTP header: Content-Type: text/xml; charset=utf-8
+stdsoap2.cpp(5343): malloc(36) = 0x80b64c0
+HTTP header: Content-Length: 699
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 500
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="UTF-8"?>
+Switching to utf-8 encoding
+stdsoap2.cpp(7939): malloc(25) = 0x80aa220
+Enlarging look-aside buffer to append data, old size=0, new size=256
+stdsoap2.cpp(7761): malloc(256) = 0x80ad300
+stdsoap2.cpp(7986): malloc(256) = 0x80ad400
+stdsoap2.cpp(2621): malloc(70) = 0x80aba00
+Push namespace binding (level=0) 'SOAP-ENV' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push NOT OK: no match found for 'http://schemas.xmlsoap.org/soap/envelope/' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(70) = 0x80abd80
+Push namespace binding (level=0) 'SOAP-ENC' 'http://schemas.xmlsoap.org/soap/encoding/'
+Push NOT OK: no match found for 'http://schemas.xmlsoap.org/soap/encoding/' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(65) = 0x80abe00
+Push namespace binding (level=0) 'xsi' 'http://www.w3.org/2001/XMLSchema-instance'
+Push NOT OK: no match found for 'http://www.w3.org/2001/XMLSchema-instance' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(56) = 0x80b6500
+Push namespace binding (level=0) 'xsd' 'http://www.w3.org/2001/XMLSchema'
+Push NOT OK: no match found for 'http://www.w3.org/2001/XMLSchema' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(49) = 0x80b6540
+Push namespace binding (level=0) 'trg-producer' 'urn:trg_producer'
+Push NOT OK: no match found for 'urn:trg_producer' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(49) = 0x80b65c0
+Push namespace binding (level=0) 'trg-consumer' 'urn:trg_consumer'
+Push NOT OK: no match found for 'urn:trg_consumer' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(39) = 0x80b6600
+Push namespace binding (level=0) 'trg-gui' 'urn:trg_gui'
+Push NOT OK: no match found for 'urn:trg_gui' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(41) = 0x80b6640
+Push namespace binding (level=0) 'consumer' 'urn:consumer'
+Push NOT OK: no match found for 'urn:consumer' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(31) = 0x80aa780
+Push namespace binding (level=0) 'trg' 'urn:trg'
+Push NOT OK: no match found for 'urn:trg' in namespace mapping table (added to stack anyway)
+Tags 'SOAP-ENV:Envelope' and 'SOAP-ENV:Envelope' match but namespaces differ
+Shutdown socket 6 how=2
+Close socket 6
+soap_instantiate_SOAP_ENV__Fault(-1, , )
+stdsoap2.cpp(5561): malloc(20) = 0x80aa7c0
+Instantiated location=0x80b6680
+soap_instantiate_SOAP_ENV__Detail(-1, , )
+stdsoap2.cpp(5561): malloc(20) = 0x80aa800
+Instantiated location=0x80ac450
+Reinitializing context
+Free namespace stack
+stdsoap2.cpp(6059): free(0x80aa780)
+stdsoap2.cpp(6059): free(0x80b6640)
+stdsoap2.cpp(6059): free(0x80b6600)
+stdsoap2.cpp(6059): free(0x80b65c0)
+stdsoap2.cpp(6059): free(0x80b6540)
+stdsoap2.cpp(6059): free(0x80b6500)
+stdsoap2.cpp(6059): free(0x80abe00)
+stdsoap2.cpp(6059): free(0x80abd80)
+stdsoap2.cpp(6059): free(0x80aba00)
+Free any remaining temp blocks
+Free attribute storage
+stdsoap2.cpp(6069): free(0x80ad400)
+stdsoap2.cpp(6070): free(0x80aa220)
+stdsoap2.cpp(6075): free(0x80ad300)
+Free pointer hashtable
+Free ID hashtable
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd88 type=44: not found
+Embedded_id 0xbf8fdd88 type=44 id=0
+Element begin tag='ns2:register' id='0' type=''
+Embedded_id 0xbf8fdd88 type=1 id=-1
+Lookup location=0xbf8fdd88 type=1: not found
+Element begin tag='id' id='0' type=''
+Element ending tag='id'
+Element ending tag='ns2:register'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to host='localhost' path='/' port=8020
+Opening socket 6 to host='localhost' port=8020
+Calculating the message size with attachments, current count=151
+New count is 151 bytes
+Begin send phase (socket=6 mode=0x1 count=151)
+stdsoap2.cpp(5343): malloc(12) = 0x80ac620
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd88 type=44: not found
+Embedded_id 0xbf8fdd88 type=44 id=0
+Element begin tag='ns2:register' id='0' type=''
+Embedded_id 0xbf8fdd88 type=1 id=-1
+Lookup location=0xbf8fdd88 type=1: not found
+Element begin tag='id' id='0' type=''
+Element ending tag='id'
+Element ending tag='ns2:register'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free ID hashtable
+Read 835 bytes from socket 6
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 500 Internal Server Error
+HTTP header: Server: gSOAP/2.7
+HTTP header: Content-Type: text/xml; charset=utf-8
+stdsoap2.cpp(5343): malloc(36) = 0x80b6500
+HTTP header: Content-Length: 699
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 500
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="UTF-8"?>
+Switching to utf-8 encoding
+stdsoap2.cpp(7939): malloc(25) = 0x80aa840
+Enlarging look-aside buffer to append data, old size=0, new size=256
+stdsoap2.cpp(7761): malloc(256) = 0x80ad300
+stdsoap2.cpp(7986): malloc(256) = 0x80ad400
+stdsoap2.cpp(2621): malloc(70) = 0x80aba00
+Push namespace binding (level=0) 'SOAP-ENV' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push NOT OK: no match found for 'http://schemas.xmlsoap.org/soap/envelope/' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(70) = 0x80abd80
+Push namespace binding (level=0) 'SOAP-ENC' 'http://schemas.xmlsoap.org/soap/encoding/'
+Push NOT OK: no match found for 'http://schemas.xmlsoap.org/soap/encoding/' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(65) = 0x80abe00
+Push namespace binding (level=0) 'xsi' 'http://www.w3.org/2001/XMLSchema-instance'
+Push NOT OK: no match found for 'http://www.w3.org/2001/XMLSchema-instance' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(56) = 0x80b6540
+Push namespace binding (level=0) 'xsd' 'http://www.w3.org/2001/XMLSchema'
+Push NOT OK: no match found for 'http://www.w3.org/2001/XMLSchema' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(49) = 0x80b65c0
+Push namespace binding (level=0) 'trg-producer' 'urn:trg_producer'
+Push NOT OK: no match found for 'urn:trg_producer' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(49) = 0x80b6600
+Push namespace binding (level=0) 'trg-consumer' 'urn:trg_consumer'
+Push NOT OK: no match found for 'urn:trg_consumer' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(39) = 0x80b6640
+Push namespace binding (level=0) 'trg-gui' 'urn:trg_gui'
+Push NOT OK: no match found for 'urn:trg_gui' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(41) = 0x80b66c0
+Push namespace binding (level=0) 'consumer' 'urn:consumer'
+Push NOT OK: no match found for 'urn:consumer' in namespace mapping table (added to stack anyway)
+stdsoap2.cpp(2621): malloc(31) = 0x80aa9c0
+Push namespace binding (level=0) 'trg' 'urn:trg'
+Push NOT OK: no match found for 'urn:trg' in namespace mapping table (added to stack anyway)
+Tags 'SOAP-ENV:Envelope' and 'SOAP-ENV:Envelope' match but namespaces differ
+Shutdown socket 6 how=2
+Close socket 6
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+stdsoap2.cpp(5548): free(0x80aa800)
+stdsoap2.cpp(5548): free(0x80aa7c0)
+Free namespace stack
+stdsoap2.cpp(6059): free(0x80aa9c0)
+stdsoap2.cpp(6059): free(0x80b66c0)
+stdsoap2.cpp(6059): free(0x80b6640)
+stdsoap2.cpp(6059): free(0x80b6600)
+stdsoap2.cpp(6059): free(0x80b65c0)
+stdsoap2.cpp(6059): free(0x80b6540)
+stdsoap2.cpp(6059): free(0x80abe00)
+stdsoap2.cpp(6059): free(0x80abd80)
+stdsoap2.cpp(6059): free(0x80aba00)
+Free any remaining temp blocks
+Free attribute storage
+stdsoap2.cpp(6069): free(0x80ad400)
+stdsoap2.cpp(6070): free(0x80aa840)
+stdsoap2.cpp(6075): free(0x80ad300)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+stdsoap2.cpp(5494): free(0x80b6500)
+stdsoap2.cpp(5494): free(0x80ac620)
+stdsoap2.cpp(5494): free(0x80b64c0)
+stdsoap2.cpp(5494): free(0x80ac440)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+stdsoap2.cpp(3309): free(0x80ac3e0)
+stdsoap2.cpp(3309): free(0x80ac3f0)
+stdsoap2.cpp(3309): free(0x80ac400)
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Lookup location=0xbf8fdd00 type=14: not found
+stdsoap2.cpp(6682): malloc(128) = 0x80aba00
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd00 type=50: not found
+Embedded_id 0xbf8fdd00 type=50 id=0
+Element begin tag='ns7:lookupURI' id='0' type=''
+Embedded_id 0xbf8fdd00 type=14 id=-1
+Lookup location=0xbf8fdd00 type=14: not found
+Element begin tag='nameToResolve' id='-1' type=''
+Element ending tag='nameToResolve'
+Element ending tag='ns7:lookupURI'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to host='localhost' path='/ACSFC/services/LookupComponent' port=8180
+Opening socket 7 to host='localhost' port=8180
+Calculating the message size with attachments, current count=576
+New count is 576 bytes
+Begin send phase (socket=7 mode=0x1 count=576)
+stdsoap2.cpp(5343): malloc(12) = 0x80ac620
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd00 type=50: not found
+Embedded_id 0xbf8fdd00 type=50 id=0
+Element begin tag='ns7:lookupURI' id='0' type=''
+Embedded_id 0xbf8fdd00 type=14 id=-1
+Lookup location=0xbf8fdd00 type=14: not found
+Element begin tag='nameToResolve' id='-1' type=''
+Element ending tag='nameToResolve'
+Element ending tag='ns7:lookupURI'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+stdsoap2.cpp(6092): free(0x80aba00)
+Free pointer hashtable
+Free ID hashtable
+stdsoap2.cpp(6682): malloc(128) = 0x80aba00
+Free ID hashtable
+Read 604 bytes from socket 7
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Server: Apache-Coyote/1.1
+HTTP header: Content-Type: text/xml;charset=utf-8
+stdsoap2.cpp(5343): malloc(36) = 0x80b64c0
+HTTP header: Date: Mon, 24 Sep 2007 18:00:39 GMT
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="utf-8"?>
+Switching to utf-8 encoding
+stdsoap2.cpp(7939): malloc(25) = 0x80aa640
+Enlarging look-aside buffer to append data, old size=0, new size=256
+stdsoap2.cpp(7761): malloc(256) = 0x80ad300
+stdsoap2.cpp(7986): malloc(256) = 0x80ad400
+stdsoap2.cpp(2621): malloc(27) = 0x80aa6c0
+Push namespace binding (level=0) 'soapenv' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('soapenv' matches 'SOAP-ENV' in namespace table)
+stdsoap2.cpp(2621): malloc(23) = 0x80aa700
+Push namespace binding (level=0) 'xsd' 'http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+stdsoap2.cpp(2621): malloc(23) = 0x80aa740
+Push namespace binding (level=0) 'xsi' 'http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+Tags and (default) namespaces match: 'soapenv:Envelope' 'SOAP-ENV:Envelope'
+Begin element found (level=1) 'soapenv:Envelope'='SOAP-ENV:Envelope'
+stdsoap2.cpp(13023): malloc(42) = 0x80b6500
+Tags and (default) namespaces match: 'soapenv:Body' 'SOAP-ENV:Body'
+Begin element found (level=2) 'soapenv:Body'='SOAP-ENV:Body'
+stdsoap2.cpp(7939): malloc(41) = 0x80b6540
+stdsoap2.cpp(7986): malloc(256) = 0x80ad500
+stdsoap2.cpp(2621): malloc(23) = 0x80aa7e0
+Push namespace binding (level=2) 'ns1' 'http://lookupcomponent'
+Push OK ('ns1' matches 'ns7' in namespace table)
+Tags and (default) namespaces match: 'ns1:lookupURIResponse' 'ns7:lookupURIResponse'
+Begin element found (level=3) 'ns1:lookupURIResponse'='ns7:lookupURIResponse'
+Enter id='' type=49 loc=0x0 size=4 level=0
+soap_instantiate_ns7__lookupURIResponse(-1, , )
+stdsoap2.cpp(5561): malloc(20) = 0x80aa820
+Instantiated location=0x80ac640
+stdsoap2.cpp(7939): malloc(28) = 0x80aa860
+stdsoap2.cpp(7986): malloc(256) = 0x80ad600
+stdsoap2.cpp(7939): malloc(27) = 0x80aa8c0
+stdsoap2.cpp(7986): malloc(256) = 0x80ad700
+Tags and (default) namespaces match: 'xsi:nil' 'xsi:nil'
+Tags and (default) namespaces match: 'xsi:type' 'xsi:type'
+Begin element found (level=3) 'lookupURIReturn'=''
+Tags and (default) namespaces match: 'xsd:string' 'xsd:string'
+Enter id='' type=14 loc=0x80ac640 size=4 level=0
+End element found (level=3) 'ns1:lookupURIResponse'='ns7:lookupURIResponse'
+Tags and (default) namespaces match: 'ns1:lookupURIResponse' 'ns7:lookupURIResponse'
+Popped namespace binding (level=2) 'ns1'
+stdsoap2.cpp(2653): free(0x80aa7e0)
+End element found (level=2) 'soapenv:Body'='SOAP-ENV:Body'
+Tags and (default) namespaces match: 'soapenv:Body' 'SOAP-ENV:Body'
+End element found (level=1) 'soapenv:Envelope'='SOAP-ENV:Envelope'
+Tags and (default) namespaces match: 'soapenv:Envelope' 'SOAP-ENV:Envelope'
+Popped namespace binding (level=0) 'xsi'
+stdsoap2.cpp(2653): free(0x80aa740)
+Popped namespace binding (level=0) 'xsd'
+stdsoap2.cpp(2653): free(0x80aa700)
+Popped namespace binding (level=0) 'soapenv'
+stdsoap2.cpp(2653): free(0x80aa6c0)
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Shutdown socket 7 how=2
+Close socket 7
+stdsoap2.cpp(5548): free(0x80aa820)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+stdsoap2.cpp(6069): free(0x80ad700)
+stdsoap2.cpp(6070): free(0x80aa8c0)
+stdsoap2.cpp(6069): free(0x80ad600)
+stdsoap2.cpp(6070): free(0x80aa860)
+stdsoap2.cpp(6069): free(0x80ad500)
+stdsoap2.cpp(6070): free(0x80b6540)
+stdsoap2.cpp(6069): free(0x80ad400)
+stdsoap2.cpp(6070): free(0x80aa640)
+stdsoap2.cpp(6075): free(0x80ad300)
+stdsoap2.cpp(6086): free(0x80b6500)
+stdsoap2.cpp(6092): free(0x80aba00)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+stdsoap2.cpp(5494): free(0x80b64c0)
+stdsoap2.cpp(5494): free(0x80ac620)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+stdsoap2.cpp(3309): free(0x80ac440)
+stdsoap2.cpp(3309): free(0x80ac450)
+stdsoap2.cpp(3309): free(0x80ac460)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd88 type=44: not found
+Embedded_id 0xbf8fdd88 type=44 id=0
+Element begin tag='ns2:register' id='0' type=''
+Embedded_id 0xbf8fdd88 type=1 id=-1
+Lookup location=0xbf8fdd88 type=1: not found
+Element begin tag='id' id='0' type=''
+Element ending tag='id'
+Element ending tag='ns2:register'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Calculating the message size with attachments, current count=151
+New count is 151 bytes
+Begin send phase (socket=-1 mode=0x0 count=151)
+stdsoap2.cpp(5343): malloc(12) = 0x80ac440
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd88 type=44: not found
+Embedded_id 0xbf8fdd88 type=44 id=0
+Element begin tag='ns2:register' id='0' type=''
+Embedded_id 0xbf8fdd88 type=1 id=-1
+Lookup location=0xbf8fdd88 type=1: not found
+Element begin tag='id' id='0' type=''
+Element ending tag='id'
+Element ending tag='ns2:register'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+stdsoap2.cpp(5494): free(0x80ac440)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+stdsoap2.cpp(3309): free(0x80ac3e0)
+stdsoap2.cpp(3309): free(0x80ac3f0)
+stdsoap2.cpp(3309): free(0x80ac400)
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Lookup location=0xbf8fdd00 type=14: not found
+stdsoap2.cpp(6682): malloc(128) = 0x80aba00
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd00 type=50: not found
+Embedded_id 0xbf8fdd00 type=50 id=0
+Element begin tag='ns7:lookupURI' id='0' type=''
+Embedded_id 0xbf8fdd00 type=14 id=-1
+Lookup location=0xbf8fdd00 type=14: not found
+Element begin tag='nameToResolve' id='-1' type=''
+Element ending tag='nameToResolve'
+Element ending tag='ns7:lookupURI'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Connect/reconnect to host='localhost' path='/ACSFC/services/LookupComponent' port=8180
+Opening socket 7 to host='localhost' port=8180
+Calculating the message size with attachments, current count=576
+New count is 576 bytes
+Begin send phase (socket=7 mode=0x1 count=576)
+stdsoap2.cpp(5343): malloc(12) = 0x80ac620
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd00 type=50: not found
+Embedded_id 0xbf8fdd00 type=50 id=0
+Element begin tag='ns7:lookupURI' id='0' type=''
+Embedded_id 0xbf8fdd00 type=14 id=-1
+Lookup location=0xbf8fdd00 type=14: not found
+Element begin tag='nameToResolve' id='-1' type=''
+Element ending tag='nameToResolve'
+Element ending tag='ns7:lookupURI'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+stdsoap2.cpp(6092): free(0x80aba00)
+Free pointer hashtable
+Free ID hashtable
+stdsoap2.cpp(6682): malloc(128) = 0x80aba00
+Free ID hashtable
+Read 604 bytes from socket 7
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Server: Apache-Coyote/1.1
+HTTP header: Content-Type: text/xml;charset=utf-8
+stdsoap2.cpp(5343): malloc(36) = 0x80b64c0
+HTTP header: Date: Mon, 24 Sep 2007 18:01:03 GMT
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="utf-8"?>
+Switching to utf-8 encoding
+stdsoap2.cpp(7939): malloc(25) = 0x80aa640
+Enlarging look-aside buffer to append data, old size=0, new size=256
+stdsoap2.cpp(7761): malloc(256) = 0x80ad300
+stdsoap2.cpp(7986): malloc(256) = 0x80ad400
+stdsoap2.cpp(2621): malloc(27) = 0x80aa6c0
+Push namespace binding (level=0) 'soapenv' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('soapenv' matches 'SOAP-ENV' in namespace table)
+stdsoap2.cpp(2621): malloc(23) = 0x80aa700
+Push namespace binding (level=0) 'xsd' 'http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+stdsoap2.cpp(2621): malloc(23) = 0x80aa740
+Push namespace binding (level=0) 'xsi' 'http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+Tags and (default) namespaces match: 'soapenv:Envelope' 'SOAP-ENV:Envelope'
+Begin element found (level=1) 'soapenv:Envelope'='SOAP-ENV:Envelope'
+stdsoap2.cpp(13023): malloc(42) = 0x80b6500
+Tags and (default) namespaces match: 'soapenv:Body' 'SOAP-ENV:Body'
+Begin element found (level=2) 'soapenv:Body'='SOAP-ENV:Body'
+stdsoap2.cpp(7939): malloc(41) = 0x80b6540
+stdsoap2.cpp(7986): malloc(256) = 0x80ad500
+stdsoap2.cpp(2621): malloc(23) = 0x80aa7e0
+Push namespace binding (level=2) 'ns1' 'http://lookupcomponent'
+Push OK ('ns1' matches 'ns7' in namespace table)
+Tags and (default) namespaces match: 'ns1:lookupURIResponse' 'ns7:lookupURIResponse'
+Begin element found (level=3) 'ns1:lookupURIResponse'='ns7:lookupURIResponse'
+Enter id='' type=49 loc=0x0 size=4 level=0
+soap_instantiate_ns7__lookupURIResponse(-1, , )
+stdsoap2.cpp(5561): malloc(20) = 0x80aa820
+Instantiated location=0x80ac640
+stdsoap2.cpp(7939): malloc(28) = 0x80aa860
+stdsoap2.cpp(7986): malloc(256) = 0x80ad600
+stdsoap2.cpp(7939): malloc(27) = 0x80aa8c0
+stdsoap2.cpp(7986): malloc(256) = 0x80ad700
+Tags and (default) namespaces match: 'xsi:nil' 'xsi:nil'
+Tags and (default) namespaces match: 'xsi:type' 'xsi:type'
+Begin element found (level=3) 'lookupURIReturn'=''
+Tags and (default) namespaces match: 'xsd:string' 'xsd:string'
+Enter id='' type=14 loc=0x80ac640 size=4 level=0
+End element found (level=3) 'ns1:lookupURIResponse'='ns7:lookupURIResponse'
+Tags and (default) namespaces match: 'ns1:lookupURIResponse' 'ns7:lookupURIResponse'
+Popped namespace binding (level=2) 'ns1'
+stdsoap2.cpp(2653): free(0x80aa7e0)
+End element found (level=2) 'soapenv:Body'='SOAP-ENV:Body'
+Tags and (default) namespaces match: 'soapenv:Body' 'SOAP-ENV:Body'
+End element found (level=1) 'soapenv:Envelope'='SOAP-ENV:Envelope'
+Tags and (default) namespaces match: 'soapenv:Envelope' 'SOAP-ENV:Envelope'
+Popped namespace binding (level=0) 'xsi'
+stdsoap2.cpp(2653): free(0x80aa740)
+Popped namespace binding (level=0) 'xsd'
+stdsoap2.cpp(2653): free(0x80aa700)
+Popped namespace binding (level=0) 'soapenv'
+stdsoap2.cpp(2653): free(0x80aa6c0)
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Shutdown socket 7 how=2
+Close socket 7
+stdsoap2.cpp(5548): free(0x80aa820)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+stdsoap2.cpp(6069): free(0x80ad700)
+stdsoap2.cpp(6070): free(0x80aa8c0)
+stdsoap2.cpp(6069): free(0x80ad600)
+stdsoap2.cpp(6070): free(0x80aa860)
+stdsoap2.cpp(6069): free(0x80ad500)
+stdsoap2.cpp(6070): free(0x80b6540)
+stdsoap2.cpp(6069): free(0x80ad400)
+stdsoap2.cpp(6070): free(0x80aa640)
+stdsoap2.cpp(6075): free(0x80ad300)
+stdsoap2.cpp(6086): free(0x80b6500)
+stdsoap2.cpp(6092): free(0x80aba00)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+stdsoap2.cpp(5494): free(0x80b64c0)
+stdsoap2.cpp(5494): free(0x80ac620)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+stdsoap2.cpp(3309): free(0x80ac440)
+stdsoap2.cpp(3309): free(0x80ac450)
+stdsoap2.cpp(3309): free(0x80ac460)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd88 type=44: not found
+Embedded_id 0xbf8fdd88 type=44 id=0
+Element begin tag='ns2:register' id='0' type=''
+Embedded_id 0xbf8fdd88 type=1 id=-1
+Lookup location=0xbf8fdd88 type=1: not found
+Element begin tag='id' id='0' type=''
+Element ending tag='id'
+Element ending tag='ns2:register'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+Calculating the message size with attachments, current count=151
+New count is 151 bytes
+Begin send phase (socket=-1 mode=0x0 count=151)
+stdsoap2.cpp(5343): malloc(12) = 0x80ac440
+Element begin tag='SOAP-ENV:Envelope' id='0' type=''
+Element begin tag='SOAP-ENV:Body' id='0' type=''
+Lookup location=0xbf8fdd88 type=44: not found
+Embedded_id 0xbf8fdd88 type=44 id=0
+Element begin tag='ns2:register' id='0' type=''
+Embedded_id 0xbf8fdd88 type=1 id=-1
+Lookup location=0xbf8fdd88 type=1: not found
+Element begin tag='id' id='0' type=''
+Element ending tag='id'
+Element ending tag='ns2:register'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send
+End of send phase
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+stdsoap2.cpp(5494): free(0x80ac440)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+stdsoap2.cpp(3309): free(0x80ac3e0)
+stdsoap2.cpp(3309): free(0x80ac3f0)
+stdsoap2.cpp(3309): free(0x80ac400)
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+stdsoap2.cpp(3309): free(0x80ab3e0)
+stdsoap2.cpp(3309): free(0x80ab3f0)
+stdsoap2.cpp(3309): free(0x80ab400)
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+stdsoap2.cpp(3309): free(0x80ab3f0)
+stdsoap2.cpp(3309): free(0x80ab400)
+stdsoap2.cpp(3309): free(0x80ab410)
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Initializing context
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable

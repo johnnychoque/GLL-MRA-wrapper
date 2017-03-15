@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><deployment xmlns="http://xml.apache.org/axis/wsdd/" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java"><service name="CompositionManagementInterface.0" provider="java:RPC" style="rpc" use="encoded">
+      <parameter name="wsdlTargetNamespace" value="urn:org.ambientnetworks.bme.cmfe"/>
+      <parameter name="wsdlServiceElement" value="CompositionManagementInterface"/>
+      <parameter name="wsdlServicePort" value="CompositionManagementInterface"/>
+      <parameter name="className" value="org.ambientnetworks.bme.cmfe.CompositionManagement"/>
+      <parameter name="wsdlPortType" value="CfeIfPortType"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation name="decompose" qname="operNS:decompose" soapAction="" xmlns:operNS="urn:org.ambientnetworks.bme.cmfe">
+        <parameter qname="anId" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="negotiationRequest" qname="operNS:negotiationRequest" soapAction="" xmlns:operNS="urn:org.ambientnetworks.bme.cmfe">
+        <parameter qname="anId" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="cat" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter mode="INOUT" qname="negotiationRequestCode" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter mode="INOUT" qname="negotiationRequestCAT" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="negotiationInitiate" qname="operNS:negotiationInitiate" soapAction="" xmlns:operNS="urn:org.ambientnetworks.bme.cmfe">
+        <parameter qname="cat" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter mode="INOUT" qname="negotiationInitiateCode" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter mode="INOUT" qname="negotiationInitiateCAT" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="negotiated" qname="operNS:negotiated" soapAction="" xmlns:operNS="urn:org.ambientnetworks.bme.cmfe">
+        <parameter qname="ca" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="negotiationRefused" qname="operNS:negotiationRefused" soapAction="" xmlns:operNS="urn:org.ambientnetworks.bme.cmfe">
+        <parameter qname="cat" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="negotiationCancel" qname="operNS:negotiationCancel" soapAction="" xmlns:operNS="urn:org.ambientnetworks.bme.cmfe">
+        <parameter qname="anId" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="realizationPrepare" qname="operNS:realizationPrepare" returnQName="realizationPrepareReturn" returnType="rtns:int" soapAction="" xmlns:operNS="urn:org.ambientnetworks.bme.cmfe" xmlns:rtns="http://www.w3.org/2001/XMLSchema">
+        <parameter qname="ca" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="realizationCommit" qname="operNS:realizationCommit" soapAction="" xmlns:operNS="urn:org.ambientnetworks.bme.cmfe">
+        <parameter qname="caId" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="realizationTerminate" qname="operNS:realizationTerminate" soapAction="" xmlns:operNS="urn:org.ambientnetworks.bme.cmfe">
+        <parameter qname="ca" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="realizationCancel" qname="operNS:realizationCancel" soapAction="" xmlns:operNS="urn:org.ambientnetworks.bme.cmfe">
+        <parameter qname="anId" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <parameter name="allowedMethods" value="negotiated realizationCancel negotiationRequest decompose realizationTerminate negotiationCancel negotiationInitiate realizationCommit realizationPrepare negotiationRefused"/>
+      <parameter name="scope" value="Application"/>
+
+  <parameter name="deploymentPath" value="http://[0:0:0:0:0:0:0:1]:8180/axis/services/CompositionManagementInterface.0"/></service></deployment>
